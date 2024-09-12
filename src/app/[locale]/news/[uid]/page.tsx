@@ -2,6 +2,8 @@ import Header from "@/components/Header/Header";
 import ProjectMobilePage from "@/components/ProjectMobilePage/ProjectMobilePage";
 
 import { news } from "@/static_store/news";
+import { useLocale } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 export async function generateMetadata({ searchParams }: any) {
   const newsId = searchParams.id;
@@ -27,6 +29,8 @@ interface NewsDetailsProps {
 
 export default function NewsDetails({ searchParams }: NewsDetailsProps) {
   const newsId = searchParams.id;
+  const locale = useLocale();
+  unstable_setRequestLocale(locale);
   return (
     <>
       <Header />

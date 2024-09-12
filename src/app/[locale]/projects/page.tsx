@@ -3,6 +3,8 @@ import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import ProjectMobilePage from "@/components/ProjectMobilePage/ProjectMobilePage";
 import { projects } from "@/static_store/projects";
+import { useLocale } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 export async function generateMetadata({ searchParams }: any) {
   const projectsId = searchParams.id;
@@ -28,6 +30,8 @@ interface ProjectDetailsProps {
 
 export default function ProjectDetails({ searchParams }: ProjectDetailsProps) {
   const newsId = searchParams.id;
+  const locale = useLocale();
+  unstable_setRequestLocale(locale);
   return (
     <>
       <Header />

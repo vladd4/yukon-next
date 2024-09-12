@@ -1,5 +1,7 @@
 import ContactForm from "@/components/ContactForm/ContactForm";
 import Footer from "@/components/Footer/Footer";
+import { useLocale } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 export const metadata = {
   title:
@@ -31,6 +33,8 @@ export default function NewsLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = useLocale();
+  unstable_setRequestLocale(locale);
   return (
     <main>
       {children}
