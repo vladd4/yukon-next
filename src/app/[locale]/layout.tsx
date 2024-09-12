@@ -6,7 +6,6 @@ import { NextIntlClientProvider, useMessages } from "next-intl";
 import AlertForm from "@/components/ContactForm/AlertForm";
 import Script from "next/script";
 import React from "react";
-import { locales } from "@/config";
 import { unstable_setRequestLocale } from "next-intl/server";
 
 export const metadata: Metadata = {
@@ -45,12 +44,6 @@ interface LayoutProps {
     locale: string;
   };
   children: React.ReactNode;
-}
-
-export function generateStaticParams() {
-  return locales.map((locale) => {
-    locale;
-  });
 }
 
 export default function RootLayout({
