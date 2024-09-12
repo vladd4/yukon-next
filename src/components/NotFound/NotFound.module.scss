@@ -1,0 +1,74 @@
+@import "../../styles/variables";
+
+.root {
+  width: 100%;
+  display: grid;
+  height: 100svh;
+  place-items: center;
+  background-color: $color-black;
+  .wrapper {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img {
+      width: 30%;
+      height: auto;
+    }
+    p {
+      color: $color-white;
+      font-size: calc(#{$size}* 1.1);
+      text-align: center;
+      margin: 2% 0%;
+    }
+    a {
+      text-decoration: none;
+      background-color: $color-orange;
+      color: $color-white;
+      font-size: calc(#{$size}/ 1.2);
+      border: 1px solid $color-orange;
+      padding: 1.2% 2%;
+      text-align: center;
+      transition: all 0.3s;
+      &:hover {
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .root {
+    .wrapper {
+      img {
+        width: 35%;
+      }
+      p {
+        font-size: calc(#{$size}* 1.2);
+      }
+      a {
+        padding: 1.5% 2%;
+        font-size: calc(#{$size}/ 1.1);
+      }
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .root {
+    .wrapper {
+      width: 95%;
+      img {
+        width: 50%;
+      }
+      p {
+        font-size: 22px;
+        margin: 5% 0%;
+      }
+      a {
+        padding: 2% 4%;
+        font-size: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+    "header": {
+        "link_1": "About Us",
+        "link_2": "Our Projects",
+        "link_3": "Partners",
+        "link_4": "Our Clients",
+        "link_5": "News",
+        "link_6": "Contacts",
+        "back_to_main": "Back to Main"
+    },
+    "welcome_text": "YUKON is a distribution company that has been operating and successfully developing in the Ukrainian fast-moving consumer goods market since 2000. The company's concept is the fast connection between the buyer and the manufacturer. Our clients receive a wide range of products and service at the highest level. We represent the products of many well-known brands and manufacturers. We work with local and national retail outlets, gas stations, pharmacies, and HORECA.",
+    "about": {
+        "span": "about us",
+        "heading": "WE ARE A RELIABLE PARTNER IN THE FAST MOVING WORLD",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "experience": "YEARS OF EXPERIENCE IN THE MARKET",
+        "paragraph_1": "YUKON was created to improve and enhance the quality of life. Throughout its history, Yukon has gained a position as a reliable partner in the supply and sale of quality food products.",
+        "paragraph_2": "We have been engaged in retail and wholesale trade for 24 years. We work directly with manufacturers who have impeccable reputations, which excludes the receipt of substandard goods or counterfeits.",
+        "paragraph_3": "We have agreements for exclusive representation with well-known European brands, whose products we represent in Ukraine. Thanks to direct contracts with major suppliers such as IDS, Carlsberg, and PepsiCo, we guarantee quality as well as competitive cost.",
+        "paragraph_4": "The main groups of goods we work with:",
+        "li_item_1": "Confectionery (cookies, candies)",
+        "li_item_2": "Grains",
+        "li_item_4": "Dairy products and cheeses",
+        "li_item_7": "Beverages (juices, teas, coffee)",
+        "li_item_8": "Alcoholic beverages (beer, wine, spirits)",
+        "li_item_5": "Dairy products (yogurts, kefir, sour cream)",
+        "li_item_6": "Frozen products",
+        "li_item_3": "Groceries (pasta, canned food, oils and sauces)",
+        "paragraph_5": "YUKON is not just distribution. We are a whole ecosystem of enterprises, including: urban and regional logistics, commercial real estate and warehouse premises, as well as a whole list of our own projects. The company's goal is to provide your shelves to get into the heart of any consumer.",
+        "paragraph_6": "Satisfied customers are the best reward for conscientious work. We do not stop at what has been achieved and confidently move forward!"
+    },
+    "projects": {
+        "heading": "our projects",
+        "twin": "TM TwinSocks is a patented trademark in the socks industry, established in 2016, which has quickly won the hearts of many Ukrainians. We produce not only stylish and comfortable socks and tights, but we also prioritize the quality of our products.",
+        "fish": "Love Fish. We offer LIVE fish from our own aquafarm: African catfish (Clarius). We have our own certified production of smoked and salted fish. As well as a wide range of chilled, frozen fish, and seafood from our partners.",
+        "beer": "The Hmіl - is the largest selection of draft beer in the city of Kovel! Namely, 20 types of draft beer!!! The range includes products from the Carlsberg Group, as well as Ukrainian craft producers. The store presents a range of fish products for beer from our own production Love Fish! The Hmіl - is 50 seats for a perfect evening with company! We broadcast ALL sports events on the big screen! Come to relax with us!!!",
+        "beerton": "Beerton - this is what we consider a new format of an establishment where you can try wonderful dishes prepared in our kitchen and purchase products that we represent in the Volyn region to take a part of this establishment with you.",
+        "chargers": "The number of electric vehicles on the roads of Ukraine is growing, and we understand the importance of creating charging infrastructure for their owners, moving towards an ecological future. Stations operate in Kovel and Kiev.",
+        "more_button": "Read more",
+        "link_button": "Follow the link",
+        "kovcheg": "Kovcheg is a company that occupies a leading position in the food distribution market in the Rivne region, thanks to mutually beneficial cooperation with suppliers, quality service for customers provided by a team of professionals.",
+        "gradus": "There are many secrets to a successful dish: high-quality ingredients, cooking method, combination of flavors, adding sauces, and so on. Another important and obvious secret is the love always added to our chefs' work. We always cook with love and care for you!"
+    },
+    "partners": {
+        "heading": "Only verified partners choose to cooperate with us to ensure the quality of products and service for their customers.",
+        "paragraph": "Yukon Company is the official distributor of well-known brands in the Volyn region. Our team of trade agents seeks ways to increase sales volume, promotes and promotes the product. Our goal is to make the service or product available to consumers. We are responsible for meeting the sales standard and guaranteeing the development of your TM.",
+        "paragraph_2": "We look forward with optimism, helping our partners work and contribute to Victory with us.",
+        "official_partners": "official partners",
+        "predstavnik": "sales representatives",
+        "working_space": "working spaces",
+        "lorry_cars": "heavy goods vehicles",
+        "space": "warehouse premises",
+        "clients": "satisfied clients"
+    },
+    "clients_heading": "our clients",
+    "news": {
+        "span": "news",
+        "heading": "Check out our latest news",
+        "all_news": "All News",
+        "electro_heading": "160 kW for Electric Vehicles in Kyiv",
+        "electro_description": "We are pleased to announce that we have installed a fast charging station for electric vehicles in the city of Kyiv in partnership with GO TO-U. The new charging station is located at: 34B Stepana Bandery Avenue, Kyiv, Ukraine, 04073. The Blockbuster shopping center is an important step in developing infrastructure for electric transport in our country, and we are proud to contribute to environmental conservation and support for clean technologies.",
+        "army_heading": "Supporting the Ukrainian Armed Forces",
+        "army_description": "We stay in touch and actively support those who protect us. Making donations and providing necessary assistance to various brigades of the Ukrainian Armed Forces. Many of our employees have joined the Defense Forces and are performing combat missions in various directions. We constantly communicate with them, know their needs, and every time we try to provide soldiers' requests to the maximum. From the outset of full-scale invasion to the present day, we have been supplying products from our warehouses to the front. We have sent our own vehicles to purchase drones, pickups, and other vehicles for the army's needs. We have done and continue to do everything for the desired Victory!",
+        "solar_heading": "Ecological Autonomy of Our Projects: 28 Shevchenko St., Kovel",
+        "solar_description": "We care about the environment and strive to provide our projects with clean energy. A year ago, we made our main office in Kovel autonomous using solar energy. Now we are working towards the autonomy of our electric vehicle charging station and other projects. The task is to make Yukon and all its projects autonomous using environmentally friendly technologies. We are actively working to ensure that our initiatives contribute to environmental conservation.",
+        "soccer_heading": "Mascot T-shirt: «Lvivske» Sponsor of the National Team of Ukraine",
+        "soccer_description": "Since January 2021, the brand «Lvivske» has become the new National sponsor of the Ukrainian football team. Mudryk, Dovbyk, and others have given their autographs! Now this T-shirt adorns the wall of the Hmіl pub.",
+        "hoverla_heading": "Conquering Peaks Together with the Team",
+        "hoverla_description": "In the summer of 2017, together with our team, we climbed Hoverla, the highest peak in Ukraine. This event became a symbol of our cohesion and readiness for new challenges. We always strive to reach new heights, both in life and in our professional activities.",
+        "weekend_heading": "Dear workers of the trade sector, dear colleagues!",
+        "weekend_description": "On the last Sunday of July, we celebrate our professional holiday with you. In these challenging times, when logistics chains are disrupted and entangled, trading faces difficult circumstances. Nevertheless, we unite and adapt to the realities of today. Together, we demonstrate true professionalism and ingenuity on the path from manufacturer and supplier to consumer. In times of instability and rocket threat, we remain dedicated to our profession and strive to provide quality services to the residents of our region. Therefore, shops in our region operate continuously, offering ample goods and a wide range of products. Additionally, we actively support those who protect us, donating and providing necessary assistance to various military units. So, let's not stop at what we have achieved and continue to work for the good of our country! On this festive day, we wish you to remain optimistic, successfully implement your plans, achieve positive results, develop, and strive for the best! We wish you robust health, stability, joy, and peaceful skies above your head! With best wishes, Yukon.",
+        "independence_heading": "Yukon Company congratulates all of you on Independence Day!",
+        "independence_description": "Dear Ukrainians! Yukon Company congratulates all of you on Independence Day! In the times we live in, Independence has become very significant and costly for each of us. We give our most precious thing — the lives of our loved ones and compatriots... So let us cherish every moment of peace, take care of each other, and respect those who protect and fight for us. Let us remain steadfast and unshakable, united and cohesive for the sake of our common, great, and long-awaited Victory!",
+        "sale_heading": "Independence Day Discounts",
+        "sale_description": "PUB 'GRADUS': 1+1=3 promotion on Grimbergen beer for Independence Day. Cafe BEERTON: 15% discount on any pizza for Independence Day. TWINSOCKS: 30% discount on the patriotic collection at TwinSocks stores in Lutsk, Rivne, Kovel, and online store on August 23-24. Celebrate with us!",
+        "zsy_heading": "Thanks from the Armed Forces of Ukraine – This is our ongoing motivation!",
+        "zsy_description": "Today, the fate of our state lies in the hands of the servicemen of the Armed Forces of Ukraine, as the greatest burden of responsibility for the peace of citizens and the territorial integrity of the entire country rests on their shoulders. The strength of our army largely depends on the support from the home front. Therefore, helping our defenders is now the most important duty of every Ukrainian. From the first days of the full-scale war with the Russian aggressor, the Yukon team, led by its management, has been actively assisting various brigades of the Armed Forces, striving to meet the needs of the military, from the smallest details to significant requests. For their charitable work, they have repeatedly received gratitude and certificates from the military. On the eve of Independence Day, the Executive Director of Yukon Company, Yuriy Semenyuk, had the honor of receiving another token of gratitude from the 24th Separate Mechanized Brigade named after King Danylo for a significant contribution and substantial support in strengthening the country's defense capabilities. Gratitude from the Armed Forces of Ukraine is our ongoing motivation! This recognition is the merit of each of our employees! May God grant that our good deeds contribute to the approach of Victory and peace on Ukrainian land!",
+        "meeting_heading": "Participation in the International Children's Fashion Exhibition",
+        "meeting_description":
+        "On August 15-16, 2024, the International Children's Fashion Fair took place in Kyiv: A Platform for Business Partnership and Innovation. This is Ukraine's leading specialized B2B children's fashion exhibition. It became a meeting place for professionals in the children's fashion industry, bringing together manufacturers, distributors, retailers, designers, and other representatives of the textile industry to showcase the latest collections, discuss future trends, and establish new business contacts. Once again, our company presented its collection at the exhibition. TM TWINSOCKS offered a wide range of tights and socks for children of all sizes, in an impressive array of colors, and in various designs and styles for visitors to explore. The display featured a variety of children's products with bright prints to suit every choice and taste for little fashion lovers. The exhibition showcased numerous models of breathable tights for summer, as well as warm and comfortable models for the colder seasons, suitable for both girls and boys. In addition, the exhibition collection included a range of practical, everyday, and festive models, perfect for modern active children who love to stay on trend. Overall, TM TWINSOCKS once again proved that the style, quality, and comfort of our products are worthy of your attention. So don’t hesitate, and quickly ‘find your pair’ with TM TWINSOCKS."
+    },
+    "form": {
+        "span": "contact form",
+        "heading": "INTERESTED IN OUR OFFER? FILL OUT THE FORM SO WE CAN CONTACT YOU",
+        "name_label": "Your Name",
+        "mail_label": "Email",
+        "message_label": "Message",
+        "submit_button": "Submit Form"
+    },
+    "alert_form": {
+        "heading": "contact us",
+        "name_label": "Your Name",
+        "phone_label": "Phone Number",
+        "submit_button": "Submit Form"
+    },
+    "footer": {
+        "working_hours_heading": "Working hours:",
+        "working_hours": "Mon-Fri 08:00 - 17:00",
+        "copy": "ЮКОН © 2000 All rights reserved.",
+        "contact_h": "Contact Information",
+        "social_h": "Social Media",
+        "nav_h": "Home",
+        "location": "Volodymyrska St. 135, Kovel"
+    },
+    "not_found": "Oops. Page not found!",
+    "not_found_btn": "Back to main"
+}

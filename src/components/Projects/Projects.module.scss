@@ -1,0 +1,245 @@
+@import "../../styles/variables";
+
+.root {
+  width: 100%;
+  overflow-x: hidden;
+  display: grid;
+  place-items: center;
+  padding: 5% 0%;
+  overflow-x: hidden;
+  .wrapper {
+    width: 85%;
+    display: grid;
+    place-items: flex-start;
+    h2 {
+      color: $color-black;
+      border-bottom: 2px solid $color-orange;
+      text-transform: uppercase;
+      font-size: calc(#{$size}* 1.1);
+      margin-bottom: 3%;
+    }
+  }
+}
+
+.card_root {
+  flex: 0 0 32%;
+  display: grid;
+  place-items: flex-end;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  height: 500px;
+  position: relative;
+  z-index: 1000;
+  a {
+    font-size: calc(#{$size}/ 1.5);
+    cursor: pointer;
+    text-decoration: none;
+    color: $color-white;
+    transition: all 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    &:hover {
+      color: $color-orange;
+    }
+  }
+  &:hover {
+    .card_text {
+      opacity: 1;
+    }
+    .hovered_block {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  .hovered_block {
+    position: absolute;
+    display: none !important;
+    width: 84%;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    place-items: flex-start;
+    padding: 8%;
+    opacity: 0;
+    color: $color-white;
+    transition: all 0.4s;
+    z-index: 1001;
+    transform: translateY(110%);
+    .h3 {
+      font-size: calc(#{$size}* 1.1);
+      max-width: 100%;
+      margin-bottom: 3%;
+      font-weight: 600;
+    }
+    .hide {
+      font-size: calc(#{$size}/ 1.5);
+      cursor: pointer;
+      margin-bottom: 5%;
+      text-decoration: none;
+      color: $color-white;
+      margin-top: 3%;
+      transition: all 0.3s;
+      &:hover {
+        color: $color-orange;
+      }
+    }
+    .hover_p {
+      font-size: calc(#{$size}/ 1.5);
+    }
+  }
+  .card_text {
+    width: 84%;
+    display: grid;
+    place-items: flex-start;
+    padding: 8%;
+    transition: all 0.4s;
+    color: $color-white;
+    .h3 {
+      font-size: calc(#{$size}* 1.1);
+      max-width: 100%;
+      margin-bottom: 3%;
+      font-weight: 600;
+      text-shadow: #2e2e2e 0 4px 5px;
+    }
+    .hide {
+      font-size: calc(#{$size}/ 1.5);
+      cursor: pointer;
+      margin-bottom: 5%;
+    }
+  }
+}
+
+.blured_text {
+  background: #0000004a;
+  backdrop-filter: blur(3px);
+}
+
+.slider {
+  width: 100% !important;
+}
+@media screen and (min-width: 1550px) {
+  .card_root {
+    height: 650px !important;
+  }
+  .card_root_news {
+    height: 650px !important;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .card_root,
+  .card_root_news {
+    height: 450px !important;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .card_root {
+    height: 500px !important;
+  }
+  .card_root_news {
+    flex: 0 0 49% !important;
+    height: 420px !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .card_root {
+    .hovered_block {
+      .h3 {
+        font-size: calc(#{$size}* 1.1) !important;
+      }
+      .hide {
+        font-size: calc(#{$size}/ 1.35);
+      }
+      .hover_p {
+        font-size: calc(#{$size}/ 1.35);
+      }
+    }
+    .card_text {
+      .h3 {
+        font-size: calc(#{$size}* 1.1);
+      }
+      .hide {
+        font-size: calc(#{$size}/ 1.35);
+      }
+    }
+  }
+}
+@media screen and (max-width: 950px) {
+  .card_root,
+  .card_root_news {
+    height: 450px !important;
+  }
+}
+@media screen and (max-width: 850px) {
+  .slider {
+    width: 85vw !important;
+  }
+}
+@media screen and (max-width: 750px) {
+  .card_root_news {
+    flex: 0 0 100% !important;
+    height: 470px !important;
+  }
+  .card_root {
+    height: 500px !important;
+    &:hover {
+      .card_text {
+        opacity: 1;
+      }
+    }
+    .hovered_block {
+      place-items: center;
+      display: none;
+    }
+    .hovered_block {
+      .h3 {
+        font-size: 20px !important;
+      }
+      .hide {
+        font-size: 15px;
+      }
+      .hover_p {
+        font-size: 15px;
+      }
+    }
+    .card_text {
+      .h3 {
+        font-size: 20px;
+      }
+      .hide {
+        font-size: 15px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 550px) {
+}
+
+@media screen and (max-width: 1000px) {
+  .root {
+    .wrapper {
+      h2 {
+        font-size: calc(#{$size}* 1.2);
+      }
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .root {
+    padding: 10% 0%;
+    .wrapper {
+      width: 95%;
+      h2 {
+        font-size: 18px;
+      }
+    }
+  }
+  .slider {
+    width: 95vw !important;
+  }
+}

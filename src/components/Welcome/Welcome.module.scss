@@ -1,0 +1,71 @@
+@import "../../styles/variables";
+
+.root {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background-image: url(../../../public/main_2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100svh;
+  position: relative;
+  background-size: cover;
+  overflow-x: hidden;
+  .wrapper {
+    width: 90%;
+    display: grid;
+    place-items: flex-start;
+    div {
+      color: $color-white;
+      width: 50%;
+      background: #0000001a;
+      backdrop-filter: blur(4px);
+      padding: 2% 2.5%;
+      border-radius: 5px;
+      h1 {
+        font-size: calc(#{$size}/ 1.1);
+        font-weight: 400;
+        margin: 0;
+      }
+    }
+  }
+  img {
+    position: absolute;
+    left: 50%;
+    bottom: 3%;
+    transform: translateX(-50%);
+    width: 2%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .root {
+    .wrapper {
+      div {
+        width: 65%;
+        padding: 3% 3.5%;
+        h1 {
+          font-size: calc(#{$size});
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .root {
+    height: 680px;
+    .wrapper {
+      div {
+        width: 90%;
+        padding: 3% 3.5%;
+        h1 {
+          font-size: 16px;
+        }
+      }
+    }
+    img {
+      width: 6%;
+    }
+  }
+}
