@@ -9,6 +9,10 @@ import React from "react";
 import { unstable_setRequestLocale } from "next-intl/server";
 
 import { Montserrat } from "next/font/google";
+import Header from "@/components/Header/Header";
+import ContactForm from "@/components/ContactForm/ContactForm";
+import Footer from "@/components/Footer/Footer";
+import { handleIntlError } from "@/utils/handleIntlError";
 
 const mont = Montserrat({ subsets: ["latin"] });
 
@@ -33,13 +37,6 @@ export const metadata: Metadata = {
       "Дистриб`ютор продуктів швидкого споживання в Україні з великим досвідом на ринку. Наша мета - забезпечити швидке сполучення покупця і виробника, надаючи широкий асортимент і високий рівень сервісу.",
     type: "website",
     siteName: "ЮКОН",
-    images: [
-      {
-        url: "https://jukon.com.ua/yukon-og.png",
-        width: 1920,
-        height: 910,
-      },
-    ],
   },
 };
 
@@ -83,7 +80,7 @@ export default function RootLayout({
         "@context": "https://schema.org/",
         "@type": "Product",
         "name": "ЮКОН – дистриб'ютор продуктів швидкого споживання на українському ринку",
-        "image": "%PUBLIC_URL%/favicon.ico",
+        "image": "https://jukon.com.ua/favicon.ico",
         "description": "ЮКОН – дистрибуційна компанія, яка з 2000 року працює і успішно розвивається на українському ринку продуктів швидкого споживання.",
         "aggregateRating": {
           "@type": "AggregateRating",
@@ -113,7 +110,10 @@ export default function RootLayout({
         <NextIntlClientProvider messages={messages}>
           <ReduxProvider>
             <AlertForm />
+            <Header />
             {children}
+            <ContactForm />
+            <Footer />
           </ReduxProvider>
         </NextIntlClientProvider>
       </body>

@@ -4,7 +4,6 @@ import styles from "./Header.module.scss";
 
 import Logo from "@/../public/logo-header-white.png";
 import LogoBlack from "@/../public/logo.png";
-import ReturnArrow from "@/../public/return.png";
 
 import { nav_links } from "../../static_store/navbar";
 
@@ -18,7 +17,7 @@ import { Menu, Undo2 } from "lucide-react";
 import Image from "next/image";
 import { Link } from "@/navigation";
 import { usePathname, useRouter } from "next/navigation";
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import LocaleSwitcher from "../LocaleSwitcher/LocaleSwitcher";
 
 const Header = () => {
@@ -29,7 +28,6 @@ const Header = () => {
   const router = useRouter();
 
   const t = useTranslations();
-  const locale = useLocale();
 
   const handleLogoClick = () => {
     router.push("/");
@@ -75,8 +73,7 @@ const Header = () => {
           </nav>
           {pathName.includes("news") || pathName.includes("projects") ? (
             <Link href="/" className={styles.back_mobile}>
-              {t("header.back_to_main")}{" "}
-              <Image alt="Back to main" src={ReturnArrow} />
+              {t("header.back_to_main")} <Undo2 size={16} />
             </Link>
           ) : (
             <Menu

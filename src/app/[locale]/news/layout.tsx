@@ -1,5 +1,3 @@
-import ContactForm from "@/components/ContactForm/ContactForm";
-import Footer from "@/components/Footer/Footer";
 import { useLocale } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
 
@@ -35,11 +33,5 @@ export default function NewsLayout({
 }>) {
   const locale = useLocale();
   unstable_setRequestLocale(locale);
-  return (
-    <main>
-      {children}
-      <ContactForm />
-      <Footer />
-    </main>
-  );
+  return <main>{children}</main>;
 }

@@ -1,6 +1,3 @@
-import ContactForm from "@/components/ContactForm/ContactForm";
-import Footer from "@/components/Footer/Footer";
-import Header from "@/components/Header/Header";
 import ProjectMobilePage from "@/components/ProjectMobilePage/ProjectMobilePage";
 import { projects } from "@/static_store/projects";
 import { useLocale } from "next-intl";
@@ -32,12 +29,5 @@ export default function ProjectDetails({ searchParams }: ProjectDetailsProps) {
   const newsId = searchParams.id;
   const locale = useLocale();
   unstable_setRequestLocale(locale);
-  return (
-    <>
-      <Header />
-      <ProjectMobilePage id={newsId} />
-      <ContactForm />
-      <Footer />
-    </>
-  );
+  return <ProjectMobilePage id={newsId} />;
 }

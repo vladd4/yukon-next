@@ -29,11 +29,15 @@ const Clients: FC = () => {
               onClick={() => splideRef.current?.go("-1")}
               alt="Prev Slide"
               src={Arrow}
+              width={26}
+              height={46}
             />
             <Image
               onClick={() => splideRef.current?.go("+1")}
               alt="Next Slide"
               src={Arrow}
+              width={26}
+              height={46}
             />
           </div>
         </div>

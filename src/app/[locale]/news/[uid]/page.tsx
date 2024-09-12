@@ -1,4 +1,3 @@
-import Header from "@/components/Header/Header";
 import ProjectMobilePage from "@/components/ProjectMobilePage/ProjectMobilePage";
 
 import { news } from "@/static_store/news";
@@ -31,10 +30,5 @@ export default function NewsDetails({ searchParams }: NewsDetailsProps) {
   const newsId = searchParams.id;
   const locale = useLocale();
   unstable_setRequestLocale(locale);
-  return (
-    <>
-      <Header />
-      <ProjectMobilePage id={newsId} isNews />
-    </>
-  );
+  return <ProjectMobilePage id={newsId} isNews />;
 }

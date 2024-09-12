@@ -32,7 +32,7 @@
   height: 500px;
   position: relative;
   z-index: 1000;
-  a {
+  .a {
     font-size: calc(#{$size}/ 1.5);
     cursor: pointer;
     text-decoration: none;

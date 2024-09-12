@@ -2,10 +2,10 @@
 
 import styles from "./Projects.module.scss";
 
-import { FC } from "react";
+import { FC, useTransition } from "react";
 import { MoveRight } from "lucide-react";
-import { Link } from "@/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import { usePathname, useRouter } from "next/navigation";
 
 type ProjectProps = {
   isNews: boolean;
@@ -28,11 +28,24 @@ const Project: FC<ProjectProps> = ({
 }) => {
   const t = useTranslations();
 
-  const nextHref = isNews ? `/news/new?id=${id}` : `/projects?id=${id}`;
+  const locale = useLocale();
+
+  const pathname = usePathname();
+
+  const nextHref = pathname.includes("news")
+    ? `news/new?id=${id}`
+    : isNews
+    ? `${locale}/news/new?id=${id}`
+    : `${locale}/projects?id=${id}`;
+
+  const router = useRouter();
+
+  const [isPending, startTransition] = useTransition();
 
   const handleProjectClick = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    document.body.scrollTop = document.documentElement.scrollTop = 0;
+    startTransition(() => {
+      router.push(nextHref);
+    });
   };
 
   return (
@@ -44,13 +57,13 @@ const Project: FC<ProjectProps> = ({
         className={`${styles.card_text} ${isBlured ? styles.blured_text : ""}`}
       >
         <p className={styles.h3}>{t(heading)}</p>
-        <Link
-          href={nextHref}
-          className={styles.hide}
-          onClick={handleProjectClick}
-        >
-          {t("projects.more_button")} <MoveRight />
-        </Link>
+        {isPending ? (
+          <p className={styles.a}>Loading...</p>
+        ) : (
+          <p className={styles.a} onClick={handleProjectClick}>
+            {t("projects.more_button")} <MoveRight />
+          </p>
+        )}
       </div>
       <div className={styles.hovered_block}>
         <p className={styles.h3}>{t(heading)}</p>
