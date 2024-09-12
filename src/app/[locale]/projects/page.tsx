@@ -1,3 +1,5 @@
+import ContactForm from "@/components/ContactForm/ContactForm";
+import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import ProjectMobilePage from "@/components/ProjectMobilePage/ProjectMobilePage";
 import { projects } from "@/static_store/projects";
@@ -30,6 +32,8 @@ export default function ProjectDetails({ searchParams }: ProjectDetailsProps) {
     <>
       <Header />
       <ProjectMobilePage id={newsId} />
+      <ContactForm />
+      <Footer />
     </>
   );
 }

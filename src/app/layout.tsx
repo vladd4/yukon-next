@@ -4,11 +4,10 @@ import ReduxProvider from "@/redux/Provider";
 
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import AlertForm from "@/components/ContactForm/AlertForm";
-import ContactForm from "@/components/ContactForm/ContactForm";
-import Footer from "@/components/Footer/Footer";
 import Script from "next/script";
 import React from "react";
 import { locales } from "@/config";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 export const metadata: Metadata = {
   title:
@@ -59,6 +58,7 @@ export default function RootLayout({
   params: { locale },
 }: Readonly<LayoutProps>) {
   const messages = useMessages();
+  unstable_setRequestLocale(locale);
   return (
     <html lang={locale}>
       <head>
@@ -117,8 +117,6 @@ export default function RootLayout({
           <ReduxProvider>
             <AlertForm />
             {children}
-            <ContactForm />
-            <Footer />
           </ReduxProvider>
         </NextIntlClientProvider>
       </body>

@@ -1,11 +1,13 @@
+import ContactForm from "@/components/ContactForm/ContactForm";
+import Footer from "@/components/Footer/Footer";
 import MainPage from "@/components/MainPage";
 
-type HomeProps = {
-  params: {
-    locale: string;
-  };
-};
-
-export default function Home({ params: { locale } }: HomeProps) {
-  return <MainPage locale={locale} />;
+export default function Home() {
+  return (
+    <>
+      <MainPage />;
+      <ContactForm />
+      <Footer />
+    </>
+  );
 }

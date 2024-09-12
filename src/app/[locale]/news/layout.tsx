@@ -1,3 +1,6 @@
+import ContactForm from "@/components/ContactForm/ContactForm";
+import Footer from "@/components/Footer/Footer";
+
 export const metadata = {
   title:
     "Останні новини – ЮКОН, дистриб`ютор продуктів швидкого споживання на українському ринку",
@@ -28,5 +31,11 @@ export default function NewsLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <main>{children}</main>;
+  return (
+    <main>
+      {children}
+      <ContactForm />
+      <Footer />
+    </main>
+  );
 }
