@@ -8,6 +8,10 @@ import Script from "next/script";
 import React from "react";
 import { unstable_setRequestLocale } from "next-intl/server";
 
+import { Montserrat } from "next/font/google";
+
+const mont = Montserrat({ subsets: ["latin"] });
+
 export const metadata: Metadata = {
   title:
     "ЮКОН – дистриб`ютор продуктів швидкого споживання на українському ринку",
@@ -105,7 +109,7 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body>
+      <body className={mont.className}>
         <NextIntlClientProvider messages={messages}>
           <ReduxProvider>
             <AlertForm />
