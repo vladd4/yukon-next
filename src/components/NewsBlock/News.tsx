@@ -3,12 +3,13 @@
 import Project from "../Projects/Project";
 import styles from "./News.module.scss";
 
-import { FC } from "react";
+import { FC, useTransition } from "react";
 
 import { news } from "../../static_store/news";
 import { MoveRight } from "lucide-react";
 import { Link } from "@/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import { useRouter } from "next/navigation";
 
 type NewsProps = {
   isAll: boolean;
@@ -17,9 +18,16 @@ type NewsProps = {
 const News: FC<NewsProps> = ({ isAll }) => {
   const t = useTranslations();
 
+  const [isPending, startTransition] = useTransition();
+
+  const router = useRouter();
+
+  const locale = useLocale();
+
   const handleNewsClick = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    document.body.scrollTop = document.documentElement.scrollTop = 0;
+    startTransition(() => {
+      router.push(`/${locale}/news`);
+    });
   };
 
   return (
@@ -33,11 +41,14 @@ const News: FC<NewsProps> = ({ isAll }) => {
             <span>{t("news.span")}</span>
             <h2>{t("news.heading")}</h2>
           </div>
-          {!isAll && (
-            <Link href={`/news`} onClick={handleNewsClick}>
-              {t("news.all_news")} <MoveRight />
-            </Link>
-          )}
+          {!isAll &&
+            (isPending ? (
+              <p className={styles.a}>Loading...</p>
+            ) : (
+              <p className={styles.a} onClick={handleNewsClick}>
+                {t("news.all_news")} <MoveRight />
+              </p>
+            ))}
         </div>
         <div className={styles.news_block}>
           {isAll
