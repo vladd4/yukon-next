@@ -15,11 +15,20 @@ import { social_links } from "../../static_store/social";
 import { contact_links } from "../../static_store/contact";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { usePathname } from "next/navigation";
+import { Link } from "@/navigation";
 
 const Footer: FC = () => {
   const dispatch = useAppDispatch();
 
   const t = useTranslations();
+
+  const pathname = usePathname();
+
+  const isExternalPage =
+    pathname.includes("news") || pathname.includes("projects");
+
+  const NavLinkComponent = isExternalPage ? Link : AnchorLink;
 
   const handleScrollTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -69,16 +78,20 @@ const Footer: FC = () => {
             })}
           </div>
           <div className={styles.nav_item}>
-            <AnchorLink className={styles.h5} href="#main">
+            <NavLinkComponent
+              className={styles.h5}
+              href={isExternalPage ? "/" : "#main"}
+            >
               {t("footer.nav_h")}
-            </AnchorLink>
-            {nav_links.map((link) => {
-              return (
-                <AnchorLink key={link.label} href={link.href}>
-                  {t(link.label)}
-                </AnchorLink>
-              );
-            })}
+            </NavLinkComponent>
+            {nav_links.map((link) => (
+              <NavLinkComponent
+                key={link.label}
+                href={isExternalPage ? `/${link.href}` : link.href}
+              >
+                {t(link.label)}
+              </NavLinkComponent>
+            ))}
           </div>
         </div>
       </article>

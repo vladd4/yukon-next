@@ -20,7 +20,9 @@ export const news = [
     meta_heading: "Участь у міжнародній виставці дитячої моди",
     meta_description:
       "15-16 серпня 2024 року в Києві відбулася міжнародна ВИСТАВКА ДИТЯЧОЇ МОДИ CHILDREN’S FASHION FAIR: ПЛАТФОРМА ДЛЯ БІЗНЕС-ПАРТНЕРСТВА ТА ІННОВАЦІЙ.",
-    date: "11.09.2024",
+    description_2: "news.meeting_description",
+    image_2: Meeting,
+    image_3: Meeting,
   },
   {
     id: "9",
@@ -33,6 +35,7 @@ export const news = [
     meta_description:
       "Дорогі українці! Компанія Юкон вітає усіх вас з Днем Незалежності! У час, який ми живемо...",
     date: "11.09.2024",
+    image_2: Sale,
   },
   {
     id: "8",

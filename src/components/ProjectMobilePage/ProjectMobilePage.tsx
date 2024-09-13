@@ -44,35 +44,45 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
             </a>
           </div>
         </div>
-        <div className={styles.group_block_text}>
-          <div className={styles.text}>
-            <h1>{t(detail_item.heading)}</h1>
-            <div className={styles.p}>
-              {t.rich(detail_item.description, {
-                b: (chunks) => <b>{chunks}</b>,
-                p: (chunks) => <p>{chunks}</p>,
-                div: (chunks) => <div>{chunks}</div>,
-              })}
+        {detail_item.description_2 && (
+          <div className={styles.group_block_text}>
+            <div className={styles.text}>
+              <h1>{t(detail_item.heading)}</h1>
+              <div className={styles.p}>
+                {t.rich(detail_item.description_2, {
+                  b: (chunks) => <b>{chunks}</b>,
+                  p: (chunks) => <p>{chunks}</p>,
+                  div: (chunks) => <div>{chunks}</div>,
+                })}
+              </div>
             </div>
           </div>
-        </div>
-        <div className={styles.group_block_photo}>
-          <Image
-            alt="Project"
-            width={1200}
-            height={1200}
-            src={detail_item.image}
-          />
-          <Image
-            alt="Project"
-            width={1200}
-            height={1200}
-            src={detail_item.image}
-          />
-        </div>
-        {detail_item.date && (
-          <p className={styles.author}>Admin, {detail_item.date}</p>
         )}
+        {detail_item.image_2 && detail_item.image_3 ? (
+          <div className={styles.group_block_photo}>
+            <Image
+              alt="Project"
+              width={1200}
+              height={1200}
+              src={detail_item.image_2}
+            />
+            <Image
+              alt="Project"
+              width={1200}
+              height={1200}
+              src={detail_item.image_3}
+            />
+          </div>
+        ) : detail_item.image_2 ? (
+          <div className={styles.group_block_photo}>
+            <Image
+              alt="Project"
+              width={1200}
+              height={1200}
+              src={detail_item.image_2}
+            />
+          </div>
+        ) : null}
       </article>
     </section>
   ) : (

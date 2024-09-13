@@ -52,6 +52,7 @@
       .text {
         width: 100%;
         justify-content: flex-start;
+        align-items: flex-start;
         h1 {
           text-align: start;
         }
@@ -98,7 +99,7 @@
     a {
       font-size: calc(#{$size}/ 1.4);
       cursor: pointer;
-      text-align: center;
+      text-align: start;
       text-decoration: none;
       background-color: $color-orange;
       color: $color-white;
@@ -144,7 +145,7 @@
     }
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   .root {
     width: 100%;
     margin-top: 8%;
