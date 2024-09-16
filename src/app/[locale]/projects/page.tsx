@@ -4,10 +4,11 @@ import { Metadata, ResolvingMetadata } from "next";
 import { useLocale } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
 
-export async function generateMetadata(
-  { searchParams }: { searchParams: { id: string } },
-  parent: Promise<ResolvingMetadata>
-): Promise<Metadata> {
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: { id: string };
+}): Promise<Metadata> {
   const projectsId = searchParams.id;
 
   const project_item = projects.find((item) => item.id === projectsId);
@@ -27,15 +28,13 @@ export async function generateMetadata(
     };
   }
 
-  const previousImages = (await parent).openGraph?.images || [];
-
   return {
     title: `${project_item.heading} - ЮКОН`,
     description: project_item.meta_description,
     openGraph: {
       title: `${project_item.heading} - ЮКОН`,
       description: project_item.meta_description,
-      images: [{ url: project_item.image.src }, ...previousImages],
+      images: [{ url: project_item.image.src }],
     },
   };
 }
