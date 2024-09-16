@@ -39,15 +39,22 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
                 div: (chunks) => <div>{chunks}</div>,
               })}
             </div>
-            <a target="_blank" rel="noreferrer" href={detail_item.href}>
-              {t("projects.link_button")} <MoveRight />
-            </a>
+            {!detail_item.description_2 || !detail_item.image_2 ? (
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href={detail_item.href}
+                className={styles.inner_href}
+              >
+                {t("projects.link_button")} <MoveRight />
+              </a>
+            ) : null}
           </div>
         </div>
         {detail_item.description_2 && (
           <div className={styles.group_block_text}>
             <div className={styles.text}>
-              <h1>{t(detail_item.heading)}</h1>
+              {detail_item.heading_2 && <h1>{t(detail_item.heading_2)}</h1>}
               <div className={styles.p}>
                 {t.rich(detail_item.description_2, {
                   b: (chunks) => <b>{chunks}</b>,
@@ -82,6 +89,25 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
               src={detail_item.image_2}
             />
           </div>
+        ) : null}
+        {detail_item.description_3 && (
+          <div className={styles.group_block_text}>
+            <div className={styles.text}>
+              {detail_item.heading_3 && <h1>{t(detail_item.heading_3)}</h1>}
+              <div className={styles.p}>
+                {t.rich(detail_item.description_3, {
+                  b: (chunks) => <b>{chunks}</b>,
+                  p: (chunks) => <p>{chunks}</p>,
+                  div: (chunks) => <div>{chunks}</div>,
+                })}
+              </div>
+            </div>
+          </div>
+        )}
+        {detail_item.description_2 || detail_item.image_2 ? (
+          <a target="_blank" rel="noreferrer" href={detail_item.href}>
+            {t("projects.link_button")} <MoveRight />
+          </a>
         ) : null}
       </article>
     </section>

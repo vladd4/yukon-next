@@ -1,3 +1,5 @@
+import { DetailsItem } from "@/types/detail_item.type";
+
 import Solar from "@/../public/news/solar.webp";
 import Hoverla from "@/../public/news/hoverla.webp";
 import Shirt from "@/../public/news/shirt.webp";
@@ -8,21 +10,36 @@ import Sale from "@/../public/news/sale.jpg";
 import Nezalezh from "@/../public/news/day.jpg";
 import New26_08 from "@/../public/news/26.08.webp";
 import Meeting from "@/../public/news/meeting.webp";
+import Khmil_1 from "@/../public/news/khmil_1.jpg";
+import Khmil_2 from "@/../public/news/khmil_2.jpg";
+import Khmil_3 from "@/../public/news/khmil_3.jpg";
 
-export const news = [
+export const news: DetailsItem[] = [
+  {
+    id: "11",
+    heading: "news.khmil_heading",
+    description: "news.khmil_description_1",
+    description_2: "news.khmil_description_2",
+    description_3: "news.khmil_description_3",
+    image: Khmil_1,
+    image_2: Khmil_2,
+    image_3: Khmil_3,
+    href: "https://www.instagram.com/khmil.kovel?igsh=MWszOHRkb2ptN2tnNg==",
+    isBlured: true,
+    meta_heading: "Насолоджуйтесь пивом і відпочивайте разом з «The Хміль»!",
+    meta_description:
+      "Унікальний бренд та імідж нашого магазину – запорука Вашого задоволення. Головне завдання, щоб покупець у будь-яку погоду та з будь-яким настроєм у нашому магазині пізнав гармонію душі і тіла. Тому, з 08:00 год до 22:00 год по буднях і з 10:00 год до 22:00 год у вихідні наші двері відкриті для Вас. Насолоджуйтесь пивом і відпочивайте разом з «The Хміль»! ",
+  },
   {
     id: "10",
     heading: "news.meeting_heading",
     description: "news.meeting_description",
     image: Meeting,
-    href: "https://baby-fashion.hitavto.com.ua/",
+    href: "https://twinsocks.com.ua/?fbclid=PAZXh0bgNhZW0CMTEAAaZuFnVtft8NO3BOw761Tbb6LrK0mC6HZQnampfN7EP2_1x1XUAwN-HzkLc_aem_AZ4BuQblGc3hR36We8d9tjFp8Y6uAmx7nhSWQpDgbbbPSmsHe_CmeluKiI8IcbbvWfzSKwthq5zgJEqXUDsPs7fk",
     isBlured: true,
     meta_heading: "Участь у міжнародній виставці дитячої моди",
     meta_description:
       "15-16 серпня 2024 року в Києві відбулася міжнародна ВИСТАВКА ДИТЯЧОЇ МОДИ CHILDREN’S FASHION FAIR: ПЛАТФОРМА ДЛЯ БІЗНЕС-ПАРТНЕРСТВА ТА ІННОВАЦІЙ.",
-    description_2: "news.meeting_description",
-    image_2: Meeting,
-    image_3: Meeting,
   },
   {
     id: "9",
@@ -35,7 +52,6 @@ export const news = [
     meta_description:
       "Дорогі українці! Компанія Юкон вітає усіх вас з Днем Незалежності! У час, який ми живемо...",
     date: "11.09.2024",
-    image_2: Sale,
   },
   {
     id: "8",

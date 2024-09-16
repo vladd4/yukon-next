@@ -84,13 +84,8 @@ const ContactForm = () => {
             width={797}
             height={591}
             className="aos-init"
-            data-aos="zoom-in"
           />
-          <form
-            onSubmit={handleSubmit(onSubmit)}
-            className="aos-init"
-            data-aos="zoom-in"
-          >
+          <form onSubmit={handleSubmit(onSubmit)} className="aos-init">
             <div className={styles.name_input_div}>
               <input
                 type="text"

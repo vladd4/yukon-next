@@ -5,8 +5,9 @@ import Fish from "@/../public/projects/fish.webp";
 import BeerTon from "@/../public/projects/beerton.jpg";
 import Gradus from "@/../public/projects/gradus.jpg";
 import Kovcheg from "@/../public/projects/kovcheg.png";
+import { DetailsItem } from "@/types/detail_item.type";
 
-export const projects = [
+export const projects: DetailsItem[] = [
   {
     id: "7",
     heading: "КОВЧЕГ",
@@ -16,8 +17,6 @@ export const projects = [
     isBlured: false,
     meta_description:
       "Ковчег це компанія, яка займає лідируючі позиції на ринку дистрибуції продуктів харчування в Рівненській області...",
-    image_2: Kovcheg,
-    description_2: "projects.kovcheg",
   },
   {
     id: "6",
@@ -28,8 +27,6 @@ export const projects = [
     isBlured: false,
     meta_description:
       "ТМ TwinSocks – це запатентована у 2016 році торгова марка в панчішно-шкарпетковій галузі, яка за недовгий час встигла завоювати серця багатьох українців. Ми виготовляємо не просто стильні та комфортні шкарпетки та колготки, першочергово ми дбаємо про якість нашого товару",
-    image_2: Twin,
-    image_3: Twin,
   },
   {
     id: "5",
@@ -63,7 +60,6 @@ export const projects = [
     meta_description:
       "Beerton - це те, що ми вважаємо новим форматом закладу, де ви можете спробувати чудові страви, приготовані на нашій кухні, та придбати продукцію, яку ми представляємо у Волинській області, щоб узяти частинку цього закладу з собою.",
     date: "",
-    description_2: "projects.beerton",
   },
   {
     id: "2",

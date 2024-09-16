@@ -40,7 +40,8 @@
     transition: all 0.3s;
     display: flex;
     align-items: center;
-    gap: 5%;
+    gap: 3%;
+    width: 100%;
     &:hover {
       color: $color-orange;
     }
@@ -84,6 +85,7 @@
       text-decoration: none;
       color: $color-white;
       margin-top: 3%;
+      width: 100%;
       transition: all 0.3s;
       &:hover {
         color: $color-orange;
@@ -111,6 +113,7 @@
       font-size: calc(#{$size}/ 1.5);
       cursor: pointer;
       margin-bottom: 5%;
+      width: 100%;
     }
   }
 }

@@ -103,6 +103,7 @@
             margin-bottom: 4%;
             border: 2px solid $color-black;
             resize: none;
+            font-family: inherit;
             height: 100px;
             font-size: calc(#{$size}/ 1.5);
           }

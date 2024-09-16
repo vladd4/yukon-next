@@ -105,18 +105,24 @@
       color: $color-white;
       border: 1px solid $color-orange;
       border-radius: 5px;
-      padding: 1.5% 0%;
+      padding: 1% 0%;
       transition: all 0.3s;
       display: flex;
       align-items: center;
+      align-self: flex-end;
       justify-content: center;
       gap: 5%;
-      width: 50%;
+      width: 30%;
       transition: all 0.3s;
       &:hover {
         background-color: transparent;
         color: $color-orange;
       }
+    }
+    .inner_href {
+      width: 50%;
+      padding: 1.5% 0%;
+      align-self: center;
     }
   }
 }
@@ -185,6 +191,11 @@
         margin-top: 2%;
       }
       a {
+        font-size: 15px;
+        width: 100%;
+        padding: 2% 0%;
+      }
+      .inner_href {
         font-size: 15px;
         width: 100%;
         padding: 2% 0%;
