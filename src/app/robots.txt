@@ -1,6 +1,3 @@
-# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow: /details
-Disallow: /news
 
 Sitemap: https://jukon.com.ua/

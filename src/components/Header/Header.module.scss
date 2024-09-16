@@ -5,8 +5,8 @@
   display: grid;
   place-items: center;
   color: $color-white;
-  background: #0000003a;
-  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
   position: fixed;
   overflow-x: hidden;
   top: 0;
@@ -39,8 +39,13 @@
         font-size: calc(#{$size}/ 1.4);
         font-weight: 600;
         transition: all 0.3s;
+        box-shadow: none;
         &:hover {
           color: $color-orange;
+        }
+        &:focus {
+          outline: none;
+          box-shadow: none; /* Adjust as needed */
         }
       }
     }
