@@ -12,7 +12,6 @@ import { Montserrat } from "next/font/google";
 import Header from "@/components/Header/Header";
 import ContactForm from "@/components/ContactForm/ContactForm";
 import Footer from "@/components/Footer/Footer";
-import { handleIntlError } from "@/utils/handleIntlError";
 
 const mont = Montserrat({ subsets: ["latin"] });
 
@@ -23,7 +22,6 @@ export const metadata: Metadata = {
     "Дистриб`ютор продуктів швидкого споживання в Україні з великим досвідом на ринку. Наша мета - забезпечити швидке сполучення покупця і виробника, надаючи широкий асортимент і високий рівень сервісу.",
   applicationName: "ЮКОН",
   alternates: {
-    canonical: "/uk",
     languages: {
       en: "/en",
       uk: "/uk",
@@ -53,6 +51,8 @@ export default function RootLayout({
 }: Readonly<LayoutProps>) {
   const messages = useMessages();
   unstable_setRequestLocale(locale);
+
+  const canonical = `https://jukon.com.ua/${locale}`;
   return (
     <html lang={locale}>
       <head>
@@ -64,6 +64,7 @@ export default function RootLayout({
           name="viewport"
           content="width=device-width, initial-scale=1, user-scalable=no"
         />
+        <link rel="canonical" href={canonical} />
         <meta property="author" content="vladdonets" />
         <meta
           name="keywords"
