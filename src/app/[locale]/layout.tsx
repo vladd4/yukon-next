@@ -65,6 +65,21 @@ export default function RootLayout({
           content="width=device-width, initial-scale=1, user-scalable=no"
         />
         <link rel="canonical" href={canonical} />
+        <link
+          rel="alternate"
+          hrefLang="en"
+          href="https://www.jukon.com.ua/en"
+        />
+        <link
+          rel="alternate"
+          hrefLang="uk"
+          href="https://www.jukon.com.ua/uk"
+        />
+        <link
+          rel="alternate"
+          hrefLang="x-default"
+          href="https://www.jukon.com.ua/uk"
+        />
         <meta property="author" content="vladdonets" />
         <meta
           name="keywords"
