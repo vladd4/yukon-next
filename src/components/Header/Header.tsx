@@ -47,6 +47,7 @@ const Header = () => {
             alt="Yukon Web"
             width={209}
             height={81}
+            priority={true}
             src={
               isScrolled ||
               pathName.includes("news") ||

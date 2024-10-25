@@ -13,8 +13,27 @@ import Meeting from "@/../public/news/meeting.webp";
 import Khmil_1 from "@/../public/news/khmil_1.jpg";
 import Khmil_2 from "@/../public/news/khmil_2.jpg";
 import Khmil_3 from "@/../public/news/khmil_3.jpg";
+import Wine from "@/../public/news/wine.jpg";
+import Wine_1 from "@/../public/news/wine_1.jpg";
+import Wine_2 from "@/../public/news/wine_2.jpg";
 
 export const news: DetailsItem[] = [
+  {
+    id: "12",
+    heading: "news.wine_heading",
+    description: "news.wine_description_1",
+    description_2: "news.wine_description_2",
+    description_3: "news.wine_description_3",
+    image_width: "35%",
+    image: Wine,
+    image_2: Wine_2,
+    image_3: Wine_1,
+    href: "https://www.instagram.com/gradus_pub?igsh=Nzlzc21peGhiNHY0",
+    isBlured: true,
+    meta_heading: "Гастровечір в ПАБ «Gradus»",
+    meta_description:
+      "17 жовтня цього року ковельчани та гості міста мали чудову можливість здійснити свою мрію і отримати неймовірні гастрономічні враження під час гастровечора в місцевому ПАБ «Градус».",
+  },
   {
     id: "11",
     heading: "news.khmil_heading",

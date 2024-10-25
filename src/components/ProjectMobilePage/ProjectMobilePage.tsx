@@ -72,12 +72,22 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
               width={1200}
               height={1200}
               src={detail_item.image_2}
+              style={{
+                width: `${
+                  detail_item.image_width ? detail_item.image_width : ""
+                }`,
+              }}
             />
             <Image
               alt="Project"
               width={1200}
               height={1200}
               src={detail_item.image_3}
+              style={{
+                width: `${
+                  detail_item.image_width ? detail_item.image_width : ""
+                }`,
+              }}
             />
           </div>
         ) : detail_item.image_2 ? (
@@ -87,6 +97,11 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
               width={1200}
               height={1200}
               src={detail_item.image_2}
+              style={{
+                width: `${
+                  detail_item.image_width ? detail_item.image_width : ""
+                }`,
+              }}
             />
           </div>
         ) : null}
