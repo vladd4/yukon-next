@@ -14,11 +14,7 @@ import Pepsico from "@/../public/partners/pepsico.png";
 import Sadochok from "@/../public/partners/sadochok.png";
 import Sandora from "@/../public/partners/sandora.png";
 import Mayola from "@/../public/partners/mayola.png";
-import Whyte from "@/../public/partners/whyte.png";
-import Jim from "@/../public/partners/jim-beam.png";
 import Rolton from "@/../public/partners/rolton.png";
-import Vana from "@/../public/partners/vana.png";
-import Agusha from "@/../public/partners/agusha.png";
 import Komo from "@/../public/partners/komo.png";
 
 export const partners_logo = [
@@ -37,11 +33,7 @@ export const partners_logo = [
   Aqua,
   Carlsberg,
   Mirgorod,
-  Vana,
-  Jim,
-  Whyte,
   Komo,
-  Agusha,
   Rolton,
   Mayola,
 ];
