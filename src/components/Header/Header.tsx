@@ -37,7 +37,9 @@ const Header = () => {
     <>
       <header
         className={`${styles.root} ${
-          pathName.includes("news") || pathName.includes("projects")
+          pathName.includes("news") ||
+          pathName.includes("projects") ||
+          pathName.includes("career")
             ? styles.news_root
             : ""
         } ${isScrolled ? styles.scrolled : ""}`}
@@ -51,7 +53,8 @@ const Header = () => {
             src={
               isScrolled ||
               pathName.includes("news") ||
-              pathName.includes("projects")
+              pathName.includes("projects") ||
+              pathName.includes("career")
                 ? LogoBlack
                 : Logo
             }

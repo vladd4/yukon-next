@@ -19,7 +19,11 @@ import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { ArrowDownRight } from "lucide-react";
 
-const ContactForm = () => {
+interface ContactFormProps {
+  isCareer?: boolean;
+}
+
+const ContactForm = ({ isCareer }: ContactFormProps) => {
   const t = useTranslations();
   const locale = useLocale();
 
@@ -75,7 +79,11 @@ const ContactForm = () => {
       <article className={styles.wrapper}>
         <div className={styles.heading}>
           <span>{t("form.span")}</span>
-          <h3>{t("form.heading")}</h3>
+          <h3>
+            {isCareer
+              ? "Хочете працювати у нас? Заповніть форму, щоб ми змогли зв'язатись з вами"
+              : t("form.heading")}
+          </h3>
         </div>
         <div className={styles.form_block}>
           <Image
@@ -118,7 +126,7 @@ const ContactForm = () => {
               />
               <label htmlFor="message">{t("form.message_label")}</label>
             </div>
-
+            {isCareer && <button>Завантажити резюме</button>}
             <div className={styles.form_button}>
               <button type="submit">
                 {t("form.submit_button")} <ArrowDownRight />

@@ -12,7 +12,7 @@ type ProjectProps = {
   backImage: string;
   heading: string;
   description: string;
-  href: string;
+  href?: string;
   isBlured?: boolean;
   id: string;
 };

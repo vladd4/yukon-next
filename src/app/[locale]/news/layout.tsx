@@ -54,7 +54,7 @@ export default function NewsLayout({
           href="https://www.jukon.com.ua/uk/news"
         />
       </Head>
-      <main>{children}</main>;
+      <main>{children}</main>
     </>
   );
 }

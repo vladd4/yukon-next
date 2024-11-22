@@ -7,7 +7,7 @@ export type DetailsItem = {
   heading_3?: string;
   description: string;
   image: StaticImageData;
-  href: string;
+  href?: string;
   isBlured: boolean;
   meta_heading?: string;
   meta_description: string;

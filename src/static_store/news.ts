@@ -16,8 +16,27 @@ import Khmil_3 from "@/../public/news/khmil_3.jpg";
 import Wine from "@/../public/news/wine.jpg";
 import Wine_1 from "@/../public/news/wine_1.jpg";
 import Wine_2 from "@/../public/news/wine_2.jpg";
+import Estonia from "@/../public/news/estonia_1.jpg";
+import Estonia_1 from "@/../public/news/estonia_2.jpg";
+import Estonia_2 from "@/../public/news/estonia_3.jpg";
 
 export const news: DetailsItem[] = [
+  {
+    id: "13",
+    heading: "news.estonia_heading",
+    description: "news.estonia_description_1",
+    description_2: "news.estonia_description_2",
+    image_width: "49%",
+    href: "https://www.facebook.com/share/L3cZ7djvXy55fxyB/",
+    image: Estonia,
+    image_2: Estonia_1,
+    image_3: Estonia_2,
+    isBlured: true,
+    meta_heading:
+      "Зустріч з представниками Естонської торгово-промислової палати",
+    meta_description:
+      "З метою налагодження контактів та розвитку у нашому краю 19 листопада цього року відбулась зустріч делегації естонських підприємців з волинськими бізнес-компаніями, у якій взяли участь представники ТМ «Твінсокс»",
+  },
   {
     id: "12",
     heading: "news.wine_heading",
