@@ -34,8 +34,6 @@
       .text {
         justify-self: center;
         width: 85%;
-        // background: #0000001a;
-        // backdrop-filter: blur(5px);
         border-radius: 5px;
         padding: 2% 1%;
         margin-bottom: 4%;
@@ -292,26 +290,9 @@
       .heading_block {
         padding-bottom: 3%;
         position: relative;
-        &::after {
-          content: "";
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background-color: rgba(
-            0,
-            0,
-            0,
-            0.5
-          ); /* Adjust the last value (0.5) to change the darkness */
-          z-index: 1;
-        }
+
         .text {
           width: 94%;
-          background: transparent;
-          backdrop-filter: blur(0px);
-          z-index: 2;
 
           h1 {
             font-size: 21px;
@@ -326,7 +307,6 @@
       }
       .filter_block {
         width: 89%;
-        z-index: 2;
         padding: 3%;
         margin-bottom: 2%;
         flex-direction: column-reverse;
@@ -387,7 +367,6 @@
     padding-top: 16%;
     .wrapper {
       .filter_block {
-        // padding: 2% 1%;
         .search_block {
           svg {
             width: 7%;
