@@ -32,6 +32,9 @@ export default function CareerDetailsCard({
             </Link>
           );
         })}
+      <Link href={`/${locale}/career`} className={styles.hot_item}>
+        Дивитись більше
+      </Link>
     </div>
   );
 }

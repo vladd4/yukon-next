@@ -168,12 +168,18 @@
     color: $color-black;
     font-size: 14px;
     margin: 0;
-
     text-decoration: underline;
     cursor: pointer;
     transition: all 0.3s;
     &:hover {
       color: $color-orange;
+    }
+    &:last-child {
+      margin-top: 5%;
+      color: $color-orange;
+      &:hover {
+        color: $color-black;
+      }
     }
   }
 }
@@ -310,7 +316,8 @@
             font-size: 13px;
           }
           ul {
-            width: 95%;
+            margin-left: 10%;
+            width: 90%;
             li {
               font-size: 13px;
             }
@@ -351,6 +358,7 @@
 @media screen and (max-width: 700px) {
   .root {
     padding-top: 17%;
+    margin-bottom: 5%;
     .wrapper {
       width: 95%;
       row-gap: 15px;
@@ -362,11 +370,13 @@
           font-size: 14px;
         }
         .buttons {
+          margin: 6% 0%;
           button {
             font-size: 12px;
           }
         }
         .list_block {
+          margin-bottom: 5%;
           p {
             font-size: 14px;
           }
@@ -377,10 +387,13 @@
           }
         }
         .contact_person {
+          padding: 5%;
+          width: 90%;
           div {
             div {
               p {
                 font-size: 14px;
+                margin-bottom: 2%;
               }
               a {
                 font-size: 14px;
@@ -389,11 +402,15 @@
           }
         }
       }
+      .side_block {
+        row-gap: 15px;
+      }
     }
   }
   .hot_cards {
-    width: 94%;
-    padding: 3%;
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 0;
     .heading {
       font-size: 16px;
     }
@@ -404,7 +421,7 @@
 }
 @media screen and (max-width: 500px) {
   .root {
-    padding-top: 19%;
+    padding-top: 20%;
     .wrapper {
       .info {
         .contact_person {
