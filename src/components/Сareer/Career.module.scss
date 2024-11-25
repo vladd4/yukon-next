@@ -71,6 +71,7 @@
         justify-content: flex-start;
         gap: 1%;
         width: 75%;
+        flex-wrap: wrap;
       }
       button {
         color: $color-black;
@@ -314,7 +315,6 @@
         .left_block {
           width: 100%;
           gap: 10px;
-          flex-wrap: wrap;
         }
         button {
           padding: 3% 4.5%;
