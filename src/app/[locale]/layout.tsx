@@ -10,7 +10,6 @@ import { unstable_setRequestLocale } from "next-intl/server";
 
 import { Montserrat } from "next/font/google";
 import Header from "@/components/Header/Header";
-import ContactForm from "@/components/ContactForm/ContactForm";
 import Footer from "@/components/Footer/Footer";
 
 const mont = Montserrat({ subsets: ["latin"] });
@@ -132,7 +131,6 @@ export default function RootLayout({
             <AlertForm />
             <Header />
             {children}
-            <ContactForm />
             <Footer />
           </ReduxProvider>
         </NextIntlClientProvider>

@@ -1,3 +1,4 @@
+import ContactForm from "@/components/ContactForm/ContactForm";
 import ProjectMobilePage from "@/components/ProjectMobilePage/ProjectMobilePage";
 import { projects } from "@/static_store/projects";
 import { Metadata, ResolvingMetadata } from "next";
@@ -47,5 +48,10 @@ export default function ProjectDetails({ searchParams }: ProjectDetailsProps) {
   const newsId = searchParams.id;
   const locale = useLocale();
   unstable_setRequestLocale(locale);
-  return <ProjectMobilePage id={newsId} />;
+  return (
+    <>
+      <ProjectMobilePage id={newsId} />
+      <ContactForm />
+    </>
+  );
 }

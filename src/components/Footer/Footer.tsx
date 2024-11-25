@@ -14,7 +14,7 @@ import { setShowAlert } from "../../redux/slices/alertSlice";
 import { social_links } from "../../static_store/social";
 import { contact_links } from "../../static_store/contact";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 import { Link } from "@/navigation";
 
@@ -25,8 +25,12 @@ const Footer: FC = () => {
 
   const pathname = usePathname();
 
+  const locale = useLocale();
+
   const isExternalPage =
-    pathname.includes("news") || pathname.includes("projects");
+    pathname.includes("news") ||
+    pathname.includes("projects") ||
+    pathname.includes("career");
 
   const NavLinkComponent = isExternalPage ? Link : AnchorLink;
 
@@ -84,14 +88,20 @@ const Footer: FC = () => {
             >
               {t("footer.nav_h")}
             </NavLinkComponent>
-            {nav_links.map((link) => (
-              <NavLinkComponent
-                key={link.label}
-                href={isExternalPage ? `/${link.href}` : link.href}
-              >
-                {t(link.label)}
-              </NavLinkComponent>
-            ))}
+            {nav_links.map((link) => {
+              return link.label === "Кар'єра" ? (
+                <Link key={link.label} href={link.href}>
+                  {t(link.label)}
+                </Link>
+              ) : (
+                <NavLinkComponent
+                  key={link.label}
+                  href={isExternalPage ? `/${link.href}` : link.href}
+                >
+                  {t(link.label)}
+                </NavLinkComponent>
+              );
+            })}
           </div>
         </div>
       </article>

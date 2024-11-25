@@ -15,6 +15,10 @@ export const nav_links = [
     label: "header.link_2",
     href: "#projects",
   },
+  // {
+  //   label: "Кар'єра",
+  //   href: "/career?type=all",
+  // },
   {
     label: "header.link_5",
     href: "#news",

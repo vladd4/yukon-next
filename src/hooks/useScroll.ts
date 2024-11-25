@@ -9,12 +9,20 @@ const useScroll = () => {
     const scrollPosition = window.scrollY;
     setIsScrolled(scrollPosition > window.innerHeight - 100);
   };
+
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    if (typeof window !== "undefined") {
+      handleScroll();
+
+      window.addEventListener("scroll", handleScroll);
+
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }
   }, []);
+
   return { isScrolled };
 };
+
 export default useScroll;

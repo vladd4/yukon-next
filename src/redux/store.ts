@@ -1,11 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
 import alertSlice from "./slices/alertSlice";
 import burgerSlice from "./slices/burgerSlice";
+import searchSlice from "./slices/searchSlice";
 
 const store = configureStore({
   reducer: {
     alert: alertSlice,
     burger: burgerSlice,
+    search: searchSlice,
   },
 });
 

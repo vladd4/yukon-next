@@ -8,6 +8,7 @@
   padding: 3% 0%;
   padding-top: 8%;
   padding-bottom: 0%;
+  margin-bottom: 2%;
   .wrapper {
     width: 85%;
     display: flex;
@@ -20,14 +21,14 @@
       width: 65%;
       h1 {
         color: $color-black;
-        font-size: calc(#{$size}* 1.1);
+        font-size: 22px;
         margin-bottom: 3%;
         text-align: flex-start;
         justify-self: flex-start;
       }
       p {
         color: $color-black;
-        font-size: calc(#{$size}/ 1.5);
+        font-size: 15px;
         margin-bottom: 3%;
         text-align: flex-start;
         justify-self: flex-start;
@@ -46,15 +47,17 @@
           justify-content: space-between;
           gap: 7px;
           height: 40px;
+          font-weight: 600;
           color: $color-black;
           border-radius: 50px;
-          font-size: calc(#{$size}/ 1.55);
+          font-size: 13px;
           border: 1px solid #f7f7f7;
           padding: 5px 3%;
           background-color: #f7f7f7;
           width: max-content;
           svg {
             height: auto;
+            color: $color-orange;
           }
         }
       }
@@ -66,7 +69,7 @@
         p {
           color: $color-black;
           font-weight: bold;
-          font-size: calc(#{$size}/ 1.5);
+          font-size: 15px;
           margin-bottom: 2%;
         }
         ul {
@@ -74,7 +77,7 @@
           margin-left: 5%;
           li {
             color: $color-black;
-            font-size: calc(#{$size}/ 1.5);
+            font-size: 15px;
             margin-bottom: 1%;
             a {
               color: $color-black;
@@ -86,43 +89,329 @@
           }
         }
       }
+      .contact_person {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #f7f7f7;
+        border-radius: 5px;
+        padding: 3%;
+        gap: 5%;
+        div {
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          gap: 10px;
+          div {
+            width: 100%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            row-gap: 3px;
+
+            p {
+              font-size: 15px;
+              color: $color-black;
+              margin: 0;
+            }
+          }
+          svg {
+            fill: #f7f7f7;
+            color: $color-orange;
+          }
+          a {
+            font-size: 17px;
+            font-weight: bold;
+            margin: 0;
+            color: $color-black;
+            text-decoration: none;
+            transition: all 0.3s;
+            &:hover {
+              opacity: 0.7;
+            }
+          }
+        }
+      }
     }
     .side_block {
       width: 27%;
       display: grid;
       place-items: flex-start;
-      .hot_cards {
-        width: 100%;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
-        row-gap: 10px;
-        margin-bottom: 10%;
-        border-radius: 5px;
-        background-color: #f7f7f7;
-        padding: 5%;
-        .heading {
-          color: $color-black;
-          font-weight: bold;
-          font-size: calc(#{$size}/ 1.3);
-          margin-bottom: 1%;
-          text-decoration: none;
-          cursor: auto;
-          &:hover {
-            color: $color-black;
-          }
+    }
+  }
+}
+.hot_cards {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-bottom: 10%;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  padding: 5%;
+  .heading {
+    color: $color-black;
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 1%;
+    text-decoration: none;
+    cursor: auto;
+    &:hover {
+      color: $color-black;
+    }
+  }
+  a {
+    color: $color-black;
+    font-size: 14px;
+    margin: 0;
+
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.3s;
+    &:hover {
+      color: $color-orange;
+    }
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  .root {
+    .wrapper {
+      .info {
+        h1 {
+          font-size: 24px;
         }
         p {
-          color: $color-black;
-          font-size: calc(#{$size}/ 1.5);
-          margin-bottom: 1%;
-          text-decoration: underline;
-          cursor: pointer;
-          transition: all 0.3s;
-          &:hover {
-            color: $color-orange;
+          font-size: 17px;
+        }
+        .buttons {
+          gap: 8px;
+          button {
+            font-size: 15px;
+            height: 45px;
           }
+        }
+        .list_block {
+          p {
+            font-size: 17px;
+          }
+          ul {
+            li {
+              font-size: 17px;
+            }
+          }
+        }
+        .contact_person {
+          div {
+            div {
+              p {
+                font-size: 16px;
+              }
+              a {
+                font-size: 17px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .hot_cards {
+    .heading {
+      font-size: 17px;
+    }
+    a {
+      font-size: 15px;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .root {
+    .wrapper {
+      .info {
+        h1 {
+          font-size: 18px;
+        }
+        p {
+          font-size: 13px;
+        }
+        .buttons {
+          gap: 8px;
+          button {
+            font-size: 12px;
+            height: 33px;
+          }
+        }
+        .list_block {
+          p {
+            font-size: 13px;
+          }
+          ul {
+            li {
+              font-size: 13px;
+            }
+          }
+        }
+        .contact_person {
+          div {
+            div {
+              p {
+                font-size: 13px;
+              }
+              a {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .hot_cards {
+    .heading {
+      font-size: 15px;
+    }
+    a {
+      font-size: 13px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .root {
+    padding-top: 11%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .root {
+    .wrapper {
+      flex-direction: column;
+      row-gap: 25px;
+      .info {
+        width: 100%;
+        h1 {
+          font-size: 18px;
+        }
+        p {
+          font-size: 13px;
+        }
+        .buttons {
+          button {
+            font-size: 12px;
+          }
+        }
+        .list_block {
+          p {
+            font-size: 13px;
+          }
+          ul {
+            width: 95%;
+            li {
+              font-size: 13px;
+            }
+          }
+        }
+        .contact_person {
+          width: 94%;
+          div {
+            div {
+              p {
+                font-size: 13px;
+              }
+              a {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+      .side_block {
+        width: 100%;
+        margin-bottom: 5%;
+      }
+    }
+  }
+  .hot_cards {
+    width: 90%;
+    margin-bottom: 2%;
+    .heading {
+      font-size: 15px;
+    }
+    a {
+      font-size: 13px;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .root {
+    padding-top: 17%;
+    .wrapper {
+      width: 95%;
+      row-gap: 15px;
+      .info {
+        h1 {
+          font-size: 18px;
+        }
+        p {
+          font-size: 14px;
+        }
+        .buttons {
+          button {
+            font-size: 12px;
+          }
+        }
+        .list_block {
+          p {
+            font-size: 14px;
+          }
+          ul {
+            li {
+              font-size: 14px;
+            }
+          }
+        }
+        .contact_person {
+          div {
+            div {
+              p {
+                font-size: 14px;
+              }
+              a {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .hot_cards {
+    width: 94%;
+    padding: 3%;
+    .heading {
+      font-size: 16px;
+    }
+    a {
+      font-size: 14px;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .root {
+    padding-top: 19%;
+    .wrapper {
+      .info {
+        .contact_person {
+          flex-direction: column;
+          row-gap: 15px;
+          justify-content: flex-start;
+          align-items: flex-start;
         }
       }
     }

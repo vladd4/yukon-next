@@ -1,4 +1,3 @@
-import ContactForm from "@/components/ContactForm/ContactForm";
 import { useLocale } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
 import Head from "next/head";
@@ -25,7 +24,7 @@ export const metadata = {
   },
 };
 
-export default function NewsLayout({
+export default function CareerLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -37,28 +36,25 @@ export default function NewsLayout({
       <Head>
         <link
           rel="canonical"
-          href={`https://www.jukon.com.ua/${locale}/news`}
+          href={`https://www.jukon.com.ua/${locale}/career`}
         />
         <link
           rel="alternate"
           hrefLang="en"
-          href="https://www.jukon.com.ua/en/news"
+          href="https://www.jukon.com.ua/en/career"
         />
         <link
           rel="alternate"
           hrefLang="uk"
-          href="https://www.jukon.com.ua/uk/news"
+          href="https://www.jukon.com.ua/uk/career"
         />
         <link
           rel="alternate"
           hrefLang="x-default"
-          href="https://www.jukon.com.ua/uk/news"
+          href="https://www.jukon.com.ua/uk/career"
         />
       </Head>
-      <main>
-        {children}
-        <ContactForm />
-      </main>
+      <main>{children}</main>
     </>
   );
 }

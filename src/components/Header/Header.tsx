@@ -19,15 +19,48 @@ import { Link } from "@/navigation";
 import { usePathname, useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 import LocaleSwitcher from "../LocaleSwitcher/LocaleSwitcher";
+import { useEffect, useState } from "react";
 
 const Header = () => {
   const { isScrolled } = useScroll();
   const dispatch = useAppDispatch();
 
+  const [isPathMatch, setIsPathMatch] = useState(false);
   const pathName = usePathname();
   const router = useRouter();
 
   const t = useTranslations();
+
+  const getBackLink = () => {
+    return nav_links.map((link) => {
+      const isCareerLink = link.label === "Кар'єра";
+      const href = isCareerLink
+        ? `${link.href}`
+        : isPathMatch
+        ? `/${link.href}`
+        : link.href;
+
+      const LinkComponent = isCareerLink || isPathMatch ? Link : AnchorLink;
+
+      return (
+        <LinkComponent key={link.label} href={href}>
+          {t(link.label)}
+        </LinkComponent>
+      );
+    });
+  };
+
+  useEffect(() => {
+    const checkPathMatch = () => {
+      return (
+        pathName.includes("news") ||
+        pathName.includes("projects") ||
+        pathName.includes("career")
+      );
+    };
+
+    setIsPathMatch(checkPathMatch());
+  }, [pathName]);
 
   const handleLogoClick = () => {
     router.push("/");
@@ -36,13 +69,9 @@ const Header = () => {
   return (
     <>
       <header
-        className={`${styles.root} ${
-          pathName.includes("news") ||
-          pathName.includes("projects") ||
-          pathName.includes("career")
-            ? styles.news_root
-            : ""
-        } ${isScrolled ? styles.scrolled : ""}`}
+        className={`${styles.root} ${isPathMatch ? styles.news_root : ""} ${
+          isScrolled ? styles.scrolled : ""
+        }`}
       >
         <article className={styles.wrapper}>
           <Image
@@ -50,53 +79,19 @@ const Header = () => {
             width={209}
             height={81}
             priority={true}
-            src={
-              isScrolled ||
-              pathName.includes("news") ||
-              pathName.includes("projects") ||
-              pathName.includes("career")
-                ? LogoBlack
-                : Logo
-            }
+            src={isScrolled || isPathMatch ? LogoBlack : Logo}
             onClick={handleLogoClick}
           />
-          <nav>
-            {pathName.includes("news") || pathName.includes("projects") ? (
-              <Link href="/" className={styles.back}>
-                {t("header.back_to_main")} <Undo2 size={16} />
-              </Link>
-            ) : (
-              nav_links.map((link) => {
-                return (
-                  <AnchorLink key={link.label} href={link.href}>
-                    {t(link.label)}
-                  </AnchorLink>
-                );
-              })
-            )}
-          </nav>
-          {pathName.includes("news") || pathName.includes("projects") ? (
-            <Link href="/" className={styles.back_mobile}>
-              {t("header.back_to_main")} <Undo2 size={16} />
-            </Link>
-          ) : (
-            <Menu
-              id="burger"
-              size={28}
-              className={styles.hamburger_icon}
-              color={
-                pathName.includes("news") || pathName.includes("projects")
-                  ? "#292929"
-                  : isScrolled
-                  ? "#292929"
-                  : "#fff"
-              }
-              onClick={() => {
-                dispatch(setShowBurger(true));
-              }}
-            />
-          )}
-
+          <nav>{getBackLink()}</nav>
+          <Menu
+            id="burger"
+            size={28}
+            className={styles.hamburger_icon}
+            color={isPathMatch ? "#292929" : isScrolled ? "#292929" : "#fff"}
+            onClick={() => {
+              dispatch(setShowBurger(true));
+            }}
+          />
           <LocaleSwitcher className={styles.lang_block} />
         </article>
       </header>

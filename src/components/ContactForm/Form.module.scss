@@ -4,7 +4,7 @@
   width: 100%;
   display: grid;
   place-items: center;
-  padding: 5% 0%;
+  padding: 2% 0%;
   padding-bottom: 0%;
   overflow-x: hidden;
   .wrapper {
@@ -42,6 +42,68 @@
         display: grid;
         place-items: center;
         margin-bottom: 5%;
+        .resume_block {
+          width: 100%;
+          display: flex;
+          align-items: flex-start;
+          justify-content: flex-start;
+          gap: 5%;
+          margin-bottom: 4%;
+          justify-self: flex-start;
+          .button_block {
+            width: 50%;
+            display: grid;
+            place-items: flex-start;
+            row-gap: 5px;
+            .resume_btn {
+              border-radius: 5px;
+              background-color: $color-orange;
+              color: $color-white;
+              font-size: calc(#{$size}/ 1.5);
+              font-family: inherit;
+              width: 100%;
+              padding: 5% 3%;
+              border: 2px solid $color-orange;
+              cursor: pointer;
+              transition: all 0.3s;
+              &:hover {
+                color: $color-black;
+                border-color: $color-black;
+                background-color: transparent;
+              }
+            }
+            .filename {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+              gap: 5px;
+              p {
+                width: fit-content;
+                font-size: calc(#{$size}/ 1.7);
+              }
+              svg {
+                cursor: pointer;
+                transition: all 0.3s;
+                height: auto;
+                width: 7%;
+                color: red;
+                &:hover {
+                  opacity: 0.5;
+                }
+              }
+            }
+          }
+
+          p {
+            color: #898989;
+            font-size: calc(#{$size}/ 1.9);
+            font-weight: 300;
+            font-family: inherit;
+            width: 45%;
+          }
+        }
+
         .name_input_div,
         .phone_input_div {
           position: relative;
@@ -353,6 +415,24 @@
         form {
           width: 100%;
           margin-bottom: 80px;
+          .resume_block {
+            .button_block {
+              .resume_btn {
+                font-size: 15px;
+              }
+              .filename {
+                p {
+                  font-size: 15px;
+                }
+                svg {
+                  width: 7%;
+                }
+              }
+            }
+            p {
+              font-size: 12px;
+            }
+          }
           div {
             input,
             textarea {

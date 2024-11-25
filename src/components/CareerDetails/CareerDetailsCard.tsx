@@ -1,18 +1,21 @@
+"use client";
+
 import Link from "next/link";
 import styles from "./CareerDetails.module.scss";
+import { useLocale } from "next-intl";
+import { Vacancy } from "@/types/vacancy.type";
 
 interface CarrerCardProps {
   label: string;
-  vacancies: {
-    label: string;
-    href: string;
-  }[];
+  vacancies: Vacancy[];
 }
 
 export default function CareerDetailsCard({
   label,
   vacancies,
 }: CarrerCardProps) {
+  const locale = useLocale();
+
   return (
     <div className={styles.hot_cards}>
       <p className={styles.heading}>{label}</p>
@@ -20,8 +23,12 @@ export default function CareerDetailsCard({
         vacancies.length > 0 &&
         vacancies.map((item) => {
           return (
-            <Link key={item.href} href={item.href} className={styles.hot_item}>
-              {item.label}
+            <Link
+              key={item.id}
+              href={`/${locale}/career/vacancy?id=${item.id}`}
+              className={styles.hot_item}
+            >
+              {item.heading + ", " + item.location}
             </Link>
           );
         })}

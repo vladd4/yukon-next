@@ -2,7 +2,7 @@
 
 import styles from "./Header.module.scss";
 
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { nav_links } from "../../static_store/navbar";
@@ -14,12 +14,19 @@ import Close from "@/../public/close.png";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import LocaleSwitcher from "../LocaleSwitcher/LocaleSwitcher";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Burger = () => {
   const { showBurger } = useAppSelector((state) => state.burger);
   const dispatch = useAppDispatch();
 
   const burgerRef = useRef(null);
+
+  const locale = useLocale();
+
+  const [isPathMatch, setIsPathMatch] = useState(false);
+  const pathName = usePathname();
 
   const handleCloseBurger = () => {
     dispatch(setShowBurger(false));
@@ -31,6 +38,37 @@ const Burger = () => {
   useClickOutside(burgerRef, showBurger, handleCloseBurger, burgerElement);
 
   const t = useTranslations();
+
+  const getBackLink = () => {
+    return nav_links.map((link) => {
+      const isCareerLink = link.label === "Кар'єра";
+      const href = isCareerLink
+        ? `/${locale}/${link.href}`
+        : isPathMatch
+        ? `/${link.href}`
+        : link.href;
+
+      const LinkComponent = isCareerLink || isPathMatch ? Link : AnchorLink;
+
+      return (
+        <LinkComponent key={link.label} href={href} onClick={handleCloseBurger}>
+          {t(link.label)}
+        </LinkComponent>
+      );
+    });
+  };
+
+  useEffect(() => {
+    const checkPathMatch = () => {
+      return (
+        pathName.includes("news") ||
+        pathName.includes("projects") ||
+        pathName.includes("career")
+      );
+    };
+
+    setIsPathMatch(checkPathMatch());
+  }, [pathName]);
 
   return (
     <>
@@ -47,19 +85,7 @@ const Burger = () => {
             onClick={handleCloseBurger}
             className={styles.span}
           />
-          <nav>
-            {nav_links.map((link) => {
-              return (
-                <AnchorLink
-                  onClick={handleCloseBurger}
-                  key={link.href}
-                  href={link.href}
-                >
-                  {t(link.label)}
-                </AnchorLink>
-              );
-            })}
-          </nav>
+          <nav>{getBackLink()}</nav>
           <LocaleSwitcher className={styles.lang_block} />
         </article>
       </article>
