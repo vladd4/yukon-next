@@ -210,6 +210,54 @@
   }
 }
 
+@media screen and (min-width: 1550px) {
+  .root {
+    .wrapper {
+      .heading_block {
+        .text {
+          h1 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 17px;
+          }
+        }
+      }
+      .filter_block {
+        button {
+          font-size: 15px;
+        }
+        .search_block {
+          input {
+            font-size: 15px;
+            &::placeholder {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+      .cards_block {
+        .no_data {
+          min-height: 150px;
+          font-size: 17px;
+        }
+      }
+    }
+  }
+  .card_root {
+    min-height: 150px;
+    h5 {
+      font-size: 20px;
+    }
+    .buttons {
+      button {
+        font-size: 15px;
+        height: 45px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .root {
     .wrapper {

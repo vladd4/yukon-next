@@ -1,6 +1,13 @@
 "use client";
 
-import { Clock, Flame, MapPin, Shield, Sparkle } from "lucide-react";
+import {
+  Clock,
+  Flame,
+  GraduationCap,
+  MapPin,
+  Shield,
+  Sparkle,
+} from "lucide-react";
 import styles from "./Career.module.scss";
 import { useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
@@ -13,6 +20,7 @@ interface CarrerCardProps {
   withoutExperience?: boolean;
   isMilitaryFree?: boolean;
   vacancyId: string;
+  withEducation?: boolean;
 }
 
 export default function CareerCard({
@@ -23,6 +31,7 @@ export default function CareerCard({
   withoutExperience,
   isMilitaryFree,
   vacancyId,
+  withEducation,
 }: CarrerCardProps) {
   const router = useRouter();
 
@@ -56,6 +65,11 @@ export default function CareerCard({
         {isMilitaryFree && (
           <button>
             <Shield size={18} /> Надаємо бронь
+          </button>
+        )}
+        {withEducation && (
+          <button>
+            <GraduationCap size={18} /> Сертифікати/освіта
           </button>
         )}
       </div>

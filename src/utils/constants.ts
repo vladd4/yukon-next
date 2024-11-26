@@ -3,6 +3,7 @@ export enum VacancyCategory {
   OFFICE = "office",
   SHOP = "shop",
   WAREHOUSE = "warehouse",
+  LOGISTIC = "logistic",
 }
 
 export const Career_Filters = [
@@ -15,11 +16,15 @@ export const Career_Filters = [
     value: VacancyCategory.OFFICE,
   },
   {
-    label: "Магазин",
-    value: VacancyCategory.SHOP,
+    label: "Логістика",
+    value: VacancyCategory.LOGISTIC,
   },
   {
     label: "Склад",
     value: VacancyCategory.WAREHOUSE,
+  },
+  {
+    label: "Заклади",
+    value: VacancyCategory.SHOP,
   },
 ];

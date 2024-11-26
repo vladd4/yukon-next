@@ -60,6 +60,8 @@ export default function CareerBlock() {
                   isFullTime={item.isFullTime}
                   isHot={item.isHot}
                   isMilitaryFree={item.isMilitaryFree}
+                  withEducation={item.education}
+                  withoutExperience={item.withoutExperience}
                 />
               ))
             ) : (
@@ -67,7 +69,7 @@ export default function CareerBlock() {
                 Щодних вакансій за Вашим пошуком не знайдено.
               </p>
             )
-          ) : (
+          ) : filteredVacancies.length > 0 ? (
             filteredVacancies.map((item) => (
               <CareerCard
                 key={item.id}
@@ -77,8 +79,14 @@ export default function CareerBlock() {
                 isFullTime={item.isFullTime}
                 isHot={item.isHot}
                 isMilitaryFree={item.isMilitaryFree}
+                withEducation={item.education}
+                withoutExperience={item.withoutExperience}
               />
             ))
+          ) : (
+            <p className={styles.no_data}>
+              Вакансій за заданим фільтром скоро з'являться, очікуйте.
+            </p>
           )}
         </div>
       </article>

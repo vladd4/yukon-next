@@ -11,6 +11,8 @@ export type Vacancy = {
   isHot?: boolean;
   isFullTime: boolean;
   isRemote?: boolean;
+  withoutExperience?: boolean;
+  education?: boolean;
   isMilitaryFree?: boolean;
   responsibilities?: string[];
   requirements?: string[];

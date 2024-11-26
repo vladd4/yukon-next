@@ -1,4 +1,13 @@
-import { Clock, Flame, Mail, MapPin, Phone, Shield } from "lucide-react";
+import {
+  Clock,
+  Flame,
+  GraduationCap,
+  Mail,
+  MapPin,
+  Phone,
+  Shield,
+  Sparkle,
+} from "lucide-react";
 import styles from "./CareerDetails.module.scss";
 import CareerDetailsCard from "./CareerDetailsCard";
 import { vacancies } from "@/static_store/vacancies";
@@ -16,9 +25,7 @@ export default function CareerDetails({ vacancy }: CareerProps) {
   );
 
   const similarVacancies = vacancies.filter(
-    (item) =>
-      item.heading.toLowerCase().includes(vacancy?.heading.toLowerCase()) &&
-      item.id !== vacancy.id
+    (item) => item.category === vacancy.category && item.id !== vacancy.id
   );
 
   return (
@@ -39,9 +46,19 @@ export default function CareerDetails({ vacancy }: CareerProps) {
                 <Flame size={18} fill="#e78526" /> Гаряча вакансія
               </button>
             )}
+            {vacancy.withoutExperience && (
+              <button>
+                <Sparkle size={18} /> Без досвіду
+              </button>
+            )}
             {vacancy.isMilitaryFree && (
               <button>
                 <Shield size={18} /> Надаємо бронь
+              </button>
+            )}
+            {vacancy.education && (
+              <button>
+                <GraduationCap size={18} /> Сертифікати/освіта
               </button>
             )}
           </div>
@@ -104,14 +121,18 @@ export default function CareerDetails({ vacancy }: CareerProps) {
           </div>
         </div>
         <div className={styles.side_block}>
-          <CareerDetailsCard
-            label="🔥 Гарячі вакансії"
-            vacancies={hotVacancies}
-          />
-          <CareerDetailsCard
-            label="Схожі вакансії"
-            vacancies={similarVacancies}
-          />
+          {hotVacancies.length > 0 && (
+            <CareerDetailsCard
+              label="🔥 Гарячі вакансії"
+              vacancies={hotVacancies}
+            />
+          )}
+          {similarVacancies.length > 0 && (
+            <CareerDetailsCard
+              label="Схожі вакансії"
+              vacancies={similarVacancies}
+            />
+          )}
         </div>
       </article>
     </section>
