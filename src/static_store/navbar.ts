@@ -16,7 +16,7 @@ export const nav_links = [
     href: "#projects",
   },
   {
-    label: "Кар'єра",
+    label: "header.link_7",
     href: "/career?type=all",
   },
   {

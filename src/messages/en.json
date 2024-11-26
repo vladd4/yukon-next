@@ -6,6 +6,7 @@
         "link_4": "Our Clients",
         "link_5": "News",
         "link_6": "Contacts",
+        "link_7": "Career",
         "back": "Go Back"
     },
     "welcome_text": "YUKON is a distribution company that has been operating and successfully developing in the Ukrainian fast-moving consumer goods market since 2000. The company's concept is the fast connection between the buyer and the manufacturer. Our clients receive a wide range of products and service at the highest level. We represent the products of many well-known brands and manufacturers. We work with local and national retail outlets, gas stations, pharmacies, and HORECA.",
@@ -113,5 +114,25 @@
         "location": "Volodymyrska St. 135, Kovel"
     },
     "not_found": "Oops. Page not found!",
-    "not_found_btn": "Back to main"
+    "not_found_btn": "Back to main",
+    "career": {
+        "heading": "Join Our Team",
+        "description": "We are looking for talented and motivated professionals who are eager for professional development and ready to grow with us. If you have a desire to learn, take on new challenges, and share our values and corporate culture, we are happy to offer you opportunities for both professional and personal growth. Join us and together we will create the future!",
+        "search_label": "Search for vacancies...",
+        "no_filtered_data": "No daily vacancies found for your search.",
+        "no_data": "Vacancies for the selected filter will appear soon, please wait.",
+        "category": {
+            "all": "All vacancies",
+            "office": "Office",
+            "logistic": "Logistics",
+            "warehouse": "Warehouse",
+            "shop": "Shops"
+        },
+        "hot_label": "🔥 Hot Vacancies",
+        "similar_label": "Similar Vacancies",
+        "view_more": "View More",
+        "form_heading": "Want to work with us? Fill out the form so we can contact you",
+        "resume_btn": "Upload Resume",
+        "resume_hint": "Add a file in doc, docx, pdf, jpg, png format, up to 5 MB in size"
+    }
 }

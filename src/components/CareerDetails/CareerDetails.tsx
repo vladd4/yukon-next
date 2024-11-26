@@ -32,7 +32,7 @@ export default function CareerDetails({ vacancy }: CareerProps) {
     <section className={styles.root}>
       <article className={styles.wrapper}>
         <div className={styles.info}>
-          <h1>Вакансія - {vacancy.heading}</h1>
+          <h1>Вакансія - {`${vacancy.heading}, м. ${vacancy.location}`}</h1>
           <div className={styles.buttons}>
             <button>
               <MapPin size={18} /> {vacancy.location}
@@ -123,13 +123,13 @@ export default function CareerDetails({ vacancy }: CareerProps) {
         <div className={styles.side_block}>
           {hotVacancies.length > 0 && (
             <CareerDetailsCard
-              label="🔥 Гарячі вакансії"
+              label="career.hot_label"
               vacancies={hotVacancies}
             />
           )}
           {similarVacancies.length > 0 && (
             <CareerDetailsCard
-              label="Схожі вакансії"
+              label="career.similar_label"
               vacancies={similarVacancies}
             />
           )}

@@ -3,6 +3,7 @@
 import styles from "./Career.module.scss";
 import { Career_Filters } from "@/utils/constants";
 import SearchBar from "./SearchBar";
+import { useTranslations } from "next-intl";
 
 interface FilterProps {
   activeFilter: string;
@@ -17,6 +18,8 @@ export default function CareerFilters({
     setActiveFilter(filter);
   };
 
+  const t = useTranslations();
+
   return (
     <div className={styles.filter_block}>
       <div className={styles.left_block}>
@@ -26,7 +29,7 @@ export default function CareerFilters({
             className={`${filter.value === activeFilter ? styles.active : ""}`}
             onClick={() => handleFilterChange(filter.value)}
           >
-            {filter.label}
+            {t(filter.label)}
           </button>
         ))}
       </div>

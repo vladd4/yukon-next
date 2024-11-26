@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import styles from "./CareerDetails.module.scss";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Vacancy } from "@/types/vacancy.type";
 
 interface CarrerCardProps {
@@ -15,10 +15,11 @@ export default function CareerDetailsCard({
   vacancies,
 }: CarrerCardProps) {
   const locale = useLocale();
+  const t = useTranslations();
 
   return (
     <div className={styles.hot_cards}>
-      <p className={styles.heading}>{label}</p>
+      <p className={styles.heading}>{t(label)}</p>
       {vacancies &&
         vacancies.length > 0 &&
         vacancies.map((item) => {
@@ -33,7 +34,7 @@ export default function CareerDetailsCard({
           );
         })}
       <Link href={`/${locale}/career`} className={styles.hot_item}>
-        Дивитись більше
+        {t("career.view_more")}
       </Link>
     </div>
   );

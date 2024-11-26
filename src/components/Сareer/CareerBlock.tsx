@@ -6,11 +6,16 @@ import CareerCard from "./CareerCard";
 import CarrerFilters from "./CareerFilters";
 import { useState, useEffect } from "react";
 import { Career_Filters, VacancyCategory } from "@/utils/constants";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import { useAppSelector } from "@/hooks/redux-hooks";
+import { useTranslations } from "next-intl";
 
 export default function CareerBlock() {
   const params = useSearchParams();
+  const router = useRouter();
+
+  const t = useTranslations();
+
   const [activeFilter, setActiveFilter] = useState<string>(
     params.get("type") || Career_Filters[0].value
   );
@@ -23,25 +28,23 @@ export default function CareerBlock() {
   );
 
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    params.set("type", activeFilter);
-    window.history.replaceState(null, "", `?${params.toString()}`);
-  }, [activeFilter]);
+    const currentType = params.get("type") || Career_Filters[0].value;
+    setActiveFilter(currentType);
+  }, [params]);
+
+  useEffect(() => {
+    const queryParams = new URLSearchParams(window.location.search);
+    queryParams.set("type", activeFilter);
+    router.push(`?${queryParams.toString()}`, undefined);
+  }, [activeFilter, router]);
 
   return (
     <section className={styles.root}>
       <article className={styles.wrapper}>
         <div className={styles.heading_block}>
           <div className={styles.text}>
-            <h1>Приєднуйтесь до нашої команди</h1>
-            <p>
-              Ми шукаємо талановитих та мотивованих спеціалістів, які прагнуть
-              професійного розвитку і готові розвиватися разом з нами. Якщо ви
-              маєте бажання вчитися, брати на себе нові виклики та поділяєте
-              наші цінності та корпоративну культуру, ми раді запропонувати вам
-              можливість для професійного та особистісного зростання.
-              Приєднуйтесь до нас і разом ми будемо створювати майбутнє!
-            </p>
+            <h1>{t("career.heading")}</h1>
+            <p>{t("career.description")}</p>
           </div>
           <CarrerFilters
             activeFilter={activeFilter}
@@ -65,9 +68,7 @@ export default function CareerBlock() {
                 />
               ))
             ) : (
-              <p className={styles.no_data}>
-                Щодних вакансій за Вашим пошуком не знайдено.
-              </p>
+              <p className={styles.no_data}>{t("career.no_filtered_data")}</p>
             )
           ) : filteredVacancies.length > 0 ? (
             filteredVacancies.map((item) => (
@@ -84,9 +85,7 @@ export default function CareerBlock() {
               />
             ))
           ) : (
-            <p className={styles.no_data}>
-              Вакансій за заданим фільтром скоро з'являться, очікуйте.
-            </p>
+            <p className={styles.no_data}>{t("career.no_data")}</p>
           )}
         </div>
       </article>

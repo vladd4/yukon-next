@@ -1,7 +1,7 @@
 import ProjectMobilePage from "@/components/ProjectMobilePage/ProjectMobilePage";
 
 import { news } from "@/static_store/news";
-import { Metadata, ResolvingMetadata } from "next";
+import { Metadata } from "next";
 import { useLocale } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
 

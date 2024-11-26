@@ -8,6 +8,7 @@ import { useAppDispatch } from "@/hooks/redux-hooks";
 import useSearchDebounce from "@/hooks/useSearchDebounce";
 import { searchVacancyByName } from "@/utils/searchVacancyByName";
 import { VacancyCategory } from "@/utils/constants";
+import { useTranslations } from "next-intl";
 
 interface SearchBarProps {
   activeFilter: string;
@@ -18,6 +19,8 @@ export default function SearchBar({ activeFilter }: SearchBarProps) {
 
   const dispatch = useAppDispatch();
 
+  const t = useTranslations();
+
   useSearchDebounce(searchValue, () =>
     searchVacancyByName(searchValue, activeFilter as VacancyCategory, dispatch)
   );
@@ -27,7 +30,7 @@ export default function SearchBar({ activeFilter }: SearchBarProps) {
       <Search />
       <input
         type="text"
-        placeholder="Пошук вакансій..."
+        placeholder={t("career.search_label")}
         value={searchValue}
         onChange={(e) => setSearchValue(e.target.value)}
       />

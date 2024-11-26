@@ -33,7 +33,7 @@ const Header = () => {
 
   const getBackLink = () => {
     return nav_links.map((link) => {
-      const isCareerLink = link.label === "Кар'єра";
+      const isCareerLink = link.label === "header.link_7";
       const href = isCareerLink
         ? `${link.href}`
         : isPathMatch

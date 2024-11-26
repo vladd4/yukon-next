@@ -89,10 +89,7 @@ const CareerForm = ({ vacancy }: CareerFormProps) => {
       <article className={styles.wrapper}>
         <div className={styles.heading}>
           <span>{t("form.span")}</span>
-          <h3>
-            Хочете працювати у нас? Заповніть форму, щоб ми змогли зв'язатись з
-            вами
-          </h3>
+          <h3>{t("career.form_heading")}</h3>
         </div>
         <div className={styles.form_block}>
           <Image
@@ -143,7 +140,7 @@ const CareerForm = ({ vacancy }: CareerFormProps) => {
                   onClick={() => handleImageClick(fileInputRef)}
                   className={styles.resume_btn}
                 >
-                  Завантажити резюме
+                  {t("career.resume_btn")}
                 </button>
                 {resumeFile && (
                   <div className={styles.filename}>
@@ -159,10 +156,7 @@ const CareerForm = ({ vacancy }: CareerFormProps) => {
                 ref={fileInputRef}
                 style={{ display: "none" }}
               />
-              <p>
-                Додайте файл у форматі doc, docx, pdf, jpg, png, розміром до 5
-                МБ
-              </p>
+              <p>{t("career.resume_hint")}</p>
             </div>
 
             <div className={styles.form_button}>

@@ -8,23 +8,23 @@ export enum VacancyCategory {
 
 export const Career_Filters = [
   {
-    label: "Всі вакансії",
+    label: "career.category.all",
     value: VacancyCategory.ALL,
   },
   {
-    label: "Офіс",
+    label: "career.category.office",
     value: VacancyCategory.OFFICE,
   },
   {
-    label: "Логістика",
+    label: "career.category.logistic",
     value: VacancyCategory.LOGISTIC,
   },
   {
-    label: "Склад",
+    label: "career.category.warehouse",
     value: VacancyCategory.WAREHOUSE,
   },
   {
-    label: "Заклади",
+    label: "career.category.shop",
     value: VacancyCategory.SHOP,
   },
 ];

@@ -43,7 +43,7 @@ export default function CareerCard({
 
   return (
     <div className={styles.card_root} onClick={handleVacancyClick}>
-      <h5>{label}</h5>
+      <h5>{`${label}, м. ${location}`}</h5>
       <div className={styles.buttons}>
         <button>
           <MapPin size={18} /> {location}
