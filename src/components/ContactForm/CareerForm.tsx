@@ -9,6 +9,8 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import FormImage from "@/../public/form.webp";
 import FormBack from "@/../public/form-back.webp";
 
+import toast from "react-hot-toast";
+
 import { useForm } from "react-hook-form";
 import {
   sendFileToTelegram,
@@ -16,8 +18,6 @@ import {
 } from "../../utils/sendFormToTelegram";
 import { careerFormSchema, CareerFormValues } from "../formSchema";
 
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { ArrowDownRight, X } from "lucide-react";
@@ -72,49 +72,20 @@ const CareerForm = ({ vacancy }: CareerFormProps) => {
       toast.success(
         locale === "uk"
           ? "Заявка успішно відправлена! Ми скоро зв'яжемось з Вами."
-          : "Message was send succesfully! We will contact you soon.",
-        {
-          position: "bottom-left",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "light",
-        }
+          : "Message was send succesfully! We will contact you soon."
       );
     }
   };
 
   useEffect(() => {
     if (errors.email || errors.phoneNumber) {
-      toast.error(errors.email?.message, {
-        position: "bottom-left",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
-      });
-      toast.error(errors.phoneNumber?.message, {
-        position: "bottom-left",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
-      });
+      toast.error(errors.email?.message || "");
+      toast.error(errors.phoneNumber?.message || "");
     }
   }, [errors]);
 
   return (
     <section className={styles.root} id="form">
-      <ToastContainer />
       <article className={styles.wrapper}>
         <div className={styles.heading}>
           <span>{t("form.span")}</span>

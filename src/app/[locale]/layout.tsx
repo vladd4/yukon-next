@@ -12,6 +12,8 @@ import { Montserrat } from "next/font/google";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 
+import { Toaster } from "react-hot-toast";
+
 const mont = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -129,6 +131,7 @@ export default function RootLayout({
         <NextIntlClientProvider messages={messages}>
           <ReduxProvider>
             <AlertForm />
+            <Toaster position="bottom-left" reverseOrder={false} />
             <Header />
             {children}
             <Footer />

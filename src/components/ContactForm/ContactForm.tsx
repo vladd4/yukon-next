@@ -13,11 +13,10 @@ import { useForm } from "react-hook-form";
 import { sendFormToTelegram } from "../../utils/sendFormToTelegram";
 import { FormValues, formSchema } from "../formSchema";
 
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { ArrowDownRight } from "lucide-react";
+import toast from "react-hot-toast";
 
 interface ContactFormProps {
   isCareer?: boolean;
@@ -44,38 +43,18 @@ const ContactForm = ({ isCareer }: ContactFormProps) => {
     toast.success(
       locale === "uk"
         ? "Повідомлення успішно відправлене!"
-        : "Message was send succesfully!",
-      {
-        position: "bottom-left",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
-      }
+        : "Message was send succesfully!"
     );
     reset();
   };
 
   useEffect(() => {
     if (errors.email) {
-      toast.error(errors.email?.message, {
-        position: "bottom-left",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
-      });
+      toast.error(errors.email?.message || "");
     }
   }, [errors]);
   return (
     <section className={styles.root} id="form">
-      <ToastContainer />
       <article className={styles.wrapper}>
         <div className={styles.heading}>
           <span>{t("form.span")}</span>

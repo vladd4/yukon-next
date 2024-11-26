@@ -11,8 +11,6 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { AlertFormValues, alertFormSchema } from "../formSchema";
 import { sendFormToTelegram } from "../../utils/sendFormToTelegram";
 
-import "react-toastify/dist/ReactToastify.css";
-
 import { useAppDispatch, useAppSelector } from "../../hooks/redux-hooks";
 import { setShowAlert } from "../../redux/slices/alertSlice";
 import useClickOutside from "../../hooks/useClickOutside";
