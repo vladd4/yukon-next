@@ -22,10 +22,12 @@ export default function CareerBlock() {
 
   const filteredSlice = useAppSelector((state) => state.search);
 
-  const filteredVacancies = vacancies.filter(
-    (item) =>
-      item.category === activeFilter || activeFilter === VacancyCategory.ALL
-  );
+  const filteredVacancies = vacancies
+    .filter(
+      (item) =>
+        item.category === activeFilter || activeFilter === VacancyCategory.ALL
+    )
+    .sort((a, b) => Number(b.id) - Number(a.id));
 
   useEffect(() => {
     const currentType = params.get("type") || Career_Filters[0].value;
