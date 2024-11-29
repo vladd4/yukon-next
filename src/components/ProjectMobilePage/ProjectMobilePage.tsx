@@ -105,6 +105,7 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
             />
           </div>
         ) : null}
+
         {detail_item.description_3 && (
           <div className={styles.group_block_text}>
             <div className={styles.text}>
@@ -117,6 +118,36 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
                 })}
               </div>
             </div>
+          </div>
+        )}
+        {detail_item.image_4 && detail_item.image_5 && (
+          <div className={styles.group_block_photo}>
+            <Image
+              alt="Project"
+              width={1200}
+              height={1200}
+              src={detail_item.image_4}
+              style={{
+                width: `${
+                  detail_item.image_vertical_width
+                    ? detail_item.image_vertical_width
+                    : ""
+                }`,
+              }}
+            />
+            <Image
+              alt="Project"
+              width={1200}
+              height={1200}
+              src={detail_item.image_5}
+              style={{
+                width: `${
+                  detail_item.image_vertical_width
+                    ? detail_item.image_vertical_width
+                    : ""
+                }`,
+              }}
+            />
           </div>
         )}
         {detail_item.description_2 || detail_item.image_2

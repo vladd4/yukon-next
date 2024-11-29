@@ -22,6 +22,8 @@ import Estonia_2 from "@/../public/news/estonia_3.jpg";
 import Leleka from "@/../public/news/leleka_analytic_1.jpg";
 import Leleka_1 from "@/../public/news/leleka_analytic_3.png";
 import Leleka_2 from "@/../public/news/leleka_analytic_4.png";
+import Leleka_3 from "@/../public/news/leleka_analytic_5.jpg";
+import Leleka_4 from "@/../public/projects/charge.webp";
 
 export const news: DetailsItem[] = [
   {
@@ -31,10 +33,13 @@ export const news: DetailsItem[] = [
     description_2: "news.leleka_description_2",
     description_3: "news.leleka_description_3",
     image_width: "49%",
+    image_vertical_width: "40%",
     href: "https://maps.app.goo.gl/tvsVCee9zXLA7zHJ7?g_st=it",
     image: Leleka,
     image_2: Leleka_2,
     image_3: Leleka_1,
+    image_4: Leleka_4,
+    image_5: Leleka_3,
     isBlured: true,
     meta_heading: "Рік роботи ЕЗС «Leleka energy»",
     meta_description:

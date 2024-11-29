@@ -16,5 +16,8 @@ export type DetailsItem = {
   description_3?: string;
   image_2?: StaticImageData;
   image_3?: StaticImageData;
+  image_4?: StaticImageData;
+  image_5?: StaticImageData;
   image_width?: string;
+  image_vertical_width?: string;
 };
