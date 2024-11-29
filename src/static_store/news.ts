@@ -19,8 +19,27 @@ import Wine_2 from "@/../public/news/wine_2.jpg";
 import Estonia from "@/../public/news/estonia_1.jpg";
 import Estonia_1 from "@/../public/news/estonia_2.jpg";
 import Estonia_2 from "@/../public/news/estonia_3.jpg";
+import Leleka from "@/../public/news/leleka_analytic_1.jpg";
+import Leleka_1 from "@/../public/news/leleka_analytic_3.png";
+import Leleka_2 from "@/../public/news/leleka_analytic_4.png";
 
 export const news: DetailsItem[] = [
+  {
+    id: "14",
+    heading: "news.leleka_heading",
+    description: "news.leleka_description_1",
+    description_2: "news.leleka_description_2",
+    description_3: "news.leleka_description_3",
+    image_width: "49%",
+    href: "https://maps.app.goo.gl/tvsVCee9zXLA7zHJ7?g_st=it",
+    image: Leleka,
+    image_2: Leleka_2,
+    image_3: Leleka_1,
+    isBlured: true,
+    meta_heading: "Рік роботи ЕЗС «Leleka energy»",
+    meta_description:
+      "Проаналізувавши відомості щодо розвитку європейського ринку електричної мобільності, розглянувши успішні українські бізнес-кейси, врахувавши усі непередбачувані обставини воєнного часу, ми ризикнули і минулоріч за рахунок співпраці з оператором GO TO-U в Ковелі встановили першу на Волині найпотужнішу зарядну станцію",
+  },
   {
     id: "13",
     heading: "news.estonia_heading",
