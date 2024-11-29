@@ -37,6 +37,11 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
                 b: (chunks) => <b>{chunks}</b>,
                 p: (chunks) => <p>{chunks}</p>,
                 div: (chunks) => <div>{chunks}</div>,
+                a: (chunks) => (
+                  <a href={chunks as string} target="_blank" rel="noreferrer">
+                    {chunks}
+                  </a>
+                ),
               })}
             </div>
             {!detail_item.description_2 || !detail_item.image_2 ? (
@@ -60,6 +65,11 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
                   b: (chunks) => <b>{chunks}</b>,
                   p: (chunks) => <p>{chunks}</p>,
                   div: (chunks) => <div>{chunks}</div>,
+                  a: (chunks) => (
+                    <a href={chunks as string} target="_blank" rel="noreferrer">
+                      {chunks}
+                    </a>
+                  ),
                 })}
               </div>
             </div>
@@ -115,6 +125,11 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
                   b: (chunks) => <b>{chunks}</b>,
                   p: (chunks) => <p>{chunks}</p>,
                   div: (chunks) => <div>{chunks}</div>,
+                  a: (chunks) => (
+                    <a href={chunks as string} target="_blank" rel="noreferrer">
+                      {chunks}
+                    </a>
+                  ),
                 })}
               </div>
             </div>
@@ -152,7 +167,12 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
         )}
         {detail_item.description_2 || detail_item.image_2
           ? detail_item.href && (
-              <a target="_blank" rel="noreferrer" href={detail_item.href}>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href={detail_item.href}
+                className={styles.inner_href}
+              >
                 {t("projects.link_button")} <MoveRight />
               </a>
             )
