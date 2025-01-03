@@ -1,10 +1,12 @@
 import CareerDetails from "@/components/CareerDetails/CareerDetails";
 import CareerForm from "@/components/ContactForm/CareerForm";
+import Loader from "@/components/Loader";
 import { vacancies } from "@/static_store/vacancies";
 import { Metadata } from "next";
 
 import { useLocale } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
+import { Suspense } from "react";
 
 export async function generateMetadata({
   searchParams,
@@ -61,7 +63,7 @@ interface CareerDetailsProps {
   searchParams: any;
 }
 
-export default async function CareerDetailsPage({
+export default function CareerDetailsPage({
   searchParams,
 }: CareerDetailsProps) {
   const locale = useLocale();
