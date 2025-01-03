@@ -53,11 +53,11 @@ export async function generateMetadata({
   };
 }
 
-export async function generateStaticParams() {
-  return vacancies.map((vacancy) => ({
-    uid: vacancy.id,
-  }));
-}
+// export async function generateStaticParams() {
+//   return vacancies.map((vacancy) => ({
+//     uid: vacancy.id,
+//   }));
+// }
 
 interface CareerDetailsProps {
   searchParams: any;
