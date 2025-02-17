@@ -6,7 +6,6 @@ import { Metadata } from "next";
 
 import { useLocale } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
-import { Suspense } from "react";
 
 export async function generateMetadata({
   searchParams,
@@ -52,12 +51,6 @@ export async function generateMetadata({
     },
   };
 }
-
-// export async function generateStaticParams() {
-//   return vacancies.map((vacancy) => ({
-//     uid: vacancy.id,
-//   }));
-// }
 
 interface CareerDetailsProps {
   searchParams: any;

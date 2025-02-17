@@ -58,7 +58,7 @@ const Project: FC<ProjectProps> = ({
       >
         <p className={styles.h3}>{t(heading)}</p>
         {isPending ? (
-          <p className={styles.a}>Loading...</p>
+          <p className={styles.a}>Завантаження...</p>
         ) : (
           <p className={styles.a} onClick={handleProjectClick}>
             {t("projects.more_button")} <MoveRight />
