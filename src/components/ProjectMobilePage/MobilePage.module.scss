@@ -105,6 +105,29 @@
       color: $color-white;
       border: 1px solid $color-orange;
       border-radius: 5px;
+      padding: 1% 0%;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      align-self: flex-end;
+      justify-content: center;
+      gap: 5%;
+      width: 30%;
+      transition: all 0.3s;
+      &:hover {
+        background-color: transparent;
+        color: $color-orange;
+      }
+    }
+    .first_inner_href {
+      font-size: calc(#{$size}/ 1.4);
+      cursor: pointer;
+      text-align: start;
+      text-decoration: none;
+      background-color: $color-orange;
+      color: $color-white;
+      border: 1px solid $color-orange;
+      border-radius: 5px;
       padding: 2% 0%;
       transition: all 0.3s;
       display: flex;
@@ -186,6 +209,12 @@
         margin-top: 2%;
       }
       .inner_href {
+        font-size: 15px;
+        width: 100%;
+        padding: 2% 0%;
+        margin-top: 2%;
+      }
+      .first_inner_href {
         font-size: 15px;
         width: 100%;
         padding: 2% 0%;

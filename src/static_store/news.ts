@@ -24,8 +24,21 @@ import Leleka_1 from "@/../public/news/leleka_analytic_3.png";
 import Leleka_2 from "@/../public/news/leleka_analytic_4.png";
 import Leleka_3 from "@/../public/news/leleka_analytic_5.jpg";
 import Leleka_4 from "@/../public/projects/charge.webp";
+import Birthday from "@/../public/news/25.jpg";
 
 export const news: DetailsItem[] = [
+  {
+    id: "15",
+    heading: "news.birthday_heading",
+    description: "news.birthday_description",
+    image_width: "49%",
+    image_vertical_width: "40%",
+    image: Birthday,
+    isBlured: true,
+    meta_heading: "25 років разом: «Юкон» святкує ювілей",
+    meta_description:
+      "Цього року нашому бізнесу виповнюється 25 років — чверть століття наполегливої праці, викликів і досягнень.",
+  },
   {
     id: "14",
     heading: "news.leleka_heading",

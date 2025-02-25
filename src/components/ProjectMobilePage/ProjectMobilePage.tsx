@@ -44,16 +44,18 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
                 ),
               })}
             </div>
-            {!detail_item.description_2 || !detail_item.image_2 ? (
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href={detail_item.href}
-                className={styles.inner_href}
-              >
-                {t("projects.link_button")} <MoveRight />
-              </a>
-            ) : null}
+            {!detail_item.description_2 || !detail_item.image_2
+              ? detail_item.href && (
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href={detail_item.href}
+                    className={styles.first_inner_href}
+                  >
+                    {t("projects.link_button")} <MoveRight />
+                  </a>
+                )
+              : null}
           </div>
         </div>
         {detail_item.description_2 && (
