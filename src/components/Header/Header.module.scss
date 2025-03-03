@@ -142,12 +142,14 @@
     width: 90%;
     display: grid;
     place-items: center;
+    z-index: 1003 !important;
     .span {
       position: absolute;
       top: 2.5%;
       right: 5%;
       width: 7%;
       height: auto;
+      z-index: 1003 !important;
       cursor: pointer;
       transition: all 0.3s;
       &:hover {
@@ -160,7 +162,8 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      margin-bottom: 150px;
+      margin-bottom: 30px;
+      z-index: 1003 !important;
       a {
         color: $color-black;
         text-decoration: none;
@@ -173,10 +176,11 @@
     .lang_block {
       width: auto;
       display: flex;
-      align-items: center;
-      justify-content: center;
-      position: absolute;
-      bottom: 3%;
+      z-index: 1003 !important;
+      align-items: center !important;
+      justify-content: center !important;
+      // position: absolute;
+      // bottom: 5%;
       gap: 2%;
       select {
         font-size: 19px;

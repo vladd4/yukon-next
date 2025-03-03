@@ -10,19 +10,24 @@ const useClickOutside = (
 ) => {
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if (
-        componentState &&
-        componentRef.current &&
-        !componentRef.current.contains(event.target as Node) &&
-        event.target !== nodeElement
-      ) {
-        handleComponentState(false);
+      if (componentState) {
+        const isClickOutsideComponent =
+          componentRef.current &&
+          !componentRef.current.contains(event.target as Node);
+
+        const isClickOnToggleElement =
+          nodeElement && nodeElement.contains(event.target as Node);
+
+        if (isClickOutsideComponent && !isClickOnToggleElement) {
+          handleComponentState(false);
+        }
       }
     };
-    document.addEventListener("click", handleClickOutside);
+
+    document.addEventListener("mousedown", handleClickOutside);
 
     return () => {
-      document.removeEventListener("click", handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [componentState, componentRef, handleComponentState, nodeElement]);
 };

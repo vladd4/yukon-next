@@ -89,7 +89,7 @@ const Footer: FC = () => {
               {t("footer.nav_h")}
             </NavLinkComponent>
             {nav_links.map((link) => {
-              return link.label === "Кар'єра" ? (
+              return link.label === "header.link_7" ? (
                 <Link key={link.label} href={link.href}>
                   {t(link.label)}
                 </Link>

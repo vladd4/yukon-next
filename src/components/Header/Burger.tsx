@@ -7,7 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { nav_links } from "../../static_store/navbar";
 import { useAppDispatch, useAppSelector } from "../../hooks/redux-hooks";
-import useClickOutside from "../../hooks/useClickOutside";
+// import useClickOutside from "../../hooks/useClickOutside";
 import { setShowBurger } from "../../redux/slices/burgerSlice";
 
 import Close from "@/../public/close.png";
@@ -21,7 +21,7 @@ const Burger = () => {
   const { showBurger } = useAppSelector((state) => state.burger);
   const dispatch = useAppDispatch();
 
-  const burgerRef = useRef(null);
+  const burgerRef = useRef<HTMLDivElement>(null);
 
   const locale = useLocale();
 
@@ -32,10 +32,10 @@ const Burger = () => {
     dispatch(setShowBurger(false));
   };
 
-  const burgerElement =
-    typeof window !== "undefined" ? document.getElementById("burger") : null;
+  // const burgerElement =
+  //   typeof window !== "undefined" ? document.getElementById("burger") : null;
 
-  useClickOutside(burgerRef, showBurger, handleCloseBurger, burgerElement);
+  // useClickOutside(burgerRef, showBurger, handleCloseBurger, burgerElement);
 
   const t = useTranslations();
 
@@ -80,7 +80,7 @@ const Burger = () => {
       >
         <article className={styles.burger_wrapper}>
           <Image
-            alt="CLose span"
+            alt="Close span"
             src={Close}
             onClick={handleCloseBurger}
             className={styles.span}
