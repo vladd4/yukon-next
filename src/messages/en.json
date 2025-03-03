@@ -140,5 +140,6 @@
         "form_heading": "Want to work with us? Fill out the form so we can contact you",
         "resume_btn": "Upload Resume",
         "resume_hint": "Add a file in doc, docx, pdf, jpg, png format, up to 5 MB in size"
-    }
+    },
+     "loading_label": "Loading..."
 }

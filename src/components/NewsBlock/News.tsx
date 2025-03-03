@@ -7,7 +7,6 @@ import { FC, useTransition } from "react";
 
 import { news } from "../../static_store/news";
 import { MoveRight } from "lucide-react";
-import { Link } from "@/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 
@@ -43,7 +42,7 @@ const News: FC<NewsProps> = ({ isAll }) => {
           </div>
           {!isAll &&
             (isPending ? (
-              <p className={styles.a}>Loading...</p>
+              <p className={styles.a}>{t("loading_label")}</p>
             ) : (
               <p className={styles.a} onClick={handleNewsClick}>
                 {t("news.all_news")} <MoveRight />

@@ -5,20 +5,28 @@
   align-items: center;
   justify-content: space-between;
   gap: 5%;
-  p,
-  span {
+  select {
     font-size: 15px;
     font-weight: 600;
-  }
-  p {
-    cursor: pointer;
-    transition: all 0.3s;
-    &:hover {
-      opacity: 0.6;
+    width: 100%;
+    font-family: inherit;
+    color: $color-white;
+    background-color: transparent;
+    border: 1px solid $color-white;
+    border-radius: 5px;
+    &:active {
+      border: 1px solid $color-white;
     }
-  }
-  .disabled {
-    opacity: 0.6;
-    pointer-events: none;
+    option {
+      font-size: 15px;
+      font-weight: 600;
+      font-family: inherit;
+      color: $color-black;
+      cursor: pointer;
+      transition: all 0.3s;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
   }
 }

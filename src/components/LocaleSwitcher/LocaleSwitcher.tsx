@@ -37,25 +37,16 @@ export default function LocaleSwitcher({ className }: SwitcherProps) {
 
   return (
     <div className={`${styles.lang_block} ${className}`}>
-      <p
-        id="uk"
-        className={`${locale === "uk" ? styles.disabled : ""} ${
-          isPending ? styles.disabled : ""
-        }`}
-        onClick={() => changeLocale("uk")}
+      <select
+        onChange={(e) => changeLocale(e.target.value)}
+        value={locale}
+        disabled={isPending}
       >
-        Укр
-      </p>
-      <span>|</span>
-      <p
-        className={`${locale === "en" ? styles.disabled : ""} ${
-          isPending ? styles.disabled : ""
-        }`}
-        id="en"
-        onClick={() => changeLocale("en")}
-      >
-        Eng
-      </p>
+        <option value="uk">Uk</option>
+        <option value="en">Eng</option>
+        <option value="de">De</option>
+        <option value="lt">Lt</option>
+      </select>
     </div>
   );
 }

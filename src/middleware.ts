@@ -13,5 +13,5 @@ export default function (req: any) {
 }
 
 export const config = {
-  matcher: ["/", "/(uk|en)/:path*"],
+  matcher: ["/", "/(uk|en|pl|de|lt)/:path*"],
 };

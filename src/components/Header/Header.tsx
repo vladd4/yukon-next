@@ -17,7 +17,7 @@ import { Menu, Undo2 } from "lucide-react";
 import Image from "next/image";
 import { Link } from "@/navigation";
 import { usePathname, useRouter } from "next/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import LocaleSwitcher from "../LocaleSwitcher/LocaleSwitcher";
 import { useEffect, useState } from "react";
 
@@ -29,6 +29,7 @@ const Header = () => {
   const pathName = usePathname();
   const router = useRouter();
 
+  const locale = useLocale();
   const t = useTranslations();
 
   const getBackLink = () => {
@@ -63,7 +64,7 @@ const Header = () => {
   }, [pathName]);
 
   const handleLogoClick = () => {
-    router.push("/");
+    router.push(`/${locale}`);
   };
 
   return (

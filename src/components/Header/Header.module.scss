@@ -67,9 +67,9 @@
     }
   }
   .lang_block {
-    span,
-    p {
+    select {
       color: $color-black !important;
+      border-color: $color-black !important;
     }
   }
 }
@@ -98,6 +98,12 @@
           width: 2.5% !important;
           height: auto;
         }
+      }
+    }
+    .lang_block {
+      select {
+        color: $color-black !important;
+        border-color: $color-black !important;
       }
     }
   }
@@ -165,23 +171,19 @@
       }
     }
     .lang_block {
-      width: 100%;
+      width: auto;
       display: flex;
       align-items: center;
       justify-content: center;
       position: absolute;
       bottom: 3%;
       gap: 2%;
-      p,
-      span {
+      select {
         font-size: 19px;
-      }
-      p {
-        cursor: pointer;
-        transition: all 0.3s;
-        font-size: 19px;
-        &:hover {
-          opacity: 0.6;
+        color: $color-black;
+        border-color: $color-black;
+        option {
+          font-size: 19px;
         }
       }
     }
@@ -223,9 +225,11 @@
         }
       }
       .lang_block {
-        p,
-        span {
+        select {
           font-size: 17px;
+          option {
+            font-size: 17px;
+          }
         }
       }
     }
@@ -251,9 +255,11 @@
         }
       }
       .lang_block {
-        p,
-        span {
+        select {
           font-size: 13px;
+          option {
+            font-size: 13px;
+          }
         }
       }
     }
@@ -269,12 +275,6 @@
       nav {
         width: 65%;
         a {
-          font-size: 13px;
-        }
-      }
-      .lang_block {
-        p,
-        span {
           font-size: 13px;
         }
       }
@@ -296,9 +296,11 @@
         }
       }
       .lang_block {
-        p,
-        span {
+        select {
           font-size: 12px;
+          option {
+            font-size: 12px;
+          }
         }
       }
     }
@@ -330,9 +332,11 @@
         }
       }
       .lang_block {
-        p,
-        span {
+        select {
           font-size: calc(#{$size}/ 1.35);
+          option {
+            font-size: calc(#{$size}/ 1.35);
+          }
         }
       }
     }
