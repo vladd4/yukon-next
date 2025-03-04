@@ -44,6 +44,7 @@ export default function LocaleSwitcher({ className }: SwitcherProps) {
       >
         <option value="uk">Uk</option>
         <option value="en">Eng</option>
+        <option value="pl">Pl</option>
         <option value="de">De</option>
         <option value="lt">Lt</option>
       </select>
