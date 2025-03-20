@@ -86,7 +86,7 @@ const Header = () => {
           <nav>{getBackLink()}</nav>
           <Menu
             id="burger"
-            size={28}
+            size={33}
             className={styles.hamburger_icon}
             color={isPathMatch ? "#292929" : isScrolled ? "#292929" : "#fff"}
             onClick={() => {

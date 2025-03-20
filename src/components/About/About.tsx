@@ -49,7 +49,7 @@ const About: FC = () => {
           </div>
         </div>
         <div className={`${styles.image_block} aos-init`} data-aos="zoom-in">
-          <Image alt="Yukon Company" width={555} height={780} src={Car} />
+          <Image alt="Yukon Company" width={1200} height={1000} src={Car} />
           <Image
             alt="Background"
             width={525}

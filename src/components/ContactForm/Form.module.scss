@@ -490,10 +490,11 @@
   }
   .alert_root {
     width: 90%;
-    padding: 10% 2%;
+    padding: 70px 1%;
     .alert_wrapper {
+      width: 95%;
       h5 {
-        font-size: 18px;
+        font-size: 20px;
       }
       form {
         width: 100%;
@@ -501,14 +502,20 @@
         button {
           font-size: 14px !important;
         }
+        input {
+          padding: 4%;
+          width: 92%;
+        }
         .form_button {
           width: 100%;
+          margin-top: 0px;
           button {
-            width: 60%;
+            width: 100%;
           }
           .background {
-            width: 70%;
+            width: 80%;
             height: auto;
+            display: none;
           }
         }
       }

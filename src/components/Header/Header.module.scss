@@ -323,30 +323,8 @@
     }
   }
 }
+
 @media screen and (max-width: 750px) {
-  .root {
-    padding: 2% 0%;
-    .wrapper {
-      img {
-        width: 14%;
-      }
-      nav {
-        a {
-          font-size: calc(#{$size}/ 1.35);
-        }
-      }
-      .lang_block {
-        select {
-          font-size: calc(#{$size}/ 1.35);
-          option {
-            font-size: calc(#{$size}/ 1.35);
-          }
-        }
-      }
-    }
-  }
-}
-@media screen and (max-width: 700px) {
   .root {
     padding: 3% 0%;
     .wrapper {
@@ -373,7 +351,7 @@
     padding: 3% 0%;
     .wrapper {
       img {
-        width: 28%;
+        width: 35%;
       }
     }
   }
