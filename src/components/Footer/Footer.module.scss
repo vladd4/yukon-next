@@ -133,7 +133,7 @@
     }
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .root {
     .wrapper {
       width: 95%;
@@ -176,9 +176,10 @@
     }
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .root {
     .wrapper {
+      flex-direction: column;
       .nav_block {
         width: 100%;
         flex-direction: column;

@@ -151,6 +151,9 @@
     .wrapper {
       .group_block {
         flex-direction: column;
+        img {
+          width: 100% !important;
+        }
       }
       .group_block_text {
         margin-top: 2%;
@@ -163,13 +166,11 @@
       .text {
         width: 100%;
       }
-      img {
-        width: 100% !important;
-      }
     }
   }
 }
-@media screen and (max-width: 700px) {
+
+@media screen and (max-width: 750px) {
   .root {
     width: 100%;
     margin-top: 8%;
@@ -229,6 +230,6 @@
 }
 @media screen and (max-width: 500px) {
   .root {
-    margin-top: 10%;
+    margin-top: 13%;
   }
 }

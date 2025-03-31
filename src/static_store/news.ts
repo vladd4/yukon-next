@@ -25,8 +25,28 @@ import Leleka_2 from "@/../public/news/leleka_analytic_4.png";
 import Leleka_3 from "@/../public/news/leleka_analytic_5.jpg";
 import Leleka_4 from "@/../public/projects/charge.webp";
 import Birthday from "@/../public/news/25.jpg";
+import Pool from "@/../public/news/pool.jpg";
+import Pool2 from "@/../public/news/pool-2.jpg";
+import Pool3 from "@/../public/news/pool-3.jpg";
+import Pool4 from "@/../public/news/pool-4.jpg";
+import Pool5 from "@/../public/news/pool-5.jpg";
 
 export const news: DetailsItem[] = [
+  {
+    id: "16",
+    heading: "news.pool_heading",
+    description: "news.pool_description",
+    description_2: "news.pool_description_2",
+    image_width: "49%",
+    image_vertical_width: "40%",
+    image: Pool,
+    image_2: Pool4,
+    image_3: Pool5,
+    isBlured: true,
+    meta_heading: "Підтримка дітей на турнірі пам’яті Євгена Кондратовича",
+    meta_description:
+      "ПП «Компанія Юкон», ексклюзивний представник ТМ «Моршинська» та ТМ «Миргородська» у Волинській області, завжди прагне бути активним учасником соціальних ініціатив, що сприяють здоров’ю та гармонійному розвитку молоді.",
+  },
   {
     id: "15",
     heading: "news.birthday_heading",

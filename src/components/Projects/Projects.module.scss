@@ -189,7 +189,7 @@
     height: 470px !important;
   }
   .card_root {
-    height: 500px !important;
+    height: 600px !important;
     &:hover {
       .card_text {
         opacity: 1;
@@ -236,7 +236,7 @@
     }
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .root {
     padding: 10% 0%;
     .wrapper {
@@ -248,5 +248,11 @@
   }
   .slider {
     width: 95vw !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card_root {
+    height: 500px !important;
   }
 }

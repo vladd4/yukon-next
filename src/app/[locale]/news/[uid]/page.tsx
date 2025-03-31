@@ -54,6 +54,7 @@ interface NewsDetailsProps {
 export default function NewsDetails({ searchParams }: NewsDetailsProps) {
   const newsId = searchParams.id;
   const locale = useLocale();
+
   unstable_setRequestLocale(locale);
   return <ProjectMobilePage id={newsId} isNews />;
 }
