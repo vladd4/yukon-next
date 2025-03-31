@@ -25,9 +25,7 @@ import Leleka_2 from "@/../public/news/leleka_analytic_4.png";
 import Leleka_3 from "@/../public/news/leleka_analytic_5.jpg";
 import Leleka_4 from "@/../public/projects/charge.webp";
 import Birthday from "@/../public/news/25.jpg";
-import Pool from "@/../public/news/pool.jpg";
-import Pool2 from "@/../public/news/pool-2.jpg";
-import Pool3 from "@/../public/news/pool-3.jpg";
+import Pool from "@/../public/news/pool.webp";
 import Pool4 from "@/../public/news/pool-4.jpg";
 import Pool5 from "@/../public/news/pool-5.jpg";
 
