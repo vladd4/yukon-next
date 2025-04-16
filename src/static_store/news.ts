@@ -28,8 +28,24 @@ import Birthday from "@/../public/news/25.jpg";
 import Pool from "@/../public/news/pool.webp";
 import Pool4 from "@/../public/news/pool-4.jpg";
 import Pool5 from "@/../public/news/pool-5.jpg";
+import Forum from "@/../public/news/forum_1.jpg";
+import Forum2 from "@/../public/news/forum_2.jpg";
+import Forum3 from "@/../public/news/forum_3.jpg";
 
 export const news: DetailsItem[] = [
+  {
+    id: "17",
+    heading: "news.forum_heading",
+    description: "news.forum_description",
+    image_width: "48.5%",
+    image: Forum3,
+    image_2: Forum,
+    image_3: Forum2,
+    isBlured: true,
+    meta_heading: "Форум екоіндустріальних парків України 10.04.25",
+    meta_description:
+      "Ми як завжди активні в пошуку іновацій та розвитку бізнесу. Командою «Юкон» відвідали Форум екоіндустріальних парків України, який відбувся 10 квітня 2025 року в Києві.",
+  },
   {
     id: "16",
     heading: "news.pool_heading",
