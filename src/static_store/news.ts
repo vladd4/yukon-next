@@ -35,6 +35,7 @@ import Fish from "@/../public/news/fish_1.jpg";
 import Fish2 from "@/../public/news/fish_2.jpg";
 import Fish3 from "@/../public/news/fish_3.jpg";
 import Fish4 from "@/../public/news/fish_4.jpg";
+import Fish5 from "@/../public/news/A4_diploma GASTRO_2025_UCH 68_page-0001.jpg";
 
 export const news: DetailsItem[] = [
   {
@@ -44,7 +45,7 @@ export const news: DetailsItem[] = [
     description_2: "news.fish_description_2",
     image_width: "48.5%",
     image: Fish3,
-    image_2: Fish,
+    image_2: Fish5,
     image_3: Fish4,
     isBlured: true,
     href: "https://worldfood.com.ua/blog/ce-bulo-aromatno-ce-bulo-smachno-ce-bulo-wow-gastro",
