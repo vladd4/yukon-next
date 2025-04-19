@@ -34,8 +34,21 @@ import Forum3 from "@/../public/news/forum_3.jpg";
 import Fish3 from "@/../public/news/fish_3.jpg";
 import Fish4 from "@/../public/news/fish_4.jpg";
 import Fish5 from "@/../public/news/A4_diploma GASTRO_2025_UCH 68_page-0001.jpg";
+import Easter from "@/../public/news/easter.jpg";
 
 export const news: DetailsItem[] = [
+  {
+    id: "19",
+    heading: "news.easter_heading",
+    description: "news.easter_description_1",
+    image_width: "48.5%",
+    image: Easter,
+    isBlured: true,
+    meta_heading: "Христос Воскрес! Вітання від команди «ПФ Юкон»",
+    meta_description:
+      "Вітаємо з Великоднем! Бажаємо миру, добра та перемоги.Нехай це світле свято наповнить ваші серця надією, душу — спокоєм, а дім — теплом і щастям. Хай Господь оберігає вас і ваших рідних, даруючи здоров’я, силу духу та натхнення для нових звершень",
+    date: "20.04.2025",
+  },
   {
     id: "18",
     heading: "news.fish_heading",
