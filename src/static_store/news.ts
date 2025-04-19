@@ -31,8 +31,28 @@ import Pool5 from "@/../public/news/pool-5.jpg";
 import Forum from "@/../public/news/forum_1.jpg";
 import Forum2 from "@/../public/news/forum_2.jpg";
 import Forum3 from "@/../public/news/forum_3.jpg";
+import Fish from "@/../public/news/fish_1.jpg";
+import Fish2 from "@/../public/news/fish_2.jpg";
+import Fish3 from "@/../public/news/fish_3.jpg";
+import Fish4 from "@/../public/news/fish_4.jpg";
 
 export const news: DetailsItem[] = [
+  {
+    id: "18",
+    heading: "news.fish_heading",
+    description: "news.fish_description",
+    description_2: "news.fish_description_2",
+    image_width: "48.5%",
+    image: Fish3,
+    image_2: Fish,
+    image_3: Fish4,
+    isBlured: true,
+    href: "https://worldfood.com.ua/blog/ce-bulo-aromatno-ce-bulo-smachno-ce-bulo-wow-gastro",
+    meta_heading:
+      "Дебютна презентація ТМ «РибаLove» на WorldFood GastroDays 2025",
+    meta_description:
+      "У період 9-10 квітня 2025 року компанія «Юкон» мала честь взяти участь у масштабному заході - другій виставці WorldFood GastroDays 2025  та Tea&Coffee Shop, яка відбулася в Києві, в Міжнародному виставковому центрі",
+  },
   {
     id: "17",
     heading: "news.forum_heading",
