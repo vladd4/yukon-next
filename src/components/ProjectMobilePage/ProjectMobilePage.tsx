@@ -32,6 +32,7 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
           />
           <div className={styles.text}>
             <h1>{t(detail_item.heading)}</h1>
+            <p className={styles.author}>{`${detail_item.date}`}</p>
             <div className={styles.p}>
               {t.rich(detail_item.description, {
                 b: (chunks) => <b>{chunks}</b>,

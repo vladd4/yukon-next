@@ -62,6 +62,7 @@ const News: FC<NewsProps> = ({ isAll }) => {
                     description={new_item.description}
                     href={new_item.href}
                     isBlured={new_item.isBlured}
+                    date={new_item.date}
                   />
                 );
               })
@@ -76,6 +77,7 @@ const News: FC<NewsProps> = ({ isAll }) => {
                     description={new_item.description}
                     href={new_item.href}
                     isBlured={new_item.isBlured}
+                    date={new_item.date}
                   />
                 );
               })}

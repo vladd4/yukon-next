@@ -15,6 +15,7 @@ type ProjectProps = {
   href?: string;
   isBlured?: boolean;
   id: string;
+  date?: string;
 };
 
 const Project: FC<ProjectProps> = ({
@@ -25,6 +26,7 @@ const Project: FC<ProjectProps> = ({
   href,
   isBlured,
   id,
+  date,
 }) => {
   const t = useTranslations();
 
@@ -57,6 +59,7 @@ const Project: FC<ProjectProps> = ({
         className={`${styles.card_text} ${isBlured ? styles.blured_text : ""}`}
       >
         <p className={styles.h3}>{t(heading)}</p>
+        {date && <p className={styles.date}>{date}</p>}
         {isPending ? (
           <p className={styles.a}>{t("loading_label")}</p>
         ) : (
