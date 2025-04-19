@@ -34,7 +34,7 @@ import Forum3 from "@/../public/news/forum_3.jpg";
 import Fish3 from "@/../public/news/fish_3.jpg";
 import Fish4 from "@/../public/news/fish_4.jpg";
 import Fish5 from "@/../public/news/A4_diploma GASTRO_2025_UCH 68_page-0001.jpg";
-import Easter from "@/../public/news/easter.jpg";
+import Easter from "@/../public/news/easter.webp";
 
 export const news: DetailsItem[] = [
   {
