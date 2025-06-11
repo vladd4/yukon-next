@@ -35,8 +35,32 @@ import Fish3 from "@/../public/news/fish_3.jpg";
 import Fish4 from "@/../public/news/fish_4.jpg";
 import Fish5 from "@/../public/news/A4_diploma GASTRO_2025_UCH 68_page-0001.jpg";
 import Easter from "@/../public/news/easter.webp";
+import Turnir from "@/../public/news/turnir_1.jpg";
+import Turnir2 from "@/../public/news/turnir_2.jpg";
+import Turnir3 from "@/../public/news/turnir_3.jpg";
+import Turnir4 from "@/../public/news/turnir_4.jpg";
+import Turnir5 from "@/../public/news/turnir_5.jpg";
 
 export const news: DetailsItem[] = [
+  {
+    id: "20",
+    heading: "news.soccer_turnament_heading",
+    description: "news.soccer_turnament_description_1",
+    description_2: "news.soccer_turnament_description_2",
+    description_3: "news.soccer_turnament_description_3",
+    image_width: "48.5%",
+    image_vertical_width: "48.5%",
+    image: Turnir,
+    image_2: Turnir2,
+    image_3: Turnir3,
+    image_4: Turnir4,
+    image_5: Turnir5,
+    isBlured: true,
+    meta_heading: "Юкон підтримує непереможних",
+    meta_description:
+      "Минулих вихідних на Волині відбувся перший всеукраїнський турнір з футболу, у якому брали участь чинні військові та ветерани війни. - «Турнір Захисників»",
+    date: "11.06.2025",
+  },
   {
     id: "19",
     heading: "news.easter_heading",
