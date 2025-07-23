@@ -40,8 +40,28 @@ import Turnir2 from "@/../public/news/turnir_2.jpg";
 import Turnir3 from "@/../public/news/turnir_3.jpg";
 import Turnir4 from "@/../public/news/turnir_4.jpg";
 import Turnir5 from "@/../public/news/turnir_5.jpg";
+import Svitiaz1 from "@/../public/news/svitiaz-1.jpg";
+import Svitiaz2 from "@/../public/news/svitiaz-2.jpg";
+import Svitiaz3 from "@/../public/news/svitiaz-3.jpg";
 
 export const news: DetailsItem[] = [
+  {
+    id: "21",
+    heading: "news.svitiaz_heading",
+    description: "news.svitiaz_description_1",
+    description_2: "news.svitiaz_description_2",
+    description_3: "news.svitiaz_description_3",
+    image_width: "48.5%",
+    image_vertical_width: "48.5%",
+    image: Svitiaz1,
+    image_2: Svitiaz3,
+    image_3: Svitiaz2,
+    isBlured: true,
+    meta_heading: "Людина жива, поки пам'ять про неї живе в наших серцях…",
+    meta_description:
+      "Минулої неділі на Волині відбувся Світязький марафон пам’яті загиблих героїв 2025",
+    date: "23.07.2025",
+  },
   {
     id: "20",
     heading: "news.soccer_turnament_heading",
