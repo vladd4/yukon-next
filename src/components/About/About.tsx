@@ -44,7 +44,7 @@ const About: FC = () => {
             {t("about.paragraph_6")}
           </p>
           <div className={`${styles.exp_block} aos-init`} data-aos="zoom-in">
-            <span>24</span>
+            <span>25</span>
             <h2>{t("about.experience")}</h2>
           </div>
         </div>
