@@ -43,8 +43,31 @@ import Turnir5 from "@/../public/news/turnir_5.jpg";
 import Svitiaz1 from "@/../public/news/svitiaz-1.jpg";
 import Svitiaz2 from "@/../public/news/svitiaz-2.jpg";
 import Svitiaz3 from "@/../public/news/svitiaz-3.jpg";
+import Workers1 from "@/../public/news/workers.jpg";
+import Workers2 from "@/../public/news/workers_1.jpg";
+import Workers3 from "@/../public/news/workers_2.jpg";
+import Workers4 from "@/../public/news/workers_3.jpg";
+import Workers5 from "@/../public/news/workers_4.jpg";
 
 export const news: DetailsItem[] = [
+  {
+    id: "22",
+    heading: "news.workers_heading",
+    description: "news.workers_description_1",
+    image_width: "48.2%",
+    image_vertical_width: "48.2%",
+    image: Workers1,
+    image_2: Workers2,
+    image_3: Workers3,
+    image_4: Workers4,
+    image_5: Workers5,
+    isBlured: true,
+    meta_heading:
+      "Щиро вітаю вас із професійним святом — днем працівників торгівлі!",
+    meta_description:
+      "Бажаю вам вдячних клієнтів, відповідальних партнерів, чіткої логістики й фінансової стабільності. І, звісно, миру — бо торгівля любить спокій, але не зупинки.",
+    date: "26.07.2025",
+  },
   {
     id: "21",
     heading: "news.svitiaz_heading",
