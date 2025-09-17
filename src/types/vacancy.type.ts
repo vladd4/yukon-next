@@ -17,4 +17,6 @@ export type Vacancy = {
   responsibilities?: string[];
   requirements?: string[];
   guarantees?: string[];
+  text_before?: string;
+  text_after?: string;
 };

@@ -62,6 +62,7 @@ export default function CareerDetails({ vacancy }: CareerProps) {
               </button>
             )}
           </div>
+          {vacancy.text_before && <p>{vacancy.text_before}</p>}
           {vacancy.responsibilities && (
             <div className={styles.list_block}>
               <p>Обов'язки:</p>
@@ -92,6 +93,7 @@ export default function CareerDetails({ vacancy }: CareerProps) {
               </ul>
             </div>
           )}
+          {vacancy.text_after && <p>{vacancy.text_after}</p>}
           <div className={styles.contact_person}>
             {vacancy.contact_phone && (
               <div>
