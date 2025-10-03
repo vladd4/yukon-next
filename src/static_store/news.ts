@@ -49,7 +49,29 @@ import Workers3 from "@/../public/news/workers_2.jpg";
 import Workers4 from "@/../public/news/workers_3.jpg";
 import Workers5 from "@/../public/news/workers_4.jpg";
 
+import Best1 from "@/../public/news/best1.jpg";
+import Best2 from "@/../public/news/best2.jpg";
+import Best3 from "@/../public/news/best3.jpg";
+
 export const news: DetailsItem[] = [
+  {
+    id: "23",
+    heading: "news.theBest_heading",
+    description: "news.theBest_description_1",
+    description_2: "news.theBest_description_2",
+    image_width: "48.2%",
+    image_vertical_width: "48.2%",
+    image: Best1,
+    image_2: Best2,
+    image_3: Best3,
+    // image_4: Workers4,
+    // image_5: Workers5,
+    isBlured: true,
+    meta_heading: "Працюємо з найкращими",
+    meta_description:
+      "«Юкон» уже чверть століття успішно працює на ринку дистрибуції, щороку розширюючи свій асортимент та вдосконалюючи підходи до співпраці.",
+    date: "03.10.2025",
+  },
   {
     id: "22",
     heading: "news.workers_heading",
