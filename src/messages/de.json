@@ -1,59 +1,59 @@
 {
-    "header": {
-        "link_1": "Über uns",
-        "link_2": "Unsere Projekte",
-        "link_3": "Partner",
-        "link_4": "Unsere Kunden",
-        "link_5": "Neuigkeiten",
-        "link_6": "Kontakte",
-        "link_7": "Karriere",
-        "back": "Zurück"
-    },
-    "welcome_text": "YUKON ist ein Distributionsunternehmen, das seit 2000 auf dem ukrainischen Markt für schnell konsumierbare Produkte tätig ist und sich erfolgreich entwickelt. Das Konzept des Unternehmens besteht darin, den Käufer schnell mit dem Hersteller zu verbinden. Unsere Kunden erhalten ein breites Sortiment und Service auf höchstem Niveau. Wir vertreten Produkte vieler bekannter Marken und Hersteller. Wir arbeiten mit lokalen und nationalen Einzelhandelsketten, Tankstellen, Apotheken und HORECA zusammen.",
-    "about": {
-        "span": "Über uns",
-        "heading": "WIR SIND EIN ZUVERLÄSSIGER PARTNER IM BEREICH DER SCHNELLEN KONSUMGÜTER",
-        "experience": "JAHRE ERFAHRUNG AUF DEM MARKT",
-        "paragraph_1": "YUKON wurde gegründet, um die Lebensqualität zu verbessern und zu perfektionieren. Im Laufe seiner Geschichte hat das Unternehmen YUKON die Position eines zuverlässigen Partners für die Lieferung und den Verkauf hochwertiger Lebensmittelprodukte erlangt.",
-        "paragraph_2": "Wir sind seit 25 Jahren im Einzel- und Großhandel tätig. Wir arbeiten direkt mit Herstellern zusammen, die einen makellosen Ruf haben, was die Lieferung von minderwertigen oder gefälschten Produkten ausschließt.",
-        "paragraph_3": "Wir haben exklusive Vertretungsverträge mit bekannten europäischen Marken abgeschlossen, deren Produkte wir auf dem Territorium der Ukraine vertreten. Durch direkte Verträge mit großen Lieferanten wie IDS, Carlsberg und PepsiCo garantieren wir Qualität sowie wettbewerbsfähige Preise.",
-        "paragraph_4": "Die Hauptproduktgruppen, mit denen wir arbeiten, sind:",
-        "li_item_1": "Süßigkeiten (Kekse, Bonbons)",
-        "li_item_2": "Getreide",
-        "li_item_4": "Milchprodukte und Käse",
-        "li_item_7": "Getränke (Säfte, Tees, Kaffee)",
-        "li_item_8": "Alkoholische Getränke (Bier, Wein, Spirituosen)",
-        "li_item_5": "Milchfermente (Joghurt, Kefir, Sahne)",
-        "li_item_6": "Gefrorene Produkte",
-        "li_item_3": "Lebensmittel (Pasta, Konserven, Öle und Saucen)",
-        "paragraph_5": "YUKON ist nicht nur eine Distribution. Wir sind ein gesamtes Ökosystem von Unternehmen, das städtische und regionale Logistik, kommerzielle Immobilien und Lagerhäuser sowie eine Reihe eigener Projekte umfasst. Das Ziel des Unternehmens ist es, Ihre Regale zu füllen, um ins Herz jedes Verbrauchers zu gelangen.",
-        "paragraph_6": "Zufriedene Kunden sind die beste Belohnung für harte Arbeit. Wir ruhen uns nicht auf unseren Lorbeeren aus und gehen selbstbewusst voran!"
-    },
-    "projects": {
-        "heading": "Unsere Projekte",
-        "twin": "<p>Die Marke TwinSocks – eine 2016 patentierte Marke im Bereich Strumpfwaren, die in kurzer Zeit die Herzen vieler Ukrainer erobert hat.</p><p>Wir stellen nicht nur stilvolle und bequeme Socken und Strumpfhosen her, sondern sorgen vor allem für die Qualität unserer Produkte.</p>",
-        "fish": "<p>Fisch Love. Wir bieten Ihnen frischen Fisch aus unserer eigenen Aquafarm an: Afrikanischer Wels (Clarias).</p><p>Wir haben eine zertifizierte Produktion von geräuchertem und gesalzenem Fisch. Außerdem führen wir ein breites Sortiment an frischem, gefrorenem Fisch und Meeresfrüchten von unseren Partnern.</p>",
-        "beer": "<p>The Хміль ist die größte Auswahl an Fassbier in Kowel! Es gibt 20 Sorten Bier!!! Im Sortiment sind Produkte von Carlsberg Group sowie ukrainische Craft-Brauereien.</p><p>Im Laden bieten wir eine Auswahl an Fischprodukten zum Bier unter unserer eigenen Marke Fisch Love! The Хміль hat 50 Sitzplätze, um einen perfekten Abend mit Freunden zu verbringen! Wir übertragen ALLE Sportveranstaltungen auf einer großen Leinwand! Komm und entspanne dich mit uns!!!</p>",
-        "beerton": "Beerton ist das, was wir als neues Format eines Lokals betrachten, in dem Sie ausgezeichnete Gerichte aus unserer Küche probieren und Produkte kaufen können, die wir in der Region Wolhynien vertreten, um ein Stück dieses Lokals mit nach Hause zu nehmen.",
-        "chargers": "<p>Die Anzahl der Elektrofahrzeuge auf den Straßen der Ukraine wächst, und wir verstehen die Bedeutung des Aufbaus von Ladeinfrastruktur für ihre Besitzer, um in eine umweltfreundliche Zukunft zu gehen.</p><p>Die Stationen befinden sich in Kowel und Kiew.</p>",
-        "more_button": "Mehr erfahren",
-        "link_button": "Zum Link",
-        "kovcheg": "Kovcheg ist ein Unternehmen, das führende Positionen auf dem Markt der Lebensmittelverteilung in der Region Riwne einnimmt, dank der vorteilhaften Zusammenarbeit mit Lieferanten und dem qualitativ hochwertigen Service, der von einem Team von Fachleuten gewährleistet wird.",
-        "gradus": "<p>Es gibt viele Geheimnisse für ein erfolgreiches Gericht: Zutaten von hoher Qualität, Zubereitungsmethoden, Geschmackskombinationen, Saucen usw.</p><p>Ein weiteres, offensichtliches Geheimnis ist immer die Liebe zu dem, was unsere Köche tun. Wir kochen immer mit Liebe und Fürsorge für Sie!</p>"
-    },
-    "partners": {
-        "heading": "Nur geprüfte Partner wählen eine Zusammenarbeit mit uns, um die Qualität von Produkten und Service für ihre Kunden zu gewährleisten.",
-        "paragraph": "Yukon ist der offizielle Distributor bekannter Marken in der Region Wolhynien. Unser Team von Handelsvertretern sucht nach Wegen, das Verkaufsvolumen zu steigern, fördert und macht Produkte bekannt. Unser Ziel ist es, Dienstleistungen oder Produkte für die Verbraucher zugänglich zu machen. Wir sind verantwortlich für die Erreichung der Verkaufsnormen und garantieren die Entwicklung Ihrer Marke.",
-        "paragraph_2": "Wir blicken optimistisch in die Zukunft und helfen unseren Partnern, zu arbeiten und gemeinsam mit uns ihren Beitrag zum Sieg zu leisten.",
-        "official_partners": "offizielle Partner",
-        "predstavnik": "Handelsvertreter",
-        "working_space": "Arbeitsplätze",
-        "lorry_cars": "Lkw",
-        "space": "Lagerhäuser",
-        "clients": "zufriedene Kunden"
-    },
-    "clients_heading": "Unsere Kunden",
-    "news": {
+  "header": {
+    "link_1": "Über uns",
+    "link_2": "Unsere Projekte",
+    "link_3": "Partner",
+    "link_4": "Unsere Kunden",
+    "link_5": "Neuigkeiten",
+    "link_6": "Kontakte",
+    "link_7": "Karriere",
+    "back": "Zurück"
+  },
+  "welcome_text": "YUKON ist ein Distributionsunternehmen, das seit 2000 auf dem ukrainischen Markt für schnell konsumierbare Produkte tätig ist und sich erfolgreich entwickelt. Das Konzept des Unternehmens besteht darin, den Käufer schnell mit dem Hersteller zu verbinden. Unsere Kunden erhalten ein breites Sortiment und Service auf höchstem Niveau. Wir vertreten Produkte vieler bekannter Marken und Hersteller. Wir arbeiten mit lokalen und nationalen Einzelhandelsketten, Tankstellen, Apotheken und HORECA zusammen.",
+  "about": {
+    "span": "Über uns",
+    "heading": "WIR SIND EIN ZUVERLÄSSIGER PARTNER IM BEREICH DER SCHNELLEN KONSUMGÜTER",
+    "experience": "JAHRE ERFAHRUNG AUF DEM MARKT",
+    "paragraph_1": "YUKON wurde gegründet, um die Lebensqualität zu verbessern und zu perfektionieren. Im Laufe seiner Geschichte hat das Unternehmen YUKON die Position eines zuverlässigen Partners für die Lieferung und den Verkauf hochwertiger Lebensmittelprodukte erlangt.",
+    "paragraph_2": "Wir sind seit 25 Jahren im Einzel- und Großhandel tätig. Wir arbeiten direkt mit Herstellern zusammen, die einen makellosen Ruf haben, was die Lieferung von minderwertigen oder gefälschten Produkten ausschließt.",
+    "paragraph_3": "Wir haben exklusive Vertretungsverträge mit bekannten europäischen Marken abgeschlossen, deren Produkte wir auf dem Territorium der Ukraine vertreten. Durch direkte Verträge mit großen Lieferanten wie IDS, Carlsberg und PepsiCo garantieren wir Qualität sowie wettbewerbsfähige Preise.",
+    "paragraph_4": "Die Hauptproduktgruppen, mit denen wir arbeiten, sind:",
+    "li_item_1": "Süßigkeiten (Kekse, Bonbons)",
+    "li_item_2": "Getreide",
+    "li_item_4": "Milchprodukte und Käse",
+    "li_item_7": "Getränke (Säfte, Tees, Kaffee)",
+    "li_item_8": "Alkoholische Getränke (Bier, Wein, Spirituosen)",
+    "li_item_5": "Milchfermente (Joghurt, Kefir, Sahne)",
+    "li_item_6": "Gefrorene Produkte",
+    "li_item_3": "Lebensmittel (Pasta, Konserven, Öle und Saucen)",
+    "paragraph_5": "YUKON ist nicht nur eine Distribution. Wir sind ein gesamtes Ökosystem von Unternehmen, das städtische und regionale Logistik, kommerzielle Immobilien und Lagerhäuser sowie eine Reihe eigener Projekte umfasst. Das Ziel des Unternehmens ist es, Ihre Regale zu füllen, um ins Herz jedes Verbrauchers zu gelangen.",
+    "paragraph_6": "Zufriedene Kunden sind die beste Belohnung für harte Arbeit. Wir ruhen uns nicht auf unseren Lorbeeren aus und gehen selbstbewusst voran!"
+  },
+  "projects": {
+    "heading": "Unsere Projekte",
+    "twin": "<p>Die Marke TwinSocks – eine 2016 patentierte Marke im Bereich Strumpfwaren, die in kurzer Zeit die Herzen vieler Ukrainer erobert hat.</p><p>Wir stellen nicht nur stilvolle und bequeme Socken und Strumpfhosen her, sondern sorgen vor allem für die Qualität unserer Produkte.</p>",
+    "fish": "<p>Fisch Love. Wir bieten Ihnen frischen Fisch aus unserer eigenen Aquafarm an: Afrikanischer Wels (Clarias).</p><p>Wir haben eine zertifizierte Produktion von geräuchertem und gesalzenem Fisch. Außerdem führen wir ein breites Sortiment an frischem, gefrorenem Fisch und Meeresfrüchten von unseren Partnern.</p>",
+    "beer": "<p>The Хміль ist die größte Auswahl an Fassbier in Kowel! Es gibt 20 Sorten Bier!!! Im Sortiment sind Produkte von Carlsberg Group sowie ukrainische Craft-Brauereien.</p><p>Im Laden bieten wir eine Auswahl an Fischprodukten zum Bier unter unserer eigenen Marke Fisch Love! The Хміль hat 50 Sitzplätze, um einen perfekten Abend mit Freunden zu verbringen! Wir übertragen ALLE Sportveranstaltungen auf einer großen Leinwand! Komm und entspanne dich mit uns!!!</p>",
+    "beerton": "Beerton ist das, was wir als neues Format eines Lokals betrachten, in dem Sie ausgezeichnete Gerichte aus unserer Küche probieren und Produkte kaufen können, die wir in der Region Wolhynien vertreten, um ein Stück dieses Lokals mit nach Hause zu nehmen.",
+    "chargers": "<p>Die Anzahl der Elektrofahrzeuge auf den Straßen der Ukraine wächst, und wir verstehen die Bedeutung des Aufbaus von Ladeinfrastruktur für ihre Besitzer, um in eine umweltfreundliche Zukunft zu gehen.</p><p>Die Stationen befinden sich in Kowel und Kiew.</p>",
+    "more_button": "Mehr erfahren",
+    "link_button": "Zum Link",
+    "kovcheg": "Kovcheg ist ein Unternehmen, das führende Positionen auf dem Markt der Lebensmittelverteilung in der Region Riwne einnimmt, dank der vorteilhaften Zusammenarbeit mit Lieferanten und dem qualitativ hochwertigen Service, der von einem Team von Fachleuten gewährleistet wird.",
+    "gradus": "<p>Es gibt viele Geheimnisse für ein erfolgreiches Gericht: Zutaten von hoher Qualität, Zubereitungsmethoden, Geschmackskombinationen, Saucen usw.</p><p>Ein weiteres, offensichtliches Geheimnis ist immer die Liebe zu dem, was unsere Köche tun. Wir kochen immer mit Liebe und Fürsorge für Sie!</p>"
+  },
+  "partners": {
+    "heading": "Nur geprüfte Partner wählen eine Zusammenarbeit mit uns, um die Qualität von Produkten und Service für ihre Kunden zu gewährleisten.",
+    "paragraph": "Yukon ist der offizielle Distributor bekannter Marken in der Region Wolhynien. Unser Team von Handelsvertretern sucht nach Wegen, das Verkaufsvolumen zu steigern, fördert und macht Produkte bekannt. Unser Ziel ist es, Dienstleistungen oder Produkte für die Verbraucher zugänglich zu machen. Wir sind verantwortlich für die Erreichung der Verkaufsnormen und garantieren die Entwicklung Ihrer Marke.",
+    "paragraph_2": "Wir blicken optimistisch in die Zukunft und helfen unseren Partnern, zu arbeiten und gemeinsam mit uns ihren Beitrag zum Sieg zu leisten.",
+    "official_partners": "offizielle Partner",
+    "predstavnik": "Handelsvertreter",
+    "working_space": "Arbeitsplätze",
+    "lorry_cars": "Lkw",
+    "space": "Lagerhäuser",
+    "clients": "zufriedene Kunden"
+  },
+  "clients_heading": "Unsere Kunden",
+  "news": {
     "span": "Nachrichten",
     "heading": "Erfahren Sie unsere neuesten Nachrichten",
     "all_news": "Alle Nachrichten",
@@ -75,9 +75,11 @@
     "sale_description": "<p>PUB „GRADUS“: 1+1=3 Aktion auf Grimbergen Bier zum Tag der Unabhängigkeit.</p> <p>Café BEERTON: 15% Rabatt auf jede Pizza zum Tag der Unabhängigkeit. TWINSOCKS: 30% Rabatt auf die patriotische Kollektion in den TwinSocks-Geschäften in Lutsk, Riwne, Kowel, Online-Shop am 23-24. August. Feiern Sie mit uns!</p>",
     "zsy_heading": "Dank der Streitkräfte der Ukraine – eine weitere Motivation für uns!",
     "zsy_description": "<p>Heute liegt das Schicksal unseres Landes in den Händen der Soldaten der Streitkräfte der Ukraine, denn genau auf ihren Schultern lastet die größte Verantwortung für die Sicherheit der Bürger und die territoriale Integrität des gesamten Landes. In hohem Maße hängt die Stärke unserer Armee von der Unterstützung der Heimatfront ab.</p> <p>Deshalb ist es derzeit die wichtigste Pflicht eines jeden Ukrainers, den Verteidigern zu helfen. Das Yukon-Team unter der Leitung der Führung hilft seit den ersten Tagen des groß angelegten Krieges gegen den russischen Aggressor verschiedenen Brigaden der Streitkräfte der Ukraine, um ihre Bedürfnisse von den kleinsten Kleinigkeiten bis zu großen Anforderungen zu erfüllen. Für ihre Wohltätigkeit haben wir mehrmals Danksagungen und Auszeichnungen von den Militärs erhalten.</p> <p>Vor dem Unabhängigkeitstag erhielt der Geschäftsführer von PP „Yukon Company“, Yuriy Semenyuk, eine weitere Danksagung vom 24. separaten mechanisierten Bataillon des Königs-Danylo für seinen bedeutenden Beitrag und seine große Unterstützung bei der Sicherstellung der Verteidigungsfähigkeit des Landes. Dank der Streitkräfte der Ukraine – eine weitere Motivation für uns! Diese Auszeichnung ist der Verdienst jedes einzelnen Mitarbeiters! Möge es sein, dass die guten Taten, die wir getan haben, zur Nähe des Sieges und Friedens auf ukrainischem Boden beitragen!</p>",
-    "meeting_heading": "Teilnahme an der internationalen Kinderbekleidungsmesse", "meeting_description": "<p>Am 15.-16. August 2024 fand in Kiew die internationale KINDERBEKLEIDUNGSMESSE CHILDREN’S FASHION FAIR: EINE PLATTFORM FÜR GESCHÄFTSPARTNERSCHAFTEN UND INNOVATIONEN statt. Sie ist die wichtigste spezialisierte Messe für Kinderbekleidung in der Ukraine im B2B-Format.</p> <p>Sie wurde zu einem Treffpunkt für Fachleute der Kinderbekleidungsindustrie und vereinte Hersteller, Distributor, Einzelhändler, Designer und andere Vertreter der Textilbranche, um neue Kollektionen zu präsentieren, zukünftige Trends zu besprechen und neue Geschäftskontakte zu knüpfen. Auch unser Unternehmen stellte erneut seine Kollektion auf der Messe vor.</p> <p>Die Marke <b>TWINSOCKS</b> bot den Anwesenden eine breite Auswahl an Strumpfhosen und Socken für Kinder in allen Größen, beeindruckenden Farbtönen, verschiedenen Designs und Stilen. Der Stand war mit einer Vielzahl von Kinderprodukten in den verschiedensten leuchtenden Mustern geschmückt, die den Geschmack der kleinen Modefans trafen. Es wurden viele Modelle atmungsaktiver Strumpfhosen für den Sommer sowie warme und bequeme Modelle für die kalte Jahreszeit, sowohl für Mädchen als auch für Jungen, präsentiert.</p> <p>Darüber hinaus umfasste die Ausstellung eine Reihe praktischer, alltäglicher und festlicher Modelle, die perfekt für moderne, aktive Kinder geeignet sind, die gerne im Trend bleiben. Insgesamt bestätigte <b>TWINSOCKS</b> erneut, dass Stil, Qualität und Komfort unserer Produkte Ihre Aufmerksamkeit verdienen. Zögern Sie nicht und finden Sie schnell „Ihr Paar“ mit <b>TWINSOCKS</b>.</p>", 
-    "khmil_heading": "Genießen Sie Bier und entspannen Sie sich mit «The Хміль»!", "khmil_description_1": "<p>Bevor man in ein unbekanntes Gewässer springt, sollte man den Boden studieren.</p> <p>Der Lebensmitteleinzelhandel ist einer der beliebtesten Sektoren für die Eröffnung von Unternehmen. Einen besonderen Bereich innerhalb dieses Segments nimmt der Alkohol-Einzelhandel ein, wobei 60% des Umsatzes durch Bierverkäufe erzielt werden. Die stetige Nachfrage nach diesem Produkt, die demokratischen Preise und die Präsenz starker nationaler Hersteller fördern die Entwicklung des Biergeschäfts.</p> <p>Bier ist das älteste Getränk, das schon in frühen Zeiten populär wurde, weil es den Durst stillen kann. Seine Vielfalt und Auswahl gewinnen auch heute noch die Herzen der Verbraucher.</p> <p>Mit fast einem Vierteljahrhundert Erfahrung in der Bierdistribution in der Region Wolyn, einem tiefen Verständnis der Zielgruppe und bereits bestehenden Konkurrenten entschlossen sich die Yukon-Leute, ein Biergeschäft zu eröffnen. Der Biermarkt ist von vielen Mitbewerbern gesättigt. Auf seiner Seite stehen Erfahrung und vorhandene Ressourcen. Deshalb haben wir den bereits erprobten Weg gewählt und eine Franchise von <b>„Carlsberg Ukraine“</b> ausgewählt. Gemeinsam mit kompetenten und erfahrenen Managern von „Carlsberg“ konnten wir die Stärken und Schwächen des zukünftigen Unternehmens einschätzen und eine effektive Strategie zur Kundengewinnung entwickeln. Zusammen durchliefen wir viele Etappen, von der Suche nach einem Standort bis zur offiziellen Eröffnung.</p>", 
-    "khmil_description_2": "<p>So öffnete im April in der eleganten Neubausiedlung des Wohnkomplexes „Barcelona“ (T.Borovets Str. 12a) in Kowel der moderne Netz-Bierladen von <b>„The Хміль“</b> seine Türen für die Besucher. Hier finden die Kunden eine große Auswahl an Bier der bekannten inländischen Hersteller (Lviv Brewery) sowie internationaler Marken (Carlsberg, Warsteiner, Guinness, Grimbergen u.a.), von bewährter Klassik bis hin zu neuesten Exemplaren. Unser Sortiment umfasst mehr als zwanzig Sorten Fassbier, von leckeren und leichten Lagerbieren, die den Geschmack und Charakter des Herstellungslandes widerspiegeln, bis hin zu exotischen Sorten, von denen jede ihre eigene Geschichte hat.</p> <p>16 Biersorten füllen wir in PET-Flaschen und verkaufen sie zum Mitnehmen. Zusätzlich gibt es 8 Bierhähne für den Verzehr vor Ort. Für Gourmets bieten wir Craft-Bier an. Das Sortiment des Ladens wurde nicht nur nach den geschmacklichen Vorlieben der Kunden zusammengestellt, sondern auch unter Berücksichtigung ihrer wechselnden Stimmung. Jeder Schluck unseres Bieres bringt nicht nur Geschmack, sondern auch ein Gefühl und ermöglicht es, dieses scheinbar altbekannte Getränk aus einer neuen Perspektive zu erleben. Unsere kompetenten Verkäufer geben professionelle Ratschläge, um selbst die anspruchsvollsten Vorlieben der Kunden zu befriedigen. Für uns ist es wichtig, dass jeder noch so wählerische Kunde zufrieden bleibt.</p> <p>Neben der Vielfalt an Fassbier können in „The Хміль“ auch Flaschenbiere verschiedener Stile, Marken und Hersteller gekauft werden. Um den leicht bitteren Geschmack dunkler Sorten und das Aroma von geröstetem Malz des hellen Bieres zu unterstreichen, finden sich auf den Regalen zahlreiche Bierhäppchen, Snacks, Chips, Nüsse, getrockneter und geräucherter Fisch, Fleisch und mehr. Für Liebhaber starker alkoholischer Getränke gibt es Regale mit beliebten und edlen Spirituosen. Für Damen bieten wir eine breite Auswahl an alkoholarmen und alkoholfreien Getränken, Weinen, Champagner und Cidre. Im Laden finden sich auch Leckereien für kleine Naschkatzen. An den Kassen sind Stände mit Säften, Wasser und Kinderprodukten eingerichtet.</p>", 
+    "meeting_heading": "Teilnahme an der internationalen Kinderbekleidungsmesse",
+    "meeting_description": "<p>Am 15.-16. August 2024 fand in Kiew die internationale KINDERBEKLEIDUNGSMESSE CHILDREN’S FASHION FAIR: EINE PLATTFORM FÜR GESCHÄFTSPARTNERSCHAFTEN UND INNOVATIONEN statt. Sie ist die wichtigste spezialisierte Messe für Kinderbekleidung in der Ukraine im B2B-Format.</p> <p>Sie wurde zu einem Treffpunkt für Fachleute der Kinderbekleidungsindustrie und vereinte Hersteller, Distributor, Einzelhändler, Designer und andere Vertreter der Textilbranche, um neue Kollektionen zu präsentieren, zukünftige Trends zu besprechen und neue Geschäftskontakte zu knüpfen. Auch unser Unternehmen stellte erneut seine Kollektion auf der Messe vor.</p> <p>Die Marke <b>TWINSOCKS</b> bot den Anwesenden eine breite Auswahl an Strumpfhosen und Socken für Kinder in allen Größen, beeindruckenden Farbtönen, verschiedenen Designs und Stilen. Der Stand war mit einer Vielzahl von Kinderprodukten in den verschiedensten leuchtenden Mustern geschmückt, die den Geschmack der kleinen Modefans trafen. Es wurden viele Modelle atmungsaktiver Strumpfhosen für den Sommer sowie warme und bequeme Modelle für die kalte Jahreszeit, sowohl für Mädchen als auch für Jungen, präsentiert.</p> <p>Darüber hinaus umfasste die Ausstellung eine Reihe praktischer, alltäglicher und festlicher Modelle, die perfekt für moderne, aktive Kinder geeignet sind, die gerne im Trend bleiben. Insgesamt bestätigte <b>TWINSOCKS</b> erneut, dass Stil, Qualität und Komfort unserer Produkte Ihre Aufmerksamkeit verdienen. Zögern Sie nicht und finden Sie schnell „Ihr Paar“ mit <b>TWINSOCKS</b>.</p>",
+    "khmil_heading": "Genießen Sie Bier und entspannen Sie sich mit «The Хміль»!",
+    "khmil_description_1": "<p>Bevor man in ein unbekanntes Gewässer springt, sollte man den Boden studieren.</p> <p>Der Lebensmitteleinzelhandel ist einer der beliebtesten Sektoren für die Eröffnung von Unternehmen. Einen besonderen Bereich innerhalb dieses Segments nimmt der Alkohol-Einzelhandel ein, wobei 60% des Umsatzes durch Bierverkäufe erzielt werden. Die stetige Nachfrage nach diesem Produkt, die demokratischen Preise und die Präsenz starker nationaler Hersteller fördern die Entwicklung des Biergeschäfts.</p> <p>Bier ist das älteste Getränk, das schon in frühen Zeiten populär wurde, weil es den Durst stillen kann. Seine Vielfalt und Auswahl gewinnen auch heute noch die Herzen der Verbraucher.</p> <p>Mit fast einem Vierteljahrhundert Erfahrung in der Bierdistribution in der Region Wolyn, einem tiefen Verständnis der Zielgruppe und bereits bestehenden Konkurrenten entschlossen sich die Yukon-Leute, ein Biergeschäft zu eröffnen. Der Biermarkt ist von vielen Mitbewerbern gesättigt. Auf seiner Seite stehen Erfahrung und vorhandene Ressourcen. Deshalb haben wir den bereits erprobten Weg gewählt und eine Franchise von <b>„Carlsberg Ukraine“</b> ausgewählt. Gemeinsam mit kompetenten und erfahrenen Managern von „Carlsberg“ konnten wir die Stärken und Schwächen des zukünftigen Unternehmens einschätzen und eine effektive Strategie zur Kundengewinnung entwickeln. Zusammen durchliefen wir viele Etappen, von der Suche nach einem Standort bis zur offiziellen Eröffnung.</p>",
+    "khmil_description_2": "<p>So öffnete im April in der eleganten Neubausiedlung des Wohnkomplexes „Barcelona“ (T.Borovets Str. 12a) in Kowel der moderne Netz-Bierladen von <b>„The Хміль“</b> seine Türen für die Besucher. Hier finden die Kunden eine große Auswahl an Bier der bekannten inländischen Hersteller (Lviv Brewery) sowie internationaler Marken (Carlsberg, Warsteiner, Guinness, Grimbergen u.a.), von bewährter Klassik bis hin zu neuesten Exemplaren. Unser Sortiment umfasst mehr als zwanzig Sorten Fassbier, von leckeren und leichten Lagerbieren, die den Geschmack und Charakter des Herstellungslandes widerspiegeln, bis hin zu exotischen Sorten, von denen jede ihre eigene Geschichte hat.</p> <p>16 Biersorten füllen wir in PET-Flaschen und verkaufen sie zum Mitnehmen. Zusätzlich gibt es 8 Bierhähne für den Verzehr vor Ort. Für Gourmets bieten wir Craft-Bier an. Das Sortiment des Ladens wurde nicht nur nach den geschmacklichen Vorlieben der Kunden zusammengestellt, sondern auch unter Berücksichtigung ihrer wechselnden Stimmung. Jeder Schluck unseres Bieres bringt nicht nur Geschmack, sondern auch ein Gefühl und ermöglicht es, dieses scheinbar altbekannte Getränk aus einer neuen Perspektive zu erleben. Unsere kompetenten Verkäufer geben professionelle Ratschläge, um selbst die anspruchsvollsten Vorlieben der Kunden zu befriedigen. Für uns ist es wichtig, dass jeder noch so wählerische Kunde zufrieden bleibt.</p> <p>Neben der Vielfalt an Fassbier können in „The Хміль“ auch Flaschenbiere verschiedener Stile, Marken und Hersteller gekauft werden. Um den leicht bitteren Geschmack dunkler Sorten und das Aroma von geröstetem Malz des hellen Bieres zu unterstreichen, finden sich auf den Regalen zahlreiche Bierhäppchen, Snacks, Chips, Nüsse, getrockneter und geräucherter Fisch, Fleisch und mehr. Für Liebhaber starker alkoholischer Getränke gibt es Regale mit beliebten und edlen Spirituosen. Für Damen bieten wir eine breite Auswahl an alkoholarmen und alkoholfreien Getränken, Weinen, Champagner und Cidre. Im Laden finden sich auch Leckereien für kleine Naschkatzen. An den Kassen sind Stände mit Säften, Wasser und Kinderprodukten eingerichtet.</p>",
     "khmil_description_3": "<p>Das Konzept des Ladens ermöglicht es nicht nur, Bier und Snacks zum Mitnehmen zu kaufen, sondern diese auch vor Ort in einer gemütlichen, atmosphärischen Umgebung zu genießen. Dafür ist das Kowel „The Хміль“ in drei Bereiche unterteilt: einen Verkaufsraum, einen kleinen Bereich mit Verkostungstheken und Tischen sowie ein geräumiges Kellerzimmer, das Platz für eine große Anzahl von Sitzplätzen bietet (insgesamt bis zu 100 Personen). In jedem Raum gibt es einen großen Fernseher mit SMART TV, auf dem ständig inländische und internationale Sportereignisse übertragen werden. Wir bieten einen komfortablen Aufenthalt sowohl für kleine Familien als auch für große Freundesgruppen. In unserem Lokal können Sie Freunde, Kollegen oder Bekannte einladen und bei einem Glas Ihres Lieblingsgetränks dem Alltag entfliehen und Brettspiele spielen. Dank der perfekten Kombination aus exklusivem Innendesign, freundlichem Service, hochwertigem Bier und leckeren Snacks können Sie bei uns entspannen und eine gute Zeit haben.</p> <p>Für den Komfort unserer Kunden besteht die Möglichkeit, im Voraus Bestellungen unter der Telefonnummer <b>0505128007</b> zu tätigen. Selbst telefonisch geben unsere Verkäufer zuverlässige Informationen über das Sortiment und die Qualität der Produkte und helfen bei der richtigen Wahl. Die Besucher haben auch die Möglichkeit, unseren Diensttelefon für eigene Zwecke zu nutzen.</p> <p>Um den Tag aktiv zu beginnen, erwartet unsere Kunden jeden Morgen frischer Kaffee mit einer süßen Überraschung. Der Kaffee von „The Хміль“ gibt Energie für den ganzen Tag und lädt mit Optimismus ein.</p> <p>Natürlich darf das nicht fehlen! In unserem Laden finden regelmäßig monatliche Aktionen statt, bei denen man von attraktiven Rabatten und exklusiven Angeboten profitieren kann.</p> <p>In naher Zukunft planen wir, eine Schnellküche und ein Fast-Food-Menü einzuführen. Unsere Gäste werden bald die Möglichkeit haben, köstliche Burger, frische Shawarma, heiße Pizza und Pommes Frites zu genießen. Ein weiteres angenehmes Highlight für unsere Besucher wird die Erweiterung der Getränkekollektion sein. Bald wird „The Хміль“ seine Gäste mit leichten Erfrischungscocktails erfreuen, sowohl mit als auch ohne Alkohol.</p> <p>Die einzigartige Marke und das Image unseres Ladens sind der Garant für Ihre Zufriedenheit. Unser Hauptziel ist es, dass jeder Kunde, bei jedem Wetter und mit jeder Stimmung, bei uns im Laden die Harmonie von Körper und Seele erlebt. Daher sind unsere Türen für Sie von 08:00 bis 22:00 Uhr an Werktagen und von 10:00 bis 22:00 Uhr an Wochenenden geöffnet. Genießen Sie Bier und entspannen Sie sich bei <b>„The Хміль“!</b></p>",
     "wine_heading": "Gastronomischer Abend im PUB «Gradus»",
     "wine_description_1": "<p>Der Herbst gewinnt zunehmend an Fahrt: Morgens umhüllt er uns mit kaltem Nebel, abends verzaubert er mit einem wunderschönen Sonnenuntergang, manchmal reißt er das vertrocknete Laub von den Bäumen und überflutet alles mit starken, kalten Regenschauern.</p> <p>In dieser Zeit sehnt man sich nach Wärme, Gemütlichkeit und etwas ganz Besonderem. Bei romantischer Musik und in angenehmer Gesellschaft ein Glas kräftigen Rotweins zu genießen und sich an etwas Ungewöhnlichem zu erfreuen... Raffiniert und lecker. Mmmmh! Ein Traum? Nein, Realität!</p> <p><b>Am 17. Oktober</b> dieses Jahres hatten die Kowel-Bewohner und Gäste der Stadt die wunderbare Gelegenheit, ihren Traum zu verwirklichen und unglaubliche gastronomische Eindrücke bei einem gastronomischen Abend im lokalen <b>PUB «Gradus»</b> zu erleben.</p> <p>Anlässlich dieses Ereignisses bereitete das Lokal ein spezielles Menü für seine Besucher vor, bei dem jedes Gericht eine einzigartige Zubereitungstechnik hat und seinen Geschmack in Kombination mit dem bevorzugten Getränk maximal entfaltet.</p>",
@@ -89,7 +91,8 @@
     "leleka_heading": "Ein Jahr Betrieb der E-Ladestation «Leleka Energy»",
     "leleka_description_1": "<p>Elektroautos werden zunehmend ein wichtiger Teil der modernen Welt. Und sogar die Ukrainer, trotz des Krieges und der Gefahr von Blackouts, beginnen, „grüne“ Autos aktiver zu kaufen.</p> <p>In den letzten Jahren ist die Anzahl der Elektroautos weltweit signifikant gestiegen. Laut dem Stand von November 2023 gab es in der Ukraine 75.257 Fahrzeuge mit elektrischem Antrieb, davon 1.806 in Wolyn.</p> <p>Im letzten Jahr ist diese Zahl erheblich gestiegen und auf nationaler Ebene erreicht sie fast 150.000 Fahrzeuge, von denen fast 4.000 Wolhynische Kennzeichen haben.</p>",
     "leleka_description_2": "<p>In unserem Land gewinnt der Trend des Elektroautobesitzes zunehmend an Fahrt, und die Erweiterung des Netzwerks von Schnellladestationen ist ein entscheidender Faktor, der die Popularisierung des ökologischen Transports fördert. Die Zahl der Fahrzeuge mit alternativen Antrieben wächst offensichtlich, sodass es nur logisch ist, ein eigenes Geschäft mit Elektroladestationen zu eröffnen.</p> <p>Nach der Analyse des europäischen Marktes für Elektromobilität, der Untersuchung erfolgreicher ukrainischer Geschäftsfälle und unter Berücksichtigung aller unvorhersehbaren Umstände des Kriegszustandes haben wir im letzten Jahr, dank der Zusammenarbeit mit dem Betreiber GO TO-U in Kowel, die erste und leistungsstärkste Ladestation in Wolyn installiert. Die Umsetzung des Businessplans war dank staatlicher Unterstützung, insbesondere durch die vorteilhafte Position im Rahmen des staatlichen Programms <b>„Zugängliche Kredite 5-7-9%“</b> der <b>AB „Ukrgasbank“</b> möglich. Unsere Ladestation ist mit einer Schnellladungseinheit <b>mit einer Leistung von 120 kW</b> und folgenden Steckverbindern ausgestattet:</p> <p>- CCS2 - 100 kW,</p> <p>- GB/T DC - 100 kW,</p> <p>- CHAdeMO - 50 kW,</p> <p>- Typ 2 - 22 kW.</p>",
-    "leleka_description_3": "<p>Die Lage der Ladestation ist ebenfalls optimal für unsere Kunden. Sie befindet sich in Kowel, in der Straße Shevchenka 28, nur wenige Minuten Fahrt von der internationalen Autobahn „Kiew - Kowel - Jagodin“ und den regionalen Straßen „Kowel-Luzk“ und „Kowel-Lwiw“ entfernt.</p> <p><b>Im ersten Betriebsjahr</b> wurden an unserer Ladestation 3.765 Fahrzeuge aufgeladen, <b>die die CO2-Emissionen in die Atmosphäre um fast 100 Tonnen verringerten</b>. Ist das nicht ein positiver Erfolg? Es ist offensichtlich, dass die Zukunft der Elektroautos unausweichlich ist. Früher oder später wird der Zeitpunkt kommen, an dem alle Fahrer die „Vorteile“ der Nutzung eines „sauberen Elektroautos“ erkennen und den ökologischen Transport wählen werden. Und wir werden alles daran setzen, diese Entwicklung aktiv voranzutreiben und die Infrastruktur weiter auszubauen.</p> <p>Während Ihr Fahrzeug an unserer Ladestation aufgeladen wird, haben Sie die Möglichkeit, im Café „Beerton“ <a>https://www.instagram.com/_beerton/</a> köstlich zu essen und aromatischen Kaffee zu trinken, den Craft-Fischladen „Ribalove“ <a>https://www.instagram.com/rybalove_shop/</a> zu besuchen oder „Ihr Paar“ im Textilgeschäft „TWINSOCKS-MARKET“ <a>https://twinsocks.com.ua/</a> zu finden. Genießen Sie den Komfort und die Sicherheit auf jedem Schritt Ihrer Reise mit uns in Kowel, Shevchenka Straße 28. Wir laden Sie auch ein, unsere Ladestation in Kiew zu besuchen, unter der Adresse Bandera Straße 34V (Einkaufszentrum „Blockbuster“) <a>https://maps.app.goo.gl/tvsVCee9zXLA7zHJ7?g_st=it</a>.</p> <p>Wir sind da – freuen uns, Sie zu begrüßen!</p>","birthday_heading": "25 Jahre zusammen: 'Yukon' feiert Jubiläum",
+    "leleka_description_3": "<p>Die Lage der Ladestation ist ebenfalls optimal für unsere Kunden. Sie befindet sich in Kowel, in der Straße Shevchenka 28, nur wenige Minuten Fahrt von der internationalen Autobahn „Kiew - Kowel - Jagodin“ und den regionalen Straßen „Kowel-Luzk“ und „Kowel-Lwiw“ entfernt.</p> <p><b>Im ersten Betriebsjahr</b> wurden an unserer Ladestation 3.765 Fahrzeuge aufgeladen, <b>die die CO2-Emissionen in die Atmosphäre um fast 100 Tonnen verringerten</b>. Ist das nicht ein positiver Erfolg? Es ist offensichtlich, dass die Zukunft der Elektroautos unausweichlich ist. Früher oder später wird der Zeitpunkt kommen, an dem alle Fahrer die „Vorteile“ der Nutzung eines „sauberen Elektroautos“ erkennen und den ökologischen Transport wählen werden. Und wir werden alles daran setzen, diese Entwicklung aktiv voranzutreiben und die Infrastruktur weiter auszubauen.</p> <p>Während Ihr Fahrzeug an unserer Ladestation aufgeladen wird, haben Sie die Möglichkeit, im Café „Beerton“ <a>https://www.instagram.com/_beerton/</a> köstlich zu essen und aromatischen Kaffee zu trinken, den Craft-Fischladen „Ribalove“ <a>https://www.instagram.com/rybalove_shop/</a> zu besuchen oder „Ihr Paar“ im Textilgeschäft „TWINSOCKS-MARKET“ <a>https://twinsocks.com.ua/</a> zu finden. Genießen Sie den Komfort und die Sicherheit auf jedem Schritt Ihrer Reise mit uns in Kowel, Shevchenka Straße 28. Wir laden Sie auch ein, unsere Ladestation in Kiew zu besuchen, unter der Adresse Bandera Straße 34V (Einkaufszentrum „Blockbuster“) <a>https://maps.app.goo.gl/tvsVCee9zXLA7zHJ7?g_st=it</a>.</p> <p>Wir sind da – freuen uns, Sie zu begrüßen!</p>",
+    "birthday_heading": "25 Jahre zusammen: 'Yukon' feiert Jubiläum",
     "birthday_description": "<p>Liebe Kollegen und Partner!</p> <p>In diesem Jahr feiert unser Unternehmen 25 Jahre – ein Vierteljahrhundert harter Arbeit, Herausforderungen und Erfolge. Die letzten drei Jahre waren für uns alle eine Prüfung der Stärke, aber wir haben durchgehalten, uns gegenseitig unterstützt und gehen weiterhin voran.</p> <p>Wir danken jedem von Ihnen für Ihre Hingabe, Ihre Stärke und Ihren Glauben an die gemeinsame Sache. Gemeinsam arbeiten wir nicht nur – wir gestalten die Zukunft!</p> <p>Mit den besten Wünschen von „Yukon“!</p>",
     "pool_heading": "Unterstützung der Kinder beim Gedächtnisturnier von Yevhen Kondratiovych",
     "pool_description": "<p><b>PP \"Yukon Company\"</b>, exklusiver Vertreter von TM \"Morshynska\" und TM \"Myrhorodska\" in der Region Wolyn, strebt stets danach, ein aktiver Teilnehmer an sozialen Initiativen zu sein, die Gesundheit und die harmonische Entwicklung der Jugend fördern.</p><p>Eine solche wichtige Veranstaltung war das <b>12. Gedächtnisturnier von Yevhen Kondratiovych</b>, das am <b>28. und 29. März 2025 in Kowel</b> stattfand <a>https://tinyurl.com/mryzepu8</a>. Dieses Turnier, das dem legendären Trainer gewidmet war, vereinte <b>150 junge Athleten</b> aus den Regionen Wolyn, Riwne und Lwiw. Für sie war es nicht nur eine Gelegenheit zum Wettkampf, sondern auch eine Möglichkeit, dem großen Mentor Tribut zu zollen.</p>",
@@ -112,6 +115,7 @@
     "workers_heading": "Zum Tag der Handelsarbeiter!",
     "workers_description_1": "<p><b>Liebe Kolleginnen und Kollegen!</b></p><p>Ich gratuliere Ihnen herzlich zu Ihrem beruflichen Feiertag — <b>dem Tag der Handelsarbeiter!</b></p><p>Jeden Tag setzen Sie Ihre Arbeit, Erfahrung und Ausdauer für etwas ein, das die Wirtschaft des Landes stärkt, Menschen mit Waren und Dienstleistungen versorgt und Partnern Stabilität und Vertrauen bietet. Unter schwierigen Bedingungen bleiben Sie stark, flexibel und menschlich. Deshalb ist Ihre Arbeit nicht nur ein Geschäft, sondern ein wichtiger Beitrag für das Land.</p><p>Ich wünsche Ihnen dankbare Kunden, zuverlässige Partner, reibungslose Logistik und finanzielle Stabilität. Und natürlich Frieden — denn der Handel liebt Ruhe, aber keine Stillstände.</p><p><b>Alles Gute zum Feiertag! Ruhm der Ukraine!</b></p>",
     "theBest_heading": "Wir arbeiten mit den Besten",
+<<<<<<< HEAD
 "theBest_description_1": "<p>Seit einem Vierteljahrhundert ist Yukon erfolgreich auf dem Distributionsmarkt tätig, erweitert jedes Jahr sein Sortiment und verbessert seine Kooperationsansätze. Wir sind stolz darauf, die Produkte führender Hersteller und bekannter Marken zu vertreten und unseren Kunden qualitativ hochwertige Waren zu garantieren.</p><p>Einer unserer zuverlässigen Partner ist die GmbH 'Gadz' — Hersteller von natürlichen Säften, Pürees, Trockenfrüchten, Fruchtchips und anderen Öko-Delikatessen <a>https://fg-gadz.com.ua/produktsiia</a>.</p><p>Bereits im dritten Jahr in Folge liefert Yukon Produkte der Marke 'Gadz' in die Regale der Geschäfte in der Region Wolhynien und versorgt die Kunden mit natürlichen und gesunden Produkten.</p>",
 "theBest_description_2": "<p>Kürzlich besuchten Serhiy Khatser (Leiter der Struktureinheit) und sein Verkaufsteam das Unternehmen 'Gadz', um die Produktion und die Markenphilosophie besser kennenzulernen. <a>https://www.facebook.com/profile.php?id=100063481871849&locale=de_DE</a></p><p>Diese Reise war eine großartige Gelegenheit, alle Produktionsschritte zu sehen – vom Anbau und der Ernte der Früchte in den Obstgärten bis hin zur Verpackung und Lagerung der fertigen Produkte. Besonders beeindruckt waren die Teilnehmer von den Produktionsanlagen, der modernen Ausstattung und den hohen Qualitätsstandards, die in jeder Phase eingehalten werden.</p><p>Während der Exkursion hatten unsere Mitarbeiter nicht nur die Möglichkeit, mehr über die Verarbeitung und Herstellung von Säften, Pürees, Trockenfrüchten und anderen Produkten der Marke 'Gadz' zu erfahren, sondern auch direkt mit Vertretern des Unternehmens zu sprechen, Fragen zu stellen und Erfahrungen auszutauschen.</p><p>Dieser Besuch hat unser Vertrauen in die Qualität der Produkte und die Bedeutung der Partnerschaft mit einer Marke, die Natürlichkeit, Innovation und verantwortungsvolle Produktion schätzt, weiter gestärkt. Mit einem tieferen Verständnis des Konzepts von TM 'Gadz' können unsere Vertriebsmitarbeiter den Wert der Produkte nun noch effektiver an den Endverbraucher vermitteln. Unser Ziel ist es nicht nur zu verkaufen, sondern auch Vertrauen in die Marke durch hochwertige Kommunikation und exzellenten Service aufzubauen.</p>",
 "food_heading": "Partnerschaft in Aktion: Wir sahen, wie eine Marke entsteht",
@@ -121,52 +125,55 @@
 
 
 
+=======
+    "theBest_description_1": "<p>„Yukon“ ist seit einem Vierteljahrhundert erfolgreich im Vertrieb tätig, erweitert jährlich sein Sortiment und verbessert die Zusammenarbeit mit Partnern. Wir sind stolz darauf, Produkte führender Hersteller und bekannter Marken zu vertreten und unseren Kunden hochwertige Waren zu garantieren.</p><p>Einer unserer zuverlässigen Partner ist die GmbH „Gadz“ – Hersteller von natürlichen Säften, Pürees, Trockenfrüchten, Fruchtchips und anderen Öko-Leckereien <a>https://fg-gadz.com.ua/produktsiia</a>.</p><p>Bereits im dritten Jahr in Folge liefert die Firma „Yukon“ Produkte der Marke „Gadz“ in die Regale der Geschäfte der Region Wolyn und versorgt die Kunden mit natürlichen und gesunden Produkten.</p>",
+    "theBest_description_2": "<p>Kürzlich unternahm Serhij Khacer (Leiter der Strukturabteilung) zusammen mit seinem Vertriebsteam eine Exkursion zum Unternehmen „Gadz“, um sich näher mit der Produktion und der Philosophie der Partnermarke vertraut zu machen. <a>https://www.facebook.com/profile.php?id=100063481871849&locale=uk_UA</a>.</p><p>Diese Reise bot eine großartige Gelegenheit, alle Produktionsstufen zu sehen – vom Anbau und der Ernte der Früchte in den Obstgärten bis hin zur Verpackung und Lagerung der fertigen Produkte. Besonders beeindruckt waren die Teilnehmer von der Größe der Produktionsanlagen, der modernen Ausstattung und den hohen Qualitätsstandards, die in jeder Phase eingehalten werden. Während der Exkursion hatten unsere Mitarbeiter nicht nur die Möglichkeit, mehr über die Verarbeitungsprozesse und die Herstellung von Säften, Pürees, Trockenfrüchten und anderen Produkten der Marke „Gadz“ zu erfahren, sondern auch direkt mit den Unternehmensvertretern zu sprechen, Fragen zu stellen und Erfahrungen auszutauschen.</p><p>Dieser Besuch hat unser Vertrauen in die Qualität der Produkte und die Bedeutung der Partnerschaft mit einer Marke, die Natürlichkeit, Innovation und verantwortungsvolle Produktion schätzt, weiter gestärkt. Mit einem tieferen Verständnis des Konzepts der Marke „Gadz“ können unsere Vertriebsmitarbeiter den Wert der Produkte nun noch effektiver an die Endverbraucher vermitteln. Denn unser Ziel ist nicht nur der Verkauf, sondern der Aufbau von Vertrauen in die Marke durch qualitativ hochwertige Kommunikation und exzellenten Service.</p>"
+  },
+  "form": {
+    "span": "Kontaktformular",
+    "heading": "INTERESSIERT AN UNSEREM ANGEBOT? FÜLLEN SIE DAS FORMULAR AUS, DAMIT WIR SIE KONTAKTIEREN KÖNNEN",
+    "name_label": "Ihr Name",
+    "mail_label": "E-Mail-Adresse",
+    "message_label": "Nachricht",
+    "submit_button": "Formular absenden"
+  },
+  "alert_form": {
+    "heading": "Kontaktieren Sie uns",
+    "name_label": "Ihr Name",
+    "phone_label": "Telefonnummer",
+    "submit_button": "Formular absenden"
+  },
+  "footer": {
+    "working_hours_heading": "Öffnungszeiten",
+    "working_hours": "Mo-Fr 08:00 - 17:00",
+    "copy": "YUKON © 2000 Alle Rechte vorbehalten.",
+    "contact_h": "Kontaktinformation",
+    "social_h": "Soziale Netzwerke",
+    "nav_h": "Startseite",
+    "location": "Voloďmyrska Str. 135, Kovel"
+  },
+  "not_found": "Ups. Diese Seite wurde nicht gefunden!",
+  "not_found_btn": "Zurück zur Startseite",
+  "career": {
+    "heading": "Werden Sie Teil unseres Teams",
+    "description": "Wir suchen talentierte und motivierte Fachleute, die an ihrer beruflichen Entwicklung interessiert sind und mit uns wachsen wollen. Wenn Sie bereit sind zu lernen, neue Herausforderungen anzunehmen und unsere Werte und Unternehmenskultur teilen, freuen wir uns, Ihnen eine Möglichkeit für persönliches und berufliches Wachstum zu bieten. Werden Sie Teil unseres Teams und gemeinsam gestalten wir die Zukunft!",
+    "search_label": "Stellenangebote suchen...",
+    "no_filtered_data": "Es wurden keine Stellenangebote mit Ihrer Suche gefunden.",
+    "no_data": "Stellenangebote für den angegebenen Filter werden bald verfügbar sein, bitte warten Sie.",
+    "category": {
+      "all": "Alle Stellenangebote",
+      "office": "Büro",
+      "logistic": "Logistik",
+      "warehouse": "Lager",
+      "shop": "Geschäfte"
+>>>>>>> 3926693313b775ba4848b23d6b0948dd035f9557
     },
-    "form": {
-        "span": "Kontaktformular",
-        "heading": "INTERESSIERT AN UNSEREM ANGEBOT? FÜLLEN SIE DAS FORMULAR AUS, DAMIT WIR SIE KONTAKTIEREN KÖNNEN",
-        "name_label": "Ihr Name",
-        "mail_label": "E-Mail-Adresse",
-        "message_label": "Nachricht",
-        "submit_button": "Formular absenden"
-    },
-    "alert_form": {
-        "heading": "Kontaktieren Sie uns",
-        "name_label": "Ihr Name",
-        "phone_label": "Telefonnummer",
-        "submit_button": "Formular absenden"
-    },
-    "footer": {
-        "working_hours_heading": "Öffnungszeiten",
-        "working_hours": "Mo-Fr 08:00 - 17:00",
-        "copy": "YUKON © 2000 Alle Rechte vorbehalten.",
-        "contact_h": "Kontaktinformation",
-        "social_h": "Soziale Netzwerke",
-        "nav_h": "Startseite",
-        "location": "Voloďmyrska Str. 135, Kovel"
-    },
-    "not_found": "Ups. Diese Seite wurde nicht gefunden!",
-    "not_found_btn": "Zurück zur Startseite",
-    "career": {
-        "heading": "Werden Sie Teil unseres Teams",
-        "description": "Wir suchen talentierte und motivierte Fachleute, die an ihrer beruflichen Entwicklung interessiert sind und mit uns wachsen wollen. Wenn Sie bereit sind zu lernen, neue Herausforderungen anzunehmen und unsere Werte und Unternehmenskultur teilen, freuen wir uns, Ihnen eine Möglichkeit für persönliches und berufliches Wachstum zu bieten. Werden Sie Teil unseres Teams und gemeinsam gestalten wir die Zukunft!",
-        "search_label": "Stellenangebote suchen...",
-        "no_filtered_data": "Es wurden keine Stellenangebote mit Ihrer Suche gefunden.",
-        "no_data": "Stellenangebote für den angegebenen Filter werden bald verfügbar sein, bitte warten Sie.",
-        "category": {
-            "all": "Alle Stellenangebote",
-            "office": "Büro",
-            "logistic": "Logistik",
-            "warehouse": "Lager",
-            "shop": "Geschäfte"
-        },
-        "hot_label": "🔥 Heiße Stellenangebote",
-        "similar_label": "Ähnliche Stellenangebote",
-        "view_more": "Mehr erfahren",
-        "form_heading": "Möchten Sie bei uns arbeiten? Füllen Sie das Formular aus, damit wir Sie kontaktieren können",
-        "resume_btn": "Lebenslauf hochladen",
-        "resume_hint": "Fügen Sie eine Datei im Format doc, docx, pdf, jpg, png mit einer Größe von bis zu 5 MB hinzu"
-    },
-     "loading_label": "Laden..."
+    "hot_label": "🔥 Heiße Stellenangebote",
+    "similar_label": "Ähnliche Stellenangebote",
+    "view_more": "Mehr erfahren",
+    "form_heading": "Möchten Sie bei uns arbeiten? Füllen Sie das Formular aus, damit wir Sie kontaktieren können",
+    "resume_btn": "Lebenslauf hochladen",
+    "resume_hint": "Fügen Sie eine Datei im Format doc, docx, pdf, jpg, png mit einer Größe von bis zu 5 MB hinzu"
+  },
+  "loading_label": "Laden..."
 }
-
