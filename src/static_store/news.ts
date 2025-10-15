@@ -49,7 +49,48 @@ import Workers3 from "@/../public/news/workers_2.jpg";
 import Workers4 from "@/../public/news/workers_3.jpg";
 import Workers5 from "@/../public/news/workers_4.jpg";
 
+import Best1 from "@/../public/news/theBest1.jpg";
+import Best2 from "@/../public/news/theBest2.jpg";
+import Best3 from "@/../public/news/theBest3.jpg";
+
+import Food from "@/../public/news/food.jpeg";
+import Food1 from "@/../public/news/food_1.jpg";
+import Food2 from "@/../public/news/food_2.jpg";
+
 export const news: DetailsItem[] = [
+  {
+    id: "24",
+    heading: "news.food_heading",
+    description: "news.food_description_1",
+    description_2: "news.food_description_2",
+    description_3: "news.food_description_3",
+    image_width: "49.4%",
+    image_vertical_width: "45.2%",
+    image: Food,
+    image_2: Food2,
+    image_3: Food1,
+    isBlured: true,
+    meta_heading: "Партнерство у дії: ми побачили, як створюється бренд",
+    meta_description:
+      "ПП «Компанія Юкон» вже багато років співпрацює з ТОВ «ТД «Дельта Фуд» та є офіційним дистриб’ютором продукції ТМ «Гуляй-поле» на Волині. ",
+    date: "15.10.2025",
+  },
+  {
+    id: "23",
+    heading: "news.theBest_heading",
+    description: "news.theBest_description_1",
+    description_2: "news.theBest_description_2",
+    image_width: "48.2%",
+    image_vertical_width: "45.2%",
+    image: Best1,
+    image_2: Best2,
+    image_3: Best3,
+    isBlured: true,
+    meta_heading: "Працюємо з найкращими",
+    meta_description:
+      "«Юкон» уже чверть століття успішно працює на ринку дистрибуції, щороку розширюючи свій асортимент та вдосконалюючи підходи до співпраці.",
+    date: "03.10.2025",
+  },
   {
     id: "22",
     heading: "news.workers_heading",
