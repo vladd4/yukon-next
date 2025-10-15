@@ -49,7 +49,7 @@ import Workers3 from "@/../public/news/workers_2.jpg";
 import Workers4 from "@/../public/news/workers_3.jpg";
 import Workers5 from "@/../public/news/workers_4.jpg";
 
-import Best1 from "@/../public/news/theBest1.jpg";
+import Best1 from "@/../public/news/theBest.jpg";
 import Best2 from "@/../public/news/theBest2.jpg";
 import Best3 from "@/../public/news/theBest3.jpg";
 
@@ -80,7 +80,7 @@ export const news: DetailsItem[] = [
     heading: "news.theBest_heading",
     description: "news.theBest_description_1",
     description_2: "news.theBest_description_2",
-    image_width: "48.2%",
+    image_width: "49.4%",
     image_vertical_width: "45.2%",
     image: Best1,
     image_2: Best2,
