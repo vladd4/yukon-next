@@ -57,7 +57,28 @@ import Food from "@/../public/news/food.jpeg";
 import Food1 from "@/../public/news/food_1.jpg";
 import Food2 from "@/../public/news/food_2.jpg";
 
+import Export from "@/../public/news/export.jpg";
+import Export1 from "@/../public/news/export1.jpg";
+import Export2 from "@/../public/news/export2.jpg";
+
 export const news: DetailsItem[] = [
+  {
+    id: "25",
+    heading: "news.export_heading",
+    description: "news.export_description_1",
+    description_2: "news.export_description_2",
+    description_3: "news.export_description_3",
+    image_width: "49.4%",
+    image_vertical_width: "45.2%",
+    image: Export,
+    image_2: Export1,
+    image_3: Export2,
+    isBlured: true,
+    meta_heading: "Наш бізнес — на шляху до глобального ринку ",
+    meta_description:
+      "8–9 жовтня у Луцьку відбувся дводенний офлайн-інтенсив Go Export, який зібрав представників українського бізнесу, готових масштабувати свою діяльність на міжнародному рівні. Захід став справжнім осередком практичних знань, експертних інсайтів і нових можливостей.",
+    date: "17.10.2025",
+  },
   {
     id: "24",
     heading: "news.food_heading",

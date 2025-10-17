@@ -38,11 +38,21 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
                 b: (chunks) => <b>{chunks}</b>,
                 p: (chunks) => <p>{chunks}</p>,
                 div: (chunks) => <div>{chunks}</div>,
-                a: (chunks) => (
-                  <a href={chunks as string} target="_blank" rel="noreferrer">
-                    {chunks}
-                  </a>
-                ),
+                a: (chunks) => {
+                  const text = Array.isArray(chunks)
+                    ? chunks.join("")
+                    : String(chunks);
+
+                  const [href, label] = text.includes("|")
+                    ? text.split("|")
+                    : [text, text];
+
+                  return (
+                    <a href={href.trim()} target="_blank" rel="noreferrer">
+                      {label.trim()}
+                    </a>
+                  );
+                },
               })}
             </div>
             {!detail_item.description_2 || !detail_item.image_2
@@ -68,11 +78,21 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
                   b: (chunks) => <b>{chunks}</b>,
                   p: (chunks) => <p>{chunks}</p>,
                   div: (chunks) => <div>{chunks}</div>,
-                  a: (chunks) => (
-                    <a href={chunks as string} target="_blank" rel="noreferrer">
-                      {chunks}
-                    </a>
-                  ),
+                  a: (chunks) => {
+                    const text = Array.isArray(chunks)
+                      ? chunks.join("")
+                      : String(chunks);
+
+                    const [href, label] = text.includes("|")
+                      ? text.split("|")
+                      : [text, text];
+
+                    return (
+                      <a href={href.trim()} target="_blank" rel="noreferrer">
+                        {label.trim()}
+                      </a>
+                    );
+                  },
                 })}
               </div>
             </div>
@@ -128,11 +148,21 @@ const ProjectMobilePage = ({ id, isNews }: MobileProps) => {
                   b: (chunks) => <b>{chunks}</b>,
                   p: (chunks) => <p>{chunks}</p>,
                   div: (chunks) => <div>{chunks}</div>,
-                  a: (chunks) => (
-                    <a href={chunks as string} target="_blank" rel="noreferrer">
-                      {chunks}
-                    </a>
-                  ),
+                  a: (chunks) => {
+                    const text = Array.isArray(chunks)
+                      ? chunks.join("")
+                      : String(chunks);
+
+                    const [href, label] = text.includes("|")
+                      ? text.split("|")
+                      : [text, text];
+
+                    return (
+                      <a href={href.trim()} target="_blank" rel="noreferrer">
+                        {label.trim()}
+                      </a>
+                    );
+                  },
                 })}
               </div>
             </div>
